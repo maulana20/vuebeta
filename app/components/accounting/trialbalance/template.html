@@ -1,0 +1,81 @@
+<div id="main" role="main" class="accounting-trialbalance">
+	<div id="ribbon">
+		<ol class="breadcrumb">
+			<li>Accounting</li><li>Trial Balance</li>
+		</ol>
+		<div class="user-table-container" style="background-color: #fafafa; padding: 16px; border: 2px solid #f0f0f0; border-radius: 5px; white-space: nowrap; overflow-x: auto;">
+			<div class="row" style="margin-bottom: 15px;">
+				<div class="col-xs-12 col-sm-3">
+					<label>Pilih Tanggal Dari</label>
+					<div class="input-group">
+						<span class="input-group-addon">
+							<i class="fa fa-calendar"></i>
+						</span>
+						<input style="padding-left:10px;" type="text" id="start-date" class="form-control" placeholder="1 Mar 2018" :value="changeFormatDate(trialbalance_search.start_date)">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<label>Sampai</label>
+					<div class="input-group">
+						<span class="input-group-addon">
+							<i class="fa fa-calendar"></i>
+						</span>
+						<input style="padding-left:10px;" type="text" id="end-date" class="form-control" placeholder="1 Mar 2018" :value="changeFormatDate(trialbalance_search.end_date)">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-3">
+					<button class="btn btn-default" @click="doCancel()">Cancel</button>            
+					<button class="btn btn-primary" @click="doSearching()">Find</button>
+				</div>
+			</div>
+			<div class="row" style="margin-bottom: 10px;">
+				<div class="col-xs-11 col-sm-11 col-md-11">
+					<div class="load-message" v-if="trialbalance_list.state == 'searching'">
+						<i class="fa fa-spin fa-spinner fa-2x"></i>&nbsp;
+						<span class="light-gray">Mengambil laporan data neraca saldo ...</span>
+					</div>
+					<div class="load-message" v-if="trialbalance_list.state == 'error'">
+						<i class="fa fa-exclamation-triangle fa-2x"></i>&nbsp;
+						<span class="light-gray">Gagal mendapatkan laporan data neraca saldo !</span>
+						<br>
+						<span class="error-msg">{{trialbalance_list.message}}</span>
+					</div>
+				</div>
+			</div>
+			<div class="row m-t-md">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="animated fadeIn" v-show="trialbalance">
+						<table class="table table-bordered table-striped">
+							<thead>
+								<tr class="title-table-primary">
+									<th style="vertical-align:middle; width:200px;">Nama Akun</th>
+									<th style="vertical-align:middle;">Data Coa</th>
+									<th style="vertical-align:middle; text-align:right; width:100px;">Awal</th>
+									<th style="vertical-align:middle; text-align:right; width:100px;">Debet</th>
+									<th style="vertical-align:middle; text-align:right; width:100px;">Kredit</th>
+									<th style="vertical-align:middle; text-align:right; width:100px;">Akhir</th>
+								</tr>
+							</thead>
+							<tbody v-if="trialbalance">
+								<tr class="content-table-primary" v-for="(data, index) in trialbalance" :value="index">
+									<td v-if="data.account_show"><b>{{data.groupaccount_name}}</b></td>
+									<td v-else>&nbsp;</td>
+									<td><b>{{data.coa_code}}</b> {{data.coa_name}}</td>
+									<td align="right">{{converterToFormatRits(data.begining)}}</td>
+									<td align="right" v-if="data.glanalysis_debet">{{converterToFormatRits(data.glanalysis_debet)}}</td>
+									<td v-else align="right">0</td>
+									<td align="right" v-if="data.glanalysis_credit">{{converterToFormatRits(data.glanalysis_credit)}}</td>
+									<td v-else align="right">0</td>
+									<td align="right" v-if="data.ending">{{converterToFormatRits(data.ending)}}</td>
+									<td v-else align="right">{{converterToFormatRits(data.begining)}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

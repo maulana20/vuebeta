@@ -1,0 +1,27 @@
+.main-container {
+    min-height: calc(100% - 220px);
+    padding: 30px 0;
+    min-height: 95vh;
+}
+.footer-bottom {
+	position: fixed;
+	margin-bottom: 0px;
+	width: 100%;
+	bottom: 0px;
+}
+.costum-footer{
+	margin: 0px;
+	padding:0px;
+}
+
+@media screen and (max-width: 767px) {
+    .costum-register-downline{
+        padding:0px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+    .costum-register-downline{
+        padding-left:22%
+	}
+}

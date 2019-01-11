@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script src="/static/js/vue.min.js"></script>
+        <script src="/static/js/vue-resource.js"></script>
+        <script>
+            function getUrl() {
+                return JSON.parse("{\"" + window.location.search.replace('?', '').split('=').join("\":\"").split("&").join("\",\"") + "\"}")
+            }
+
+            function fetchData() {
+                Vue.http.get(atob(decodeURIComponent(getUrl().url)), {credentials: true}).then(function (res) {
+                    window.parent.postMessage("fetchdata;;json///" + JSON.stringify(res), "*")
+                }, function (err) {
+                    window.parent.postMessage("fetchdata;;json///" + JSON.stringify(err), "*")
+                })
+            }
+            window.onload = fetchData
+        </script>
+    </body>
+</html>

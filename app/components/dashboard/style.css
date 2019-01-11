@@ -1,0 +1,22 @@
+.widget{
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+  }
+  .widget > #widget-body{
+    padding: 16px
+  }
+  .widget > #widget-body.no-padding{
+    padding: 0px;
+  }
+  .fixed-navigation nav>ul {
+    padding-right: 0px;
+    width: 100%;
+  }
+  .page-title {
+    font-size: 16pt;
+    padding: 4px 0px;
+  }
+  .sidebar-menu {
+    overflow-y: auto !important;
+  }

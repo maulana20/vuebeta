@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="/static/img/favicon/favicon.ico?v=0.0.1A" type="image/x-icon">
+    <title>Reset Password ATRIS</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/custom-style.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+		<div id="app"></div>
+		
+		<template id="app-template">
+			<div>
+				<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Reset Password on VAS</a>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#" @click="logout()">Logout</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="row" style="margin-top:30px;" v-if="reset_password_state">
+					<div class="col-xs-12 col-sm-5 col-md-5" style="margin-top: 16px; background-color: #fafafa; padding: 16px; border: 2px solid #f0f0f0; border-radius: 5px; white-space: nowrap; overflow-x: auto;">
+						<div class="administration-change-password">
+							<div style="font-size:15px; font-weight: bold; margin-bottom:10px;"><i class="fa fa-lock"></i>&nbsp;&nbsp;Ganti Password</div>
+							<div style="margin-bottom:15px;">
+								<label><small>Password Lama</small></label>
+								<input class="form-control" placeholder="*****" type="password" v-model="current_password">
+							</div>
+							<div style="margin-bottom:15px;">
+								<label><small>Password Baru</small></label>
+								<input class="form-control" placeholder="*****" type="password" v-model="new_password">
+							</div>
+							<div style="margin-bottom:15px;">
+								<label><small>Ulangi Password Baru</small></label>
+								<input class="form-control" placeholder="*****" type="password" v-model="confirm_new_password">
+							</div>
+							<div style="margin-bottom:15px;">
+								<button class="btn btn-primary btn-sm pull-right" @click="changePassword()">Ganti Password</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6" style="margin-left:10px; margin-top: 16px; background-color: #fafafa; padding: 16px; border: 2px solid #f0f0f0; border-radius: 5px; white-space: nowrap; overflow-x: auto;">
+						<div class="administration-change-password">
+							<div style="font-size:15px; font-weight: bold; margin-bottom:10px;"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>&nbsp;&nbsp;Petunjuk Pengisian Password</div>
+							<div style="margin-bottom:5px; color:red;">
+								<span>Mohon untuk mengganti password anda !!!</span>
+							</div>
+							<div style="margin-bottom:10px;">
+								<ul style="padding-left:15px;">
+									<li>Minimal 6 karakter </li>
+									<!-- <li>Gabungan antara huruf dan angka</li>
+									<li>Terdapat minimal satu huruf besar</li>
+									<li>Terdapat minimal satu huruf kecil</li> -->
+								</ul>
+								<!-- <div style="color:grey;">Contoh : mi5aL99</div> -->
+							</div>
+						</div>
+						<div style="margin-top:50px;">
+							<div v-if="status_page.state == 'requesting'">
+								<i class="fa fa-spin fa-spinner fa-2x"></i>&nbsp;
+								<span class="light-gray" style="font-weight:bold;">Reset password ...</span>
+							</div>
+							<div v-if="status_page.state == 'error'">
+								<i class="fa fa-exclamation-triangle fa-2x"></i>&nbsp;
+								<span class="light-gray" style="font-weight:bold;">Gagal reset password!</span><br>
+								<span style="font-size:9pt; color:red;">{{status_page.message}}</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center" style="margin-top:30px;" v-else>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<i class="fa fa-spin fa-spinner fa-3x"></i><br><br>
+					<span class="light-gray" style="font-weight:bold;">Memuat halaman reset password ...</span>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+
+			<div id="footer" class="footer navbar navbar-default footer-bottom">
+				<div class="container">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="/#/"> VAS © 2018. Powered by PT Versa Technology</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</template>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="/static/js/bootstrap/bootstrap.min.js"></script>
+		<script src="/static/js/app.config.js"></script>
+		<script src="/static/js/vue.js"></script>
+		<script src="/static/js/vue-resource.js"></script>
+		<script src="/static/js/alertResponseHandler.js"></script>
+		<script src="/app/config.js"></script>
+
+		<script>
+			Vue.http.options.emulateJSON = true;
+			var app = new Vue({
+				el: '#app',
+				template: '#app-template',
+				data: {
+					reset_password_state: false,
+					current_password: '',
+					new_password: '',
+					confirm_new_password: '',
+					status_page:{
+						state: 'idle',
+						message: ''
+					}
+				},
+				mounted: function(){
+					this.init()
+				},
+				methods: {
+					init: function () {
+						/*this.reset_password_state = false
+						this.current_password = ''
+						this.new_password = ''
+						this.confirm_new_password = ''
+						this.status_page.state = 'idle'
+						this.status_page.message = ''*/
+						setTimeout( function () {
+							this.reset_password_state = true
+						}.bind(this), 1000)
+					},
+					changePassword: function () {
+						this.status_page.state = 'requesting'
+						var params = {
+							currentpassword: this.current_password,
+							newpassword: this.new_password,
+							confirm: this.confirm_new_password
+						}
+						if (params.new_password !== params.confirm_new_password) {
+							alert('Maaf password baru dan konfirmasi password baru tidak sama, silahkan ganti/ulangi lagi!')
+							return
+						}
+						this.$http.post(config.backend_domain + '/user/ajaxchangepassword', params, {credentials: true}).then(
+							function (res) {
+								if (res.body.status === 'success') {
+									this.status_page.state = 'idle'
+									this.status_page.message = ''
+									location.href = '/'
+								} else {
+									this.status_page.state = 'error'
+									if(res.body.content.reason){
+										this.status_page.message = res.body.content.reason
+										alert(res.body.content.reason)
+									} else if(res.body.message) {
+										this.status_page.message = res.body.message							
+										alert(res.body.message)
+									} else {
+										this.status_page.message = 'Internal server error!'
+										alert('Internal server error!')
+									}
+								}
+							},
+							function (err) {
+								this.status_page.state = 'error'
+								this.status_page.message = 'Connection error!'
+								alert('Connection error!')
+							}
+						)
+					},
+					logout: function () {
+						var requesturl = window.config.backend_domain + '/admin/logout'
+						this.$http.get(requesturl, { credentials: true }).then(
+							function (res) {
+								this.$alertResponseHandler(res)
+								window.localStorage.clear()
+								window.location.href =  window.location.protocol + '//'+ window.location.hostname.split('atris').join('client')
+							},
+							function (err) {
+								console.log('connection error at ' + new Date().toISOString())
+							}
+						)
+					}
+				}
+			})
+		</script>	
+  </body>
+</html>

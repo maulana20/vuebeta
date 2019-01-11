@@ -1,0 +1,13 @@
+.column {
+	font-size: 11px;
+	font-family: Arial,sans-serif;
+	padding: 7px 10px;
+	border: 1px solid #DBB;
+}
+
+.column-sub {
+	font-size: 11px;
+	font-family: Arial,sans-serif;
+	padding: 7px 10px;
+	border: 1px solid #CEA;
+}

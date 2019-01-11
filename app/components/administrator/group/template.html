@@ -1,0 +1,85 @@
+<div id="main" role="main" class="administration-group-list">
+	<div id="ribbon">
+		<ol class="breadcrumb">
+			<li>Administrasi</li><li>Lihat Group</li>
+		</ol>
+		<div class="group-table-container">
+			<div class="group-table-count" v-if="pagination.caption" style="color:grey;">
+				<div>
+					<span style='border-bottom: 1px dashed;'>
+						Total Group Yang Tersimpan
+					</span>
+				</div>
+				<div style="font-weight:800; margin-bottom:10px;">
+					{{pagination.caption}}
+				</div>
+				<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th></th>
+						<th style="vertical-align:middle; max-width: 72px;">Kode Group</th>
+						<th style="vertical-align:middle;">Nama Group</th>
+						<th style="vertical-align:middle;">Tanggal Dibuat</th>
+						<th style="vertical-align:middle; text-align:center;">
+							<!--button type="button" class="btn btn-primary btn-xs" @click="callSearchComponent()">Search</button-->
+							<button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal" @click="openModal('Add', '')" v-if="canEdit">Add</button>
+						</th>
+					</tr>
+				</thead>
+				<tbody style="font-size: 12px;" v-if="group_list">
+					<tr v-for="(data, index) in group_list" :style="" :class="">
+						<td>
+							<span v-if="pagination.current_page != 0">{{((pagination.current_page - 1) * 25) + (index + 1)}}</span>
+							<span v-else>{{index + 1}}</span>
+						</td>
+						<td>{{data.group_code}}</td>
+						<td>{{data.group_name}}</td>
+						<td>{{changeFormatDate(intToISODate(data.group_created).split('T')[0])}} {{intToISODate(data.group_created).split('T')[1]}}</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#myModal" @click="openModal('Edit', data.group_id)" v-if="canEdit">Edit</button>
+							<button class="btn btn-danger btn-xs" @click="deleteGroup(data.group_id, index)" v-if="canEdit"><i class="fa fa-spin fa-spinner fa-fw" v-if="del_button_loading"></i>Delete</button>
+						</td>
+					</tr>
+				</tbody>
+				<tbody v-else>
+					<tr>
+						<td class="text-center" style="font-weight:bold;" colspan="13">Tidak ada data!</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal" role="dialog" data-backdrop="static">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title" id="modal_title">Modal Header</h4>
+				</div>
+				<div class="modal-body text-center" id="modal_body" v-if="modalLoadingState">
+					<br>
+					<i class="fa fa-spin fa-spinner fa-2x"></i><br><br>
+					<span class="light-gray" style="font-weight:bold;">Mengambil data ke server ...</span>
+				</div>
+				<div class="modal-body" id="modal-body">
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2" style="margin-bottom:15px;">
+							<label><small>Kode Group*</small></label>
+							<input class="form-control" placeholder="Kode Group" type="text" v-model="group_code">
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6" style="margin-bottom:15px;">
+							<label><small>Nama Group*</small></label>
+							<input class="form-control" placeholder="Kode Group" type="text" v-model="group_name">
+							</div>
+					</div>
+					<div v-html="group_bar" style="margin-left:2px;margin-right:2px;"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+					<button type="button" class="btn btn-primary" @click="editGroup()" v-if="isEdit">Simpan</button>
+					<button type="button" class="btn btn-primary" @click="addGroup()" v-else>Simpan</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

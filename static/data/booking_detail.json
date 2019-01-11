@@ -1,0 +1,134 @@
+{
+	"contactphone": [
+		{
+			"contactphone_number": "82282120500",
+			"contactphone_code": "62",
+			"contactphone_type": "mobile"
+		}
+	],
+	"booking": [
+		{
+			"booking_passenger_count": 4,
+			"booking_datetime": "2017-09-12T20:19:37",
+			"booking_segment": 1,
+			"booking_code": "807",
+			"booking_validtime": "2017-09-12T20:19:37",
+			"booking_by": "cs@romuria.com",
+			"booking_route": "TKG-DPS",
+			"booking_depart_datetime": "2017-09-12T20:19:37"
+		}
+	],
+	"netfare": [
+		{
+			"netfare_total": 790000,
+			"netfare_real": 790000
+		}
+	],
+	"passengercontact": [
+		{
+			"passengercontact_title": "Mr",
+			"passengercontact_email": "roni@romuria.com",
+			"passengercontact_surname": "Setiawan",
+			"passengercontact_name": "Roni"
+		}
+	],
+	"passenger": [
+		{
+			"passenger_country_code": null,
+			"passenger_passport_exp": null,
+			"passenger_lastname": "Setiawan",
+			"passenger_title": "Mr",
+			"passenger_identify": "-1",
+			"passenger_parent": null,
+			"passenger_birthdate": "1970-01-01T00:00:00",
+			"passenger_baggage": null,
+			"passenger_firstname": "Roni",
+			"passenger_passport": null,
+			"passenger_type": "adult"
+		},
+		{
+			"passenger_country_code": null,
+			"passenger_passport_exp": null,
+			"passenger_lastname": "Haqqi",
+			"passenger_title": "Mrs",
+			"passenger_identify": "-1",
+			"passenger_parent": null,
+			"passenger_birthdate": "1970-01-01T00:00:00",
+			"passenger_baggage": null,
+			"passenger_firstname": "Annisa",
+			"passenger_passport": null,
+			"passenger_type": "adult"
+		},
+		{
+			"passenger_country_code": null,
+			"passenger_passport_exp": null,
+			"passenger_lastname": "Abdullah",
+			"passenger_title": "Mstr",
+			"passenger_identify": "-1",
+			"passenger_parent": null,
+			"passenger_birthdate": "2010-01-04T00:00:00",
+			"passenger_baggage": null,
+			"passenger_firstname": "Maulana",
+			"passenger_passport": null,
+			"passenger_type": "child"
+		},
+		{
+			"passenger_country_code": null,
+			"passenger_passport_exp": null,
+			"passenger_lastname": "Azhara",
+			"passenger_title": "Miss",
+			"passenger_identify": "-1",
+			"passenger_parent": null,
+			"passenger_birthdate": "2017-02-01T00:00:00",
+			"passenger_baggage": null,
+			"passenger_firstname": "Jiyah",
+			"passenger_passport": null,
+			"passenger_type": "infant"
+		}
+	],
+	"fare": [
+		{
+			"fare_tax": 50000,
+			"fare_total": 800000,
+			"fare_publish": 750000
+		}
+	],
+	"schedule": [
+		{
+			"schedule_arrivetime": "2018-01-01T16:35:00",
+			"schedule_arrivecity": "CGK",
+			"schedule_departtime": "2018-01-01T15:40:00",
+			"schedule_airline_name": "Lion",
+			"schedule_departcity": "TKG",
+			"schedule_flight_id": "JT 249",
+			"schedule_flight_class": "M"
+		},
+		{
+			"schedule_arrivetime": "2018-01-01T21:45:00",
+			"schedule_arrivecity": "DPS",
+			"schedule_departtime": "2018-01-01T19:00:00",
+			"schedule_airline_name": "Lion",
+			"schedule_departcity": "CGK",
+			"schedule_flight_id": "JT 16",
+			"schedule_flight_class": "N"
+		},
+		{
+			"schedule_arrivetime": "2018-01-08T12:45:00",
+			"schedule_arrivecity": "CGK",
+			"schedule_departtime": "2018-01-08T11:50:00",
+			"schedule_airline_name": "Lion",
+			"schedule_departcity": "DPS",
+			"schedule_flight_id": "JT 29",
+			"schedule_flight_class": "G"
+		},
+		{
+			"schedule_arrivetime": "2018-01-08T20:50:00",
+			"schedule_arrivecity": "TKG",
+			"schedule_departtime": "2018-01-08T20:05:00",
+			"schedule_airline_name": "Lion",
+			"schedule_departcity": "CGK",
+			"schedule_flight_id": "JT 242",
+			"schedule_flight_class": "K"
+		}
+	]
+}

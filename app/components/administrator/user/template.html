@@ -1,0 +1,407 @@
+<div id="main" role="main" class="administration-user-list">
+	<div id="ribbon">
+		<ol class="breadcrumb">
+			<li>Administrasi</li><li>Lihat User</li>
+		</ol>
+		<div class="user-table-container" v-if="!searchComponentState && user_list && user_list.list">
+			<div class= "user-table-count" v-if="pagination.caption" style="color:grey;">
+				<div>
+					<span style="border-bottom: 1px dashed;">
+						Total User Yang Tersimpan
+					</span>
+				</div>
+				<div style="font-weight:800; margin-bottom:10px;">
+					{{pagination.caption}}
+				</div>
+			</div>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th></th>
+						<th style="vertical-align:middle; max-width: 72px;">Kode</th>
+						<th style="vertical-align:middle;">Nama Pengguna</th>
+						<th style="vertical-align:middle; text-align:left;">Nama Asli</th>
+						<th style="vertical-align:middle; text-align:left;">Departemen</th>
+						<th style="vertical-align:middle; max-width: 86px; white-space: normal;">Login Terakhir</th>
+						<th style="vertical-align:middle; text-align:left;">Dibuat Oleh</th>
+						<th style="vertical-align:middle; text-align:center;">Status</th>
+						<th style="vertical-align:middle; text-align:center;">
+							<button type="button" class="btn btn-primary btn-xs" @click="callSearchComponent()">Search</button>
+							<button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal" @click="openModal('Add', '')" v-if="canEdit">Add</button>
+						</th>
+					</tr>
+				</thead>
+				<tbody style="font-size: 12px;" v-if="user_list && user_list.list">
+					<tr v-for="(data,index) in user_list.list" :style="{'color' : data.user_id == user_current.user_id ? 'grey !important' : ''}" :disabled="data.user_id == user_current.user_id" :class="{'selected-list-per-data' : index == schedule_info.selected_id && schedule_info.state == 'searching', 'list-per-data' : data.user_id != user_current.user_id}">
+						<td>
+							<span v-if="pagination.current_page != 0">{{((pagination.current_page - 1) * 25) + (index + 1)}}</span>
+							<span v-else>{{index + 1}}</span>
+						</td>
+						<td style="max-width: 72px; white-space: normal;">{{data.group_code}} - {{data.user_id}}</td>
+						<td>{{data.user_name}}</td>
+						<td>{{data.user_realname}}</td>
+						<td>{{data.group_name}}</td>
+						<td v-if="data.user_login" style="max-width: 86px; white-space: normal;">
+							{{changeFormatDate(intToISODate(data.user_login).split('T')[0])}} {{intToISODate(data.user_login).split('T')[1]}}
+						</td>
+						<td v-else style="max-width: 86px; white-space: normal;"><b>Never Login</b></td>
+						<td style="text-align:left;">{{data.create_by}}</td>
+						<td style="text-align:center" v-if="data.user_status == 'A'" :disabled="data.user_id == user_current.user_id">
+							<font style="font-weight:bold" :style="{'color' : data.user_id == user_current.user_id ? 'grey !important' : 'green !important'}">Active</font>
+						</td>
+						<td style="text-align:center" v-else-if="data.user_status == 'I'" :disabled="data.user_id == user_current.user_id">
+							<font style="font-weight:bold" :style="{'color' : data.user_id == user_current.user_id ? 'grey !important' : 'red !important'}">Inactive</font>
+						</td>
+						<td style="text-align:center" v-else>
+							<font style="font-weight:bold" :style="{'color' : data.user_id == user_current.user_id ? 'grey !important' : 'black !important'}" :disabled="data.user_id == user_current.user_id">Blocked</font>
+						</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<button type="button" class="btn btn-xs" :class="data.user_id != user_current.user_id ? 'btn-warning' : 'btn-secondary'" :disabled="data.user_id == user_current.user_id" data-toggle="modal" data-target="#myModal" @click="openModal('Edit', data.user_id)" v-if="canEdit">Edit</button>
+							<button class="btn btn-xs" :class="data.user_id != user_current.user_id ? 'btn-success' : 'btn-secondary'" :disabled="data.user_id == user_current.user_id" @click="active(data.user_id, index)" v-if="canEdit && data.user_status != 'A'"><i class="fa fa-spin fa-spinner fa-fw" v-if="active_button_loading"></i>Active</button>
+							<button class="btn btn-xs" :class="data.user_id != user_current.user_id ? 'btn-warning' : 'btn-secondary'" :disabled="data.user_id == user_current.user_id" @click="inactive(data.user_id, index)" v-if="canEdit && data.user_status == 'A'"><i class="fa fa-spin fa-spinner fa-fw" v-if="inactive_button_loading"></i>Inactive</button>
+							<button class="btn btn-xs" :class="data.user_id != user_current.user_id ? 'btn-danger' : 'btn-secondary'" :disabled="data.user_id == user_current.user_id" @click="deleteUser(data.user_id, index)" v-if="canEdit"><i class="fa fa-spin fa-spinner fa-fw" v-if="del_button_loading"></i>Delete</button>
+						</td>
+					</tr>
+				</tbody>
+				<tbody v-else>
+					<tr>
+						<td class="text-center" style="font-weight:bold;" colspan="13">Tidak ada data !</td>
+					</tr>
+				</tbody>
+			</table>
+			<div style="background-color:#f78c40; width:100%; font-size:8pt; padding:5px; margin-bottom:15px;" v-if="user_list && user_list.list">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<label><b>{{pagination.caption}}</b></label>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="text-center">
+							<label v-if="pagination.page_list.length > 1">Page <b>{{pagination.current_page}}</b> of {{pagination.last_page}} pages</label>
+							<label v-else>Page 1</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="pull-right">
+							<button v-if="pagination.prev_page" class="btn btn-secondary btn-xs" style="margin-right:3px;" @click="getDataOnPage(pagination.prev_page)"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+							<button v-for="page in pagination.page_list" class="btn btn-secondary btn-xs" :class="{'active-pagination' : page == pagination.current_page}" style="margin-right:3px;" @click="getDataOnPage(page)">{{page}}</button>
+							<button v-if="pagination.next_page" class="btn btn-secondary btn-xs" style="margin-right:3px;" @click="getDataOnPage(pagination.next_page)"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-center" v-if="!searchComponentState && !user_list">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<i class="fa fa-spin fa-spinner fa-3x"></i><br><br>
+			<span class="light-gray" style="font-weight:bold;">Memuat user list ...</span>
+		</div>
+		<div class="user-table-container" style="background-color: #fafafa; padding: 16px; border: 2px solid #f0f0f0; border-radius: 5px; white-space: nowrap; overflow-x: auto;" v-show="searchComponentState">
+			<div class="row">
+				<div class="col-xs-12 col-sm-3 col-md-3" style="margin:5px;">
+					<p>Find</p>
+					<section>
+						<label class="textarea textarea-resizable">
+							<textarea rows="5" class="custom-scroll" style="min-width:250px; max-width:270;" v-model="search_data.params.search_txt"></textarea> 
+						</label>
+					</section>
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-2" style="margin:5px;">
+					<label>Column</label>
+					<div class="col-md-12" style="border:1px solid #e0e0e0; padding:10px; background: white; border-radius:5px;">
+						<section>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="column" value="user_id" v-model="search_data.params.column_choice">
+								<i></i>Agency ID</label>
+							</div>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="column" value="user_name" v-model="search_data.params.column_choice">
+								<i></i>User Name</label>
+							</div>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="column" value="group_name" v-model="search_data.params.column_choice">
+								<i></i>Group Name</label>
+							</div>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="column" value="create_by" v-model="search_data.params.column_choice">
+								<i></i>Created By</label>
+							</div>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="column" value="user_created" v-model="search_data.params.column_choice">
+								<i></i>Created ></label>
+								<div style="margin-top:5px;margin-bottom:5px; margin-left:15px; width:135px;" v-show="search_data.params.column_choice == 'user_created'">
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="fa fa-calendar"></i>
+										</span>
+										<input style="padding-left:10px;" type="text" id="start-date" class="form-control" :value="changeFormatDate(search_data.params.start_date)"/>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="column" value="user_login" v-model="search_data.params.column_choice">
+								<i></i>Never Login</label>
+							</div>
+						</section>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-2" style="margin:5px;">
+					<label>Status</label>
+					<div class="col-md-12" style="border:1px solid #e0e0e0; padding:10px; background: white; border-radius:5px;">
+						<section>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="status" value="any" v-model="search_data.params.status_choice">
+								<i></i>Any</label>
+							</div>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="status" value="A" v-model="search_data.params.status_choice">
+								<i></i>Active</label>
+							</div>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="status" value="I" v-model="search_data.params.status_choice">
+								<i></i>Inactive</label>
+							</div>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="status" value="B" v-model="search_data.params.status_choice">
+								<i></i>Blocked</label>
+							</div>
+						</section>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-2" style="margin:5px;">
+					<label>Options</label>
+					<div class="col-md-12" style="border:1px solid #e0e0e0; padding:10px; background: white; border-radius:5px;">
+						<section>
+							<div class="row">
+								<label class="checkbox" style="padding-left:31px; margin:0px;">
+								<input type="checkbox" name="partial" value="1" v-model="search_data.params.partial">
+								<i></i>Partial Match</label>
+							</div>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="option" value="show_all" v-model="search_data.params.option">
+								<i></i>Show all</label>
+							</div>
+							<div class="row">
+								<label class="radio" style="padding-left:31px; margin:0px;">
+								<input type="radio" name="option" value="per_pages" v-model="search_data.params.option">
+								<i></i>View per pages</label>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="margin-top:15px; margin-bottom:15px;">
+				<div class="col-xs-3 col-sm-3 col-md-3" style="margin-right:0px;">
+					<button type="button" class="btn btn-danger" style="margin-left:10px; margin-right:10px;" @click="initSearchComponent()">
+						Close
+					</button>
+					<button type="button" class="btn btn-primary" @click="searchOnComponent()">
+						Find
+					</button>
+				</div>
+				<div class="col-xs-8 col-sm-8 col-md-8" style="margin-left:0px;">
+					<div v-if="search_data.state == 'searching'">
+						<i class="fa fa-spin fa-spinner fa-2x"></i>&nbsp;
+						<span class="light-gray" style="font-weight:bold;">Melakukan proses pencarian ...</span>
+					</div>
+					<div v-if="search_data.state == 'error'">
+						<i class="fa fa-exclamation-triangle fa-2x"></i>&nbsp;
+						<span class="light-gray" style="font-weight:bold;">Proses pencarian gagal!</span><br>
+						<span style="font-size:9pt; color:red;">{{search_data.message}}</span>
+					</div>
+				</div>
+			</div>
+			<div class= "user-table-count" v-if="pagination_on_searchComponent.caption" style="color:grey;">
+				<div>
+					<span style='border-bottom: 1px dashed;'>
+						Total User Yang Sesuai Pencarian
+					</span>
+				</div>
+				<div style="font-weight:800; margin-bottom:10px;">
+					{{pagination_on_searchComponent.caption}}
+				</div>
+			</div>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th></th>
+						<th style="vertical-align:middle; max-width: 72px;">Kode Agen</th>
+						<th style="vertical-align:middle;">Nama Pengguna</th>
+						<th style="vertical-align:middle;">Nama Asli</th>
+						<th style="vertical-align:middle;">Departemen</th>
+						<th style="vertical-align:middle; max-width: 86px; white-space: normal;">Login Terakhir</th>
+						<th style="vertical-align:middle;">Dibuat Oleh</th>
+						<th style="vertical-align:middle; text-align:center;">Status</th>
+						<th style="vertical-align:middle; text-align:center;">
+							<button type="button" class="btn btn-primary btn-xs" @click="callSearchComponent()">Search</button>
+							<button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal" @click="openModal('Add', '')" v-if="search_data.response['UA'] == 84">Add</button>
+						</th>
+					</tr>
+				</thead>
+				<tbody style="font-size: 12px;" v-if="search_data.response && search_data.response.list">
+					<tr v-for="(data,index) in search_data.response.list" :style="{'color' : data.user_id == user_current.user_id ? 'grey !important' : ''}" :disabled="data.user_id == user_current.user_id" :class="{'selected-list-per-data' : index == schedule_info.selected_id && schedule_info.state == 'searching', 'list-per-data' : data.user_id != user_current.user_id}">
+						<td>
+							<span v-if="pagination_on_searchComponent.current_page != 0">{{((pagination_on_searchComponent.current_page - 1) * 25) + (index + 1)}}</span>
+							<span v-else>{{index + 1}}</span>
+						</td>
+						<td style="max-width: 72px; white-space: normal;">{{data.group_code}} - {{data.user_id}}</td>
+						<td>{{data.user_name}}</td>
+						<td>{{data.user_realname}}</td>
+						<td>{{data.group_name}}</td>
+						<td v-if="data.user_login" style="max-width: 86px; white-space: normal;">{{changeFormatDate(intToISODate(data.user_login).split('T')[0])}} {{intToISODate(data.user_login).split('T')[1]}}</td>
+						<td v-else style="max-width: 86px; white-space: normal;"><b>Never Login</b></td>
+						<td>{{data.create_by}}</td>
+						<td style="text-align:center" v-if="data.user_status == 'A'" :disabled="data.user_id == user_current.user_id">
+							<font style="font-weight:bold" :style="{'color' : data.user_id == user_current.user_id ? 'grey !important' : 'green !important'}">Active</font>
+						</td>
+						<td style="text-align:center" v-else-if="data.user_status == 'I'" :disabled="data.user_id == user_current.user_id">
+							<font style="font-weight:bold" :style="{'color' : data.user_id == user_current.user_id ? 'grey !important' : 'red !important'}">Inactive</font>
+						</td>
+						<td style="text-align:center" v-else>
+							<font style="font-weight:bold" :style="{'color' : data.user_id == user_current.user_id ? 'grey !important' : 'black !important'}" :disabled="data.user_id == user_current.user_id">Blocked</font>
+						</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<button type="button" class="btn btn-xs" :class="data.user_id != user_current.user_id ? 'btn-warning' : 'btn-secondary'" :disabled="data.user_id == user_current.user_id" data-toggle="modal" data-target="#myModal" @click="openModal('Edit', data.user_id)" v-if="search_data.response['UE'] == 84">Edit</button>
+							<button class="btn btn-xs" :class="data.user_id != user_current.user_id ? 'btn-success' : 'btn-secondary'" :disabled="data.user_id == user_current.user_id" @click="active(data.user_id, index)" v-if="search_data.response['UX'] == 84 && data.user_status != 'A'"><i class="fa fa-spin fa-spinner fa-fw" v-if="active_button_loading"></i>Active</button>
+							<button class="btn btn-xs" :class="data.user_id != user_current.user_id ? 'btn-warning' : 'btn-secondary'" :disabled="data.user_id == user_current.user_id" @click="inactive(data.user_id, index)" v-if="search_data.response['UX'] == 84 && data.user_status == 'A'"><i class="fa fa-spin fa-spinner fa-fw" v-if="inactive_button_loading"></i>Inactive</button>
+							<button class="btn btn-xs" :class="data.user_id != user_current.user_id ? 'btn-danger' : 'btn-secondary'" :disabled="data.user_id == user_current.user_id" @click="deleteUser(data.user_id, index)" v-if="search_data.response['UY'] == 84"><i class="fa fa-spin fa-spinner fa-fw" v-if="del_button_loading"></i>Del</button>
+							<button type="button" class="btn btn-xs" :class="data.user_id != user_current.user_id ? 'btn-info' : 'btn-secondary'" :disabled="data.user_id == user_current.user_id" data-toggle="modal" data-target="#myModal" @click="openModal('Deposite', data.user_id)" v-if="search_data.response['UZ'] == 84">Dep</button>
+						</td>
+					</tr>
+				</tbody>
+				<tbody v-else>
+					<tr>
+						<td class="text-center" style="font-weight:bold;" colspan="9">Tidak ada data!</td>
+					</tr>
+				</tbody>
+			</table>
+			<div style="background-color:#f78c40; width:100%; font-size:8pt; padding:5px; margin-bottom:15px;" v-if="search_data.response && search_data.response.list">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<label><b>{{pagination_on_searchComponent.caption}}</b></label>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="text-center">
+							<label v-if="pagination_on_searchComponent.page_list.length > 1">Page <b>{{pagination_on_searchComponent.current_page}}</b> of {{pagination_on_searchComponent.last_page}} pages</label>
+							<label v-else>Page 1</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="pull-right">
+							<button v-if="pagination_on_searchComponent.prev_page" class="btn btn-secondary btn-xs" style="margin-right:3px;" @click="getDataOnPageSearchComponent(pagination_on_searchComponent.prev_page)"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+							<button v-for="page in pagination_on_searchComponent.page_list" class="btn btn-secondary btn-xs" :class="{'active-pagination' : page == pagination_on_searchComponent.current_page}" style="margin-right:3px;" @click="getDataOnPageSearchComponent(page)">{{page}}</button>
+							<button v-if="pagination_on_searchComponent.next_page" class="btn btn-secondary btn-xs" style="margin-right:3px;" @click="getDataOnPageSearchComponent(pagination_on_searchComponent.next_page)"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+ 	<div class="modal fade" id="myModal" role="dialog" data-backdrop="static">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title" id="modal_title">Modal Header</h4>
+			</div>
+			<div class="modal-body text-center" id="modal_body" v-if="modalLoadingState">
+				<br>
+				<i class="fa fa-spin fa-spinner fa-2x"></i><br><br>
+				<span class="light-gray" style="font-weight:bold;">Mengambil data ke server ...</span>
+			</div>
+			<div class="modal-body" id="modal_body" v-else-if="canEdit">
+				<div class="row" v-if="active_session == 'add' || active_session == 'edit'">
+					<div style="border:1px solid #fafafa;" class="col-sm-6 col-md-6">
+						<div style="font-size:15px; font-weight: bold; margin-bottom:10px;"><i class="fa fa-male"></i>&nbsp;&nbsp;Detail Pengguna</div>
+						<div class="row" style="margin-bottom:15px;">
+							<div class="col-sm-12 col-md-6">
+								<label><small>Nama Lengkap *</small></label>
+								<input class="form-control" placeholder="Nama Lengkap" type="text" v-model="user_real_name">
+							</div>
+						</div>
+						<div class="row" style="margin-bottom:15px;">
+								<div class="col-sm-12 col-md-6">
+									<label><small>Group</small></label>
+									<select class="form-control" v-model="group_id">
+											<option v-for="(datatype,indextype) in group_list" :value="indextype" >{{datatype}}</option>
+									</select>
+								</div>
+						</div>
+					</div>
+					<div style="border:1px solid #fafafa;" class="col-sm-6 col-md-6">
+					</div>
+				</div>
+				<div class="row">
+					<div style="border:1px solid #fafafa;" class="col-sm-6 col-md-6" v-if="!isEdit">
+						<div style="font-size:15px; font-weight: bold; margin-bottom:10px;"><i class="fa fa-sort-amount-desc"></i>&nbsp;&nbsp;Login Data</div>
+						<div class="row" style="margin-bottom:15px;">
+							<div class="col-sm-12 col-md-6">
+								<label><small>User Name *</small></label>
+								<input class="form-control" placeholder="Username" type="text" v-model="user_name">
+							</div>
+						</div>
+						<div class="row" style="margin-bottom:15px;">
+							<div class="col-sm-12 col-md-6">
+									<label><small>Password *</small></label>
+								<input class="form-control" placeholder="*****" type="password" v-model="password">
+							</div>
+						</div>
+						<div class="row" style="margin-bottom:15px;">
+								<div class="col-sm-12 col-md-6">
+									<label><small>Confirm *</small></label>
+									<input  class="form-control" placeholder="*****" type="password" v-model="confirm">
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-body" id="modal_body" v-else>
+				<div class="row">
+						<div style="border:1px solid #fafafa;" class="col-sm-6 col-md-6" v-if="!isEdit">
+							<div style="font-size:15px; font-weight: bold; margin-bottom:10px;"><i class="fa fa-sort-amount-desc"></i>&nbsp;&nbsp;Login Data</div>
+							<div class="row" style="margin-bottom:15px;">
+								<div class="col-sm-12 col-md-6">
+									<label><small>User Name</small></label>
+									<input class="form-control" type="text" v-model="user_name">
+								</div>
+							</div>
+							<div class="row" style="margin-bottom:15px;">
+									<div class="col-sm-12 col-md-6">
+										<label><small>Password</small></label>
+									<input class="form-control" type="password" v-model="password">
+									</div>
+							</div>
+							<div class="row" style="margin-bottom:15px;">
+									<div class="col-sm-12 col-md-6">
+										<label><small>Confirm</small></label>
+										<input  class="form-control" type="text" v-model="confirm">
+									</div>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+			  <button type="button" class="btn btn-primary" @click="editUser()" v-if="isEdit">Simpan</button>
+			  <button type="button" class="btn btn-primary" @click="addUser()" v-else>Simpan</button>
+			</div>
+		  </div>
+		</div>
+	</div>
+</div>

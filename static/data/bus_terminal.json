@@ -1,0 +1,8812 @@
+[
+	{
+		"code": "1",
+		"name": "Jakarta",
+		"category": "City"
+	},
+	{
+		"code": "5",
+		"name": "Bawen",
+		"category": "City"
+	},
+	{
+		"code": "6",
+		"name": "Blora",
+		"category": "City"
+	},
+	{
+		"code": "7",
+		"name": "Bogor",
+		"category": "City"
+	},
+	{
+		"code": "8",
+		"name": "Boyolali",
+		"category": "City"
+	},
+	{
+		"code": "9",
+		"name": "Cepu",
+		"category": "City"
+	},
+	{
+		"code": "10",
+		"name": "Demak",
+		"category": "City"
+	},
+	{
+		"code": "11",
+		"name": "Gemolong",
+		"category": "City"
+	},
+	{
+		"code": "12",
+		"name": "Gombong",
+		"category": "City"
+	},
+	{
+		"code": "13",
+		"name": "Gubug",
+		"category": "City"
+	},
+	{
+		"code": "14",
+		"name": "Jepara",
+		"category": "City"
+	},
+	{
+		"code": "15",
+		"name": "Kebumen",
+		"category": "City"
+	},
+	{
+		"code": "16",
+		"name": "Kendal",
+		"category": "City"
+	},
+	{
+		"code": "17",
+		"name": "Klaten",
+		"category": "City"
+	},
+	{
+		"code": "18",
+		"name": "Kudus",
+		"category": "City"
+	},
+	{
+		"code": "19",
+		"name": "Kutoarjo",
+		"category": "City"
+	},
+	{
+		"code": "20",
+		"name": "Lamongan",
+		"category": "City"
+	},
+	{
+		"code": "21",
+		"name": "Lasem",
+		"category": "City"
+	},
+	{
+		"code": "22",
+		"name": "Magelang",
+		"category": "City"
+	},
+	{
+		"code": "23",
+		"name": "Muntilan",
+		"category": "City"
+	},
+	{
+		"code": "24",
+		"name": "Pekalongan",
+		"category": "City"
+	},
+	{
+		"code": "25",
+		"name": "Purwodadi",
+		"category": "City"
+	},
+	{
+		"code": "26",
+		"name": "Purworejo",
+		"category": "City"
+	},
+	{
+		"code": "28",
+		"name": "Rembang",
+		"category": "City"
+	},
+	{
+		"code": "29",
+		"name": "Semarang",
+		"category": "City"
+	},
+	{
+		"code": "30",
+		"name": "Surabaya",
+		"category": "City"
+	},
+	{
+		"code": "31",
+		"name": "Tangerang",
+		"category": "City"
+	},
+	{
+		"code": "32",
+		"name": "Ungaran",
+		"category": "City"
+	},
+	{
+		"code": "33",
+		"name": "Wonosari",
+		"category": "City"
+	},
+	{
+		"code": "34",
+		"name": "Wonogiri",
+		"category": "City"
+	},
+	{
+		"code": "35",
+		"name": "Yogyakarta",
+		"category": "City"
+	},
+	{
+		"code": "36",
+		"name": "Tangerang Selatan",
+		"category": "City"
+	},
+	{
+		"code": "37",
+		"name": "Depok",
+		"category": "City"
+	},
+	{
+		"code": "38",
+		"name": "Bekasi",
+		"category": "City"
+	},
+	{
+		"code": "39",
+		"name": "Cilegon",
+		"category": "City"
+	},
+	{
+		"code": "40",
+		"name": "Serang",
+		"category": "City"
+	},
+	{
+		"code": "41",
+		"name": "Pati",
+		"category": "City"
+	},
+	{
+		"code": "42",
+		"name": "Tuban",
+		"category": "City"
+	},
+	{
+		"code": "43",
+		"name": "Babat",
+		"category": "City"
+	},
+	{
+		"code": "44",
+		"name": "Wirosari",
+		"category": "City"
+	},
+	{
+		"code": "45",
+		"name": "Pemalang",
+		"category": "City"
+	},
+	{
+		"code": "46",
+		"name": "Sumedang",
+		"category": "City"
+	},
+	{
+		"code": "47",
+		"name": "Majalengka",
+		"category": "City"
+	},
+	{
+		"code": "48",
+		"name": "Karawang",
+		"category": "City"
+	},
+	{
+		"code": "49",
+		"name": "Bali",
+		"category": "City"
+	},
+	{
+		"code": "50",
+		"name": "Bengkulu",
+		"category": "City"
+	},
+	{
+		"code": "51",
+		"name": "Purbalingga",
+		"category": "City"
+	},
+	{
+		"code": "52",
+		"name": "Purwokerto",
+		"category": "City"
+	},
+	{
+		"code": "53",
+		"name": "Sragen",
+		"category": "City"
+	},
+	{
+		"code": "54",
+		"name": "Ngawi",
+		"category": "City"
+	},
+	{
+		"code": "55",
+		"name": "Madiun",
+		"category": "City"
+	},
+	{
+		"code": "56",
+		"name": "Ponorogo",
+		"category": "City"
+	},
+	{
+		"code": "57",
+		"name": "Wonosobo",
+		"category": "City"
+	},
+	{
+		"code": "58",
+		"name": "Cilacap",
+		"category": "City"
+	},
+	{
+		"code": "59",
+		"name": "Brebes",
+		"category": "City"
+	},
+	{
+		"code": "60",
+		"name": "Tegal",
+		"category": "City"
+	},
+	{
+		"code": "61",
+		"name": "Madura",
+		"category": "City"
+	},
+	{
+		"code": "62",
+		"name": "Bojonegoro",
+		"category": "City"
+	},
+	{
+		"code": "63",
+		"name": "Prambanan",
+		"category": "City"
+	},
+	{
+		"code": "64",
+		"name": "Karanganyar",
+		"category": "City"
+	},
+	{
+		"code": "65",
+		"name": "Palembang",
+		"category": "City"
+	},
+	{
+		"code": "66",
+		"name": "Jambi",
+		"category": "City"
+	},
+	{
+		"code": "67",
+		"name": "Muara Enim",
+		"category": "City"
+	},
+	{
+		"code": "68",
+		"name": "Lahat",
+		"category": "City"
+	},
+	{
+		"code": "69",
+		"name": "Lubuk Linggau",
+		"category": "City"
+	},
+	{
+		"code": "70",
+		"name": "Pekanbaru",
+		"category": "City"
+	},
+	{
+		"code": "71",
+		"name": "Duri",
+		"category": "City"
+	},
+	{
+		"code": "72",
+		"name": "Bagan Batu",
+		"category": "City"
+	},
+	{
+		"code": "73",
+		"name": "Bukit Tinggi",
+		"category": "City"
+	},
+	{
+		"code": "74",
+		"name": "Liwa",
+		"category": "City"
+	},
+	{
+		"code": "75",
+		"name": "Bintuhan",
+		"category": "City"
+	},
+	{
+		"code": "76",
+		"name": "Manna",
+		"category": "City"
+	},
+	{
+		"code": "77",
+		"name": "Curup",
+		"category": "City"
+	},
+	{
+		"code": "78",
+		"name": "Kepahiang",
+		"category": "City"
+	},
+	{
+		"code": "79",
+		"name": "Singkut",
+		"category": "City"
+	},
+	{
+		"code": "80",
+		"name": "Padang",
+		"category": "City"
+	},
+	{
+		"code": "81",
+		"name": "Medan",
+		"category": "City"
+	},
+	{
+		"code": "82",
+		"name": "Sarolangun",
+		"category": "City"
+	},
+	{
+		"code": "83",
+		"name": "Bangko",
+		"category": "City"
+	},
+	{
+		"code": "84",
+		"name": "Muara Bungo",
+		"category": "City"
+	},
+	{
+		"code": "85",
+		"name": "Kiliranjao",
+		"category": "City"
+	},
+	{
+		"code": "86",
+		"name": "Malang",
+		"category": "City"
+	},
+	{
+		"code": "87",
+		"name": "Juwana",
+		"category": "City"
+	},
+	{
+		"code": "88",
+		"name": "Toroh",
+		"category": "City"
+	},
+	{
+		"code": "89",
+		"name": "Pacitan",
+		"category": "City"
+	},
+	{
+		"code": "90",
+		"name": "Banyumas",
+		"category": "City"
+	},
+	{
+		"code": "91",
+		"name": "Wates",
+		"category": "City"
+	},
+	{
+		"code": "92",
+		"name": "Trenggalek",
+		"category": "City"
+	},
+	{
+		"code": "93",
+		"name": "Maospati",
+		"category": "City"
+	},
+	{
+		"code": "94",
+		"name": "Sleman",
+		"category": "City"
+	},
+	{
+		"code": "95",
+		"name": "Kertasuro",
+		"category": "City"
+	},
+	{
+		"code": "96",
+		"name": "Nganjuk",
+		"category": "City"
+	},
+	{
+		"code": "97",
+		"name": "Kediri",
+		"category": "City"
+	},
+	{
+		"code": "98",
+		"name": "Tulungagung",
+		"category": "City"
+	},
+	{
+		"code": "99",
+		"name": "Blitar",
+		"category": "City"
+	},
+	{
+		"code": "100",
+		"name": "Gresik",
+		"category": "City"
+	},
+	{
+		"code": "101",
+		"name": "Magetan",
+		"category": "City"
+	},
+	{
+		"code": "102",
+		"name": "Giwangan",
+		"category": "City"
+	},
+	{
+		"code": "103",
+		"name": "Pasuruan",
+		"category": "City"
+	},
+	{
+		"code": "104",
+		"name": "Bangil",
+		"category": "City"
+	},
+	{
+		"code": "105",
+		"name": "Probolinggo",
+		"category": "City"
+	},
+	{
+		"code": "106",
+		"name": "Situbondo",
+		"category": "City"
+	},
+	{
+		"code": "107",
+		"name": "Banyuwangi",
+		"category": "City"
+	},
+	{
+		"code": "108",
+		"name": "Denpasar",
+		"category": "City"
+	},
+	{
+		"code": "109",
+		"name": "Bandar lampung",
+		"category": "City"
+	},
+	{
+		"code": "110",
+		"name": "Temanggung",
+		"category": "City"
+	},
+	{
+		"code": "111",
+		"name": "Banjarnegara",
+		"category": "City"
+	},
+	{
+		"code": "112",
+		"name": "Matesih",
+		"category": "City"
+	},
+	{
+		"code": "113",
+		"name": "Kartasura",
+		"category": "City"
+	},
+	{
+		"code": "114",
+		"name": "Pracimantoro",
+		"category": "City"
+	},
+	{
+		"code": "115",
+		"name": "Parakan",
+		"category": "City"
+	},
+	{
+		"code": "116",
+		"name": "Rengat",
+		"category": "City"
+	},
+	{
+		"code": "117",
+		"name": "Pangkalan Kerinci",
+		"category": "City"
+	},
+	{
+		"code": "118",
+		"name": "Kota Pinang",
+		"category": "City"
+	},
+	{
+		"code": "119",
+		"name": "Kisaran",
+		"category": "City"
+	},
+	{
+		"code": "120",
+		"name": "Lhokseumawe",
+		"category": "City"
+	},
+	{
+		"code": "121",
+		"name": "Banda Aceh",
+		"category": "City"
+	},
+	{
+		"code": "122",
+		"name": "Takengon",
+		"category": "City"
+	},
+	{
+		"code": "123",
+		"name": "Jatirogo",
+		"category": "City"
+	},
+	{
+		"code": "124",
+		"name": "Bangilan",
+		"category": "City"
+	},
+	{
+		"code": "125",
+		"name": "Secang",
+		"category": "City"
+	},
+	{
+		"code": "126",
+		"name": "Lumajang",
+		"category": "City"
+	},
+	{
+		"code": "127",
+		"name": "Jember",
+		"category": "City"
+	},
+	{
+		"code": "128",
+		"name": "Genteng Kulon",
+		"category": "City"
+	},
+	{
+		"code": "129",
+		"name": "Kotabumi",
+		"category": "City"
+	},
+	{
+		"code": "130",
+		"name": "Rajabasa",
+		"category": "City"
+	},
+	{
+		"code": "131",
+		"name": "Sumenep",
+		"category": "City"
+	},
+	{
+		"code": "132",
+		"name": "Prabumulih",
+		"category": "City"
+	},
+	{
+		"code": "133",
+		"name": "Pamekasan",
+		"category": "City"
+	},
+	{
+		"code": "134",
+		"name": "Tanah Merah",
+		"category": "City"
+	},
+	{
+		"code": "135",
+		"name": "Blega",
+		"category": "City"
+	},
+	{
+		"code": "136",
+		"name": "Bangkalan",
+		"category": "City"
+	},
+	{
+		"code": "137",
+		"name": "Galis",
+		"category": "City"
+	},
+	{
+		"code": "138",
+		"name": "Sampang",
+		"category": "City"
+	},
+	{
+		"code": "139",
+		"name": "Banyumanik",
+		"category": "City"
+	},
+	{
+		"code": "140",
+		"name": "Solok",
+		"category": "City"
+	},
+	{
+		"code": "141",
+		"name": "Ogan Ilir",
+		"category": "City"
+	},
+	{
+		"code": "142",
+		"name": "Badung",
+		"category": "City"
+	},
+	{
+		"code": "143",
+		"name": "Sruwen",
+		"category": "City"
+	},
+	{
+		"code": "144",
+		"name": "Sukoharjo",
+		"category": "City"
+	},
+	{
+		"code": "145",
+		"name": "Godong",
+		"category": "City"
+	},
+	{
+		"code": "146",
+		"name": "Cirebon",
+		"category": "City"
+	},
+	{
+		"code": "147",
+		"name": "Purwakarta",
+		"category": "City"
+	},
+	{
+		"code": "148",
+		"name": "Jembrana",
+		"category": "City"
+	},
+	{
+		"code": "149",
+		"name": "Grobogan",
+		"category": "City"
+	},
+	{
+		"code": "150",
+		"name": "Sidoarjo",
+		"category": "City"
+	},
+	{
+		"code": "151",
+		"name": "Tabanan",
+		"category": "City"
+	},
+	{
+		"code": "152",
+		"name": "Jombang",
+		"category": "City"
+	},
+	{
+		"code": "153",
+		"name": "Mojokerto",
+		"category": "City"
+	},
+	{
+		"code": "154",
+		"name": "Lampung Selatan",
+		"category": "City"
+	},
+	{
+		"code": "155",
+		"name": "Bandar Jaya",
+		"category": "City"
+	},
+	{
+		"code": "156",
+		"name": "Pringsewu",
+		"category": "City"
+	},
+	{
+		"code": "157",
+		"name": "Metro",
+		"category": "City"
+	},
+	{
+		"code": "158",
+		"name": "Kalianda",
+		"category": "City"
+	},
+	{
+		"code": "159",
+		"name": "Tulangbawang",
+		"category": "City"
+	},
+	{
+		"code": "160",
+		"name": "Mesuji",
+		"category": "City"
+	},
+	{
+		"code": "161",
+		"name": "Ogan Komering Ilir",
+		"category": "City"
+	},
+	{
+		"code": "162",
+		"name": "Way Kanan",
+		"category": "City"
+	},
+	{
+		"code": "163",
+		"name": "Ogan Komering Ulu Timur",
+		"category": "City"
+	},
+	{
+		"code": "164",
+		"name": "Lampung Utara",
+		"category": "City"
+	},
+	{
+		"code": "165",
+		"name": "Bima",
+		"category": "City"
+	},
+	{
+		"code": "166",
+		"name": "Bandara Soekarno Hatta",
+		"category": "City"
+	},
+	{
+		"code": "167",
+		"name": "Tasikmalaya",
+		"category": "City"
+	},
+	{
+		"code": "168",
+		"name": "Garut",
+		"category": "City"
+	},
+	{
+		"code": "169",
+		"name": "Cimahi",
+		"category": "City"
+	},
+	{
+		"code": "170",
+		"name": "Batang",
+		"category": "City"
+	},
+	{
+		"code": "171",
+		"name": "Bantul",
+		"category": "City"
+	},
+	{
+		"code": "172",
+		"name": "Kulon Progo",
+		"category": "City"
+	},
+	{
+		"code": "173",
+		"name": "Karawang Barat",
+		"category": "City"
+	},
+	{
+		"code": "174",
+		"name": "Subang",
+		"category": "City"
+	},
+	{
+		"code": "175",
+		"name": "musi rawas",
+		"category": "City"
+	},
+	{
+		"code": "176",
+		"name": "tulang bawang",
+		"category": "City"
+	},
+	{
+		"code": "177",
+		"name": "lampung tengah",
+		"category": "City"
+	},
+	{
+		"code": "178",
+		"name": "lampung",
+		"category": "City"
+	},
+	{
+		"code": "179",
+		"name": "bumiayu",
+		"category": "City"
+	},
+	{
+		"code": "180",
+		"name": "CIAMIS",
+		"category": "City"
+	},
+	{
+		"code": "181",
+		"name": "BANJAR",
+		"category": "City"
+	},
+	{
+		"code": "182",
+		"name": "Ogan Komering Ulu",
+		"category": "City"
+	},
+	{
+		"code": "183",
+		"name": "Terminal Tirtonadi",
+		"category": "Terminal"
+	},
+	{
+		"code": "187",
+		"name": "Pool Bandung Express",
+		"category": "Terminal"
+	},
+	{
+		"code": "188",
+		"name": "Terminal Cicaheum",
+		"category": "Terminal"
+	},
+	{
+		"code": "189",
+		"name": "Ngawen",
+		"category": "Terminal"
+	},
+	{
+		"code": "190",
+		"name": "Terminal Blora",
+		"category": "Terminal"
+	},
+	{
+		"code": "191",
+		"name": "Terminal Cepu",
+		"category": "Terminal"
+	},
+	{
+		"code": "192",
+		"name": "Terminal Buyaran",
+		"category": "Terminal"
+	},
+	{
+		"code": "193",
+		"name": "Terminal Gajah",
+		"category": "Terminal"
+	},
+	{
+		"code": "194",
+		"name": "Terminal Pecinan Demak",
+		"category": "Terminal"
+	},
+	{
+		"code": "195",
+		"name": "Terminal Trengguli",
+		"category": "Terminal"
+	},
+	{
+		"code": "196",
+		"name": "Terminal Wonokerto",
+		"category": "Terminal"
+	},
+	{
+		"code": "197",
+		"name": "Terminal Gemolong",
+		"category": "Terminal"
+	},
+	{
+		"code": "198",
+		"name": "Pool Trans Zentrum Cakung",
+		"category": "Terminal"
+	},
+	{
+		"code": "199",
+		"name": "Terminal Grogol",
+		"category": "Terminal"
+	},
+	{
+		"code": "200",
+		"name": "Terminal Kalideres",
+		"category": "Terminal"
+	},
+	{
+		"code": "201",
+		"name": "Terminal Pulo Gadung",
+		"category": "Terminal"
+	},
+	{
+		"code": "202",
+		"name": "Terminal Kp. Rambutan",
+		"category": "Terminal"
+	},
+	{
+		"code": "203",
+		"name": "Terminal Bangsri",
+		"category": "Terminal"
+	},
+	{
+		"code": "204",
+		"name": "Terminal Gotri",
+		"category": "Terminal"
+	},
+	{
+		"code": "205",
+		"name": "Terminal Jepara",
+		"category": "Terminal"
+	},
+	{
+		"code": "206",
+		"name": "Terminal Saripan",
+		"category": "Terminal"
+	},
+	{
+		"code": "207",
+		"name": "Terminal Kalinyamatan",
+		"category": "Terminal"
+	},
+	{
+		"code": "208",
+		"name": "Terminal Kelet Pasar",
+		"category": "Terminal"
+	},
+	{
+		"code": "210",
+		"name": "Terminal Keling Perhutani",
+		"category": "Terminal"
+	},
+	{
+		"code": "211",
+		"name": "Terminal Keling Polsek",
+		"category": "Terminal"
+	},
+	{
+		"code": "212",
+		"name": "Terminal Kembang",
+		"category": "Terminal"
+	},
+	{
+		"code": "213",
+		"name": "Terminal Krasak",
+		"category": "Terminal"
+	},
+	{
+		"code": "214",
+		"name": "Terminal Lebak",
+		"category": "Terminal"
+	},
+	{
+		"code": "215",
+		"name": "Terminal Mayong",
+		"category": "Terminal"
+	},
+	{
+		"code": "216",
+		"name": "Terminal Mlonggo",
+		"category": "Terminal"
+	},
+	{
+		"code": "217",
+		"name": "Terminal Pecangaan",
+		"category": "Terminal"
+	},
+	{
+		"code": "218",
+		"name": "Terminal Purwogondo",
+		"category": "Terminal"
+	},
+	{
+		"code": "219",
+		"name": "Terminal Sambung Oyot",
+		"category": "Terminal"
+	},
+	{
+		"code": "220",
+		"name": "Terminal Sebagor",
+		"category": "Terminal"
+	},
+	{
+		"code": "221",
+		"name": "Terminal Sekuro",
+		"category": "Terminal"
+	},
+	{
+		"code": "222",
+		"name": "Terminal Senenan",
+		"category": "Terminal"
+	},
+	{
+		"code": "223",
+		"name": "Terminal Tanggulasi",
+		"category": "Terminal"
+	},
+	{
+		"code": "224",
+		"name": "Terminal Tunggul",
+		"category": "Terminal"
+	},
+	{
+		"code": "225",
+		"name": "Terminal Welahan",
+		"category": "Terminal"
+	},
+	{
+		"code": "226",
+		"name": "Terminal Daren",
+		"category": "Terminal"
+	},
+	{
+		"code": "227",
+		"name": "Terminal Ndawe",
+		"category": "Terminal"
+	},
+	{
+		"code": "228",
+		"name": "Terminal Menawan",
+		"category": "Terminal"
+	},
+	{
+		"code": "229",
+		"name": "Terminal Jati Wetan",
+		"category": "Terminal"
+	},
+	{
+		"code": "230",
+		"name": "Garasi Trans Zentrum",
+		"category": "Terminal"
+	},
+	{
+		"code": "231",
+		"name": "Terminal Depok",
+		"category": "Terminal"
+	},
+	{
+		"code": "232",
+		"name": "Grobogan",
+		"category": "Terminal"
+	},
+	{
+		"code": "233",
+		"name": "Gubug",
+		"category": "Terminal"
+	},
+	{
+		"code": "234",
+		"name": "Godong",
+		"category": "Terminal"
+	},
+	{
+		"code": "235",
+		"name": "Terminal Genuk",
+		"category": "Terminal"
+	},
+	{
+		"code": "236",
+		"name": "Terminal Krapyak",
+		"category": "Terminal"
+	},
+	{
+		"code": "237",
+		"name": "Terminal Pedurungan",
+		"category": "Terminal"
+	},
+	{
+		"code": "238",
+		"name": "Jl. Karangsaru No. 26",
+		"category": "Terminal"
+	},
+	{
+		"code": "239",
+		"name": "Wirosari",
+		"category": "Terminal"
+	},
+	{
+		"code": "240",
+		"name": "Terminal Purwodadi",
+		"category": "Terminal"
+	},
+	{
+		"code": "241",
+		"name": "Terminal Cileungsi",
+		"category": "Terminal"
+	},
+	{
+		"code": "242",
+		"name": "Terminal Cibinong",
+		"category": "Terminal"
+	},
+	{
+		"code": "243",
+		"name": "Terminal Bubulak",
+		"category": "Terminal"
+	},
+	{
+		"code": "244",
+		"name": "Terminal Cluwak",
+		"category": "Terminal"
+	},
+	{
+		"code": "245",
+		"name": "Juwana",
+		"category": "Terminal"
+	},
+	{
+		"code": "246",
+		"name": "Terminal Kayen",
+		"category": "Terminal"
+	},
+	{
+		"code": "247",
+		"name": "Terminal Ngablak",
+		"category": "Terminal"
+	},
+	{
+		"code": "248",
+		"name": "Terminal Ngemplak - RSI",
+		"category": "Terminal"
+	},
+	{
+		"code": "249",
+		"name": "Terminal Sukolilo",
+		"category": "Terminal"
+	},
+	{
+		"code": "250",
+		"name": "Terminal Tayu",
+		"category": "Terminal"
+	},
+	{
+		"code": "251",
+		"name": "Terminal Pati",
+		"category": "Terminal"
+	},
+	{
+		"code": "252",
+		"name": "Terminal Trangkil",
+		"category": "Terminal"
+	},
+	{
+		"code": "253",
+		"name": "Terminal Wedari",
+		"category": "Terminal"
+	},
+	{
+		"code": "254",
+		"name": "Terminal Jetak",
+		"category": "Terminal"
+	},
+	{
+		"code": "255",
+		"name": "Terminal Bawen",
+		"category": "Terminal"
+	},
+	{
+		"code": "256",
+		"name": "Terminal Tingkir",
+		"category": "Terminal"
+	},
+	{
+		"code": "257",
+		"name": "Terminal Bungurasih",
+		"category": "Terminal"
+	},
+	{
+		"code": "258",
+		"name": "Terminal Menur Pumpungan",
+		"category": "Terminal"
+	},
+	{
+		"code": "259",
+		"name": "Terminal Boyolali",
+		"category": "Terminal"
+	},
+	{
+		"code": "260",
+		"name": "Terminal Umbulharjo",
+		"category": "Terminal"
+	},
+	{
+		"code": "261",
+		"name": "Terminal Pasar Kamis",
+		"category": "Terminal"
+	},
+	{
+		"code": "262",
+		"name": "Terminal Doyong",
+		"category": "Terminal"
+	},
+	{
+		"code": "263",
+		"name": "Terminal BSD",
+		"category": "Terminal"
+	},
+	{
+		"code": "264",
+		"name": "Terminal Muncul Parung",
+		"category": "Terminal"
+	},
+	{
+		"code": "265",
+		"name": "Terminal Poris",
+		"category": "Terminal"
+	},
+	{
+		"code": "266",
+		"name": "RM. Rindu Alam",
+		"category": "Terminal"
+	},
+	{
+		"code": "267",
+		"name": "Terminal Ambarawa",
+		"category": "Terminal"
+	},
+	{
+		"code": "268",
+		"name": "Terminal Gombong",
+		"category": "Terminal"
+	},
+	{
+		"code": "269",
+		"name": "Terminal Kebumen",
+		"category": "Terminal"
+	},
+	{
+		"code": "270",
+		"name": "Terminal Klaten",
+		"category": "Terminal"
+	},
+	{
+		"code": "271",
+		"name": "Terminal Kutoarjo",
+		"category": "Terminal"
+	},
+	{
+		"code": "272",
+		"name": "Terminal Lasem",
+		"category": "Terminal"
+	},
+	{
+		"code": "273",
+		"name": "Terminal Kebon Polo",
+		"category": "Terminal"
+	},
+	{
+		"code": "274",
+		"name": "Terminal Muntilan",
+		"category": "Terminal"
+	},
+	{
+		"code": "275",
+		"name": "Terminal Pati Regency",
+		"category": "Terminal"
+	},
+	{
+		"code": "276",
+		"name": "Terminal Candisari",
+		"category": "Terminal"
+	},
+	{
+		"code": "277",
+		"name": "Terminal Pandean Rembang",
+		"category": "Terminal"
+	},
+	{
+		"code": "278",
+		"name": "Terminal Ungaran Barat",
+		"category": "Terminal"
+	},
+	{
+		"code": "279",
+		"name": "Terminal Demak Regency",
+		"category": "Terminal"
+	},
+	{
+		"code": "280",
+		"name": "Terminal Gubug Grobogan",
+		"category": "Terminal"
+	},
+	{
+		"code": "281",
+		"name": "Terminal Pekalongan Timur",
+		"category": "Terminal"
+	},
+	{
+		"code": "282",
+		"name": "Terminal Wonogiri Selogiri",
+		"category": "Terminal"
+	},
+	{
+		"code": "283",
+		"name": "Terminal Wonosari Gunung Kidul",
+		"category": "Terminal"
+	},
+	{
+		"code": "284",
+		"name": "Terminal Ngadirojo",
+		"category": "Terminal"
+	},
+	{
+		"code": "285",
+		"name": "Terminal wirosari",
+		"category": "Terminal"
+	},
+	{
+		"code": "286",
+		"name": "Terminal Penawangan",
+		"category": "Terminal"
+	},
+	{
+		"code": "287",
+		"name": "Terminal Toroh",
+		"category": "Terminal"
+	},
+	{
+		"code": "288",
+		"name": "Terminal Ciledug",
+		"category": "Terminal"
+	},
+	{
+		"code": "289",
+		"name": "Cimahi",
+		"category": "Terminal"
+	},
+	{
+		"code": "290",
+		"name": "Terminal Cikarang",
+		"category": "Terminal"
+	},
+	{
+		"code": "291",
+		"name": "Terminal Jati Asih",
+		"category": "Terminal"
+	},
+	{
+		"code": "292",
+		"name": "Terminal Bubulak",
+		"category": "Terminal"
+	},
+	{
+		"code": "293",
+		"name": "Terminal Gunung Putri",
+		"category": "Terminal"
+	},
+	{
+		"code": "294",
+		"name": "Terminal Parung",
+		"category": "Terminal"
+	},
+	{
+		"code": "295",
+		"name": "Kali Jodo",
+		"category": "Terminal"
+	},
+	{
+		"code": "296",
+		"name": "Mangga Besar Lokasari",
+		"category": "Terminal"
+	},
+	{
+		"code": "297",
+		"name": "Ps. Induk Kramat Djati",
+		"category": "Terminal"
+	},
+	{
+		"code": "298",
+		"name": "Pasar Rebo",
+		"category": "Terminal"
+	},
+	{
+		"code": "299",
+		"name": "Terminal Rawamangun",
+		"category": "Terminal"
+	},
+	{
+		"code": "300",
+		"name": "Pal Depok",
+		"category": "Terminal"
+	},
+	{
+		"code": "301",
+		"name": "Pool Bimo Trans Cinere",
+		"category": "Terminal"
+	},
+	{
+		"code": "302",
+		"name": "Pool Bimo Trans Ampera",
+		"category": "Terminal"
+	},
+	{
+		"code": "303",
+		"name": "Pool Bimo trans Fatmawati",
+		"category": "Terminal"
+	},
+	{
+		"code": "304",
+		"name": "Pool Bimo Trans Pamulang",
+		"category": "Terminal"
+	},
+	{
+		"code": "305",
+		"name": "Pool Bimo Trans Gaplek",
+		"category": "Terminal"
+	},
+	{
+		"code": "306",
+		"name": "Pool Bimo Trans Ciputat",
+		"category": "Terminal"
+	},
+	{
+		"code": "307",
+		"name": "Pool Bimo Trans Dipatiukur",
+		"category": "Terminal"
+	},
+	{
+		"code": "308",
+		"name": "Pool Bimo Trans Pasteur",
+		"category": "Terminal"
+	},
+	{
+		"code": "309",
+		"name": "Terminal Bitung",
+		"category": "Terminal"
+	},
+	{
+		"code": "310",
+		"name": "Terminal Balaraja",
+		"category": "Terminal"
+	},
+	{
+		"code": "311",
+		"name": "Jl. Raya Babat",
+		"category": "Terminal"
+	},
+	{
+		"code": "312",
+		"name": "Terminal Lamongan",
+		"category": "Terminal"
+	},
+	{
+		"code": "313",
+		"name": "Terminal Pemalang",
+		"category": "Terminal"
+	},
+	{
+		"code": "314",
+		"name": "Terminal Terboyo",
+		"category": "Terminal"
+	},
+	{
+		"code": "315",
+		"name": "Terminal Ngantru",
+		"category": "Terminal"
+	},
+	{
+		"code": "316",
+		"name": "Terminal Merak",
+		"category": "Terminal"
+	},
+	{
+		"code": "317",
+		"name": "Serang",
+		"category": "Terminal"
+	},
+	{
+		"code": "318",
+		"name": "Terminal Klari",
+		"category": "Terminal"
+	},
+	{
+		"code": "319",
+		"name": "Terminal Cibitung",
+		"category": "Terminal"
+	},
+	{
+		"code": "320",
+		"name": "Terminal Mengwi",
+		"category": "Terminal"
+	},
+	{
+		"code": "321",
+		"name": "SWAN TRANS Pulo Gadung",
+		"category": "Terminal"
+	},
+	{
+		"code": "322",
+		"name": "Pool Trans Zentrum Pulo Gadung",
+		"category": "Terminal"
+	},
+	{
+		"code": "323",
+		"name": "Ciputat",
+		"category": "Terminal"
+	},
+	{
+		"code": "324",
+		"name": "Teminal Semarang",
+		"category": "Terminal"
+	},
+	{
+		"code": "325",
+		"name": "Demak",
+		"category": "Terminal"
+	},
+	{
+		"code": "326",
+		"name": "Kudus",
+		"category": "Terminal"
+	},
+	{
+		"code": "327",
+		"name": "Ambarawa",
+		"category": "Terminal"
+	},
+	{
+		"code": "328",
+		"name": "Babat",
+		"category": "Terminal"
+	},
+	{
+		"code": "329",
+		"name": "Bali",
+		"category": "Terminal"
+	},
+	{
+		"code": "330",
+		"name": "Bandung",
+		"category": "Terminal"
+	},
+	{
+		"code": "331",
+		"name": "Bawen",
+		"category": "Terminal"
+	},
+	{
+		"code": "332",
+		"name": "Bekasi",
+		"category": "Terminal"
+	},
+	{
+		"code": "333",
+		"name": "Bobotsari",
+		"category": "Terminal"
+	},
+	{
+		"code": "334",
+		"name": "Blora",
+		"category": "Terminal"
+	},
+	{
+		"code": "335",
+		"name": "Bogor",
+		"category": "Terminal"
+	},
+	{
+		"code": "336",
+		"name": "Bengkulu",
+		"category": "Terminal"
+	},
+	{
+		"code": "337",
+		"name": "Cepu",
+		"category": "Terminal"
+	},
+	{
+		"code": "338",
+		"name": "Cilegon",
+		"category": "Terminal"
+	},
+	{
+		"code": "339",
+		"name": "Gemolong",
+		"category": "Terminal"
+	},
+	{
+		"code": "340",
+		"name": "Terminal Semanding",
+		"category": "Terminal"
+	},
+	{
+		"code": "341",
+		"name": "Jepara",
+		"category": "Terminal"
+	},
+	{
+		"code": "342",
+		"name": "Karawang",
+		"category": "Terminal"
+	},
+	{
+		"code": "343",
+		"name": "Kebumen",
+		"category": "Terminal"
+	},
+	{
+		"code": "344",
+		"name": "Kendal",
+		"category": "Terminal"
+	},
+	{
+		"code": "345",
+		"name": "Klaten",
+		"category": "Terminal"
+	},
+	{
+		"code": "346",
+		"name": "Lamongan",
+		"category": "Terminal"
+	},
+	{
+		"code": "347",
+		"name": "Lasem",
+		"category": "Terminal"
+	},
+	{
+		"code": "348",
+		"name": "Magelang",
+		"category": "Terminal"
+	},
+	{
+		"code": "349",
+		"name": "Majalengka",
+		"category": "Terminal"
+	},
+	{
+		"code": "350",
+		"name": "Muntilan",
+		"category": "Terminal"
+	},
+	{
+		"code": "351",
+		"name": "Pekalongan",
+		"category": "Terminal"
+	},
+	{
+		"code": "352",
+		"name": "Pemalang",
+		"category": "Terminal"
+	},
+	{
+		"code": "353",
+		"name": "Purwodadi",
+		"category": "Terminal"
+	},
+	{
+		"code": "354",
+		"name": "Purworejo",
+		"category": "Terminal"
+	},
+	{
+		"code": "355",
+		"name": "Rembang",
+		"category": "Terminal"
+	},
+	{
+		"code": "356",
+		"name": "Salatiga",
+		"category": "Terminal"
+	},
+	{
+		"code": "357",
+		"name": "Sumedang",
+		"category": "Terminal"
+	},
+	{
+		"code": "358",
+		"name": "Surabaya",
+		"category": "Terminal"
+	},
+	{
+		"code": "359",
+		"name": "Solo",
+		"category": "Terminal"
+	},
+	{
+		"code": "360",
+		"name": "Tangerang",
+		"category": "Terminal"
+	},
+	{
+		"code": "361",
+		"name": "Tuban",
+		"category": "Terminal"
+	},
+	{
+		"code": "362",
+		"name": "Wonogiri",
+		"category": "Terminal"
+	},
+	{
+		"code": "363",
+		"name": "Wonosari",
+		"category": "Terminal"
+	},
+	{
+		"code": "364",
+		"name": "Yogyakarta",
+		"category": "Terminal"
+	},
+	{
+		"code": "365",
+		"name": "Ungaran",
+		"category": "Terminal"
+	},
+	{
+		"code": "366",
+		"name": "Purwokerto",
+		"category": "Terminal"
+	},
+	{
+		"code": "367",
+		"name": "Sragen",
+		"category": "Terminal"
+	},
+	{
+		"code": "368",
+		"name": "Ngawi",
+		"category": "Terminal"
+	},
+	{
+		"code": "369",
+		"name": "Madiun",
+		"category": "Terminal"
+	},
+	{
+		"code": "370",
+		"name": "Ponorogo",
+		"category": "Terminal"
+	},
+	{
+		"code": "372",
+		"name": "Purwantoro",
+		"category": "Terminal"
+	},
+	{
+		"code": "373",
+		"name": "Boyolali",
+		"category": "Terminal"
+	},
+	{
+		"code": "374",
+		"name": "Wonosobo",
+		"category": "Terminal"
+	},
+	{
+		"code": "375",
+		"name": "Cilacap",
+		"category": "Terminal"
+	},
+	{
+		"code": "376",
+		"name": "Brebes",
+		"category": "Terminal"
+	},
+	{
+		"code": "377",
+		"name": "Tegal",
+		"category": "Terminal"
+	},
+	{
+		"code": "378",
+		"name": "Pondok Labu",
+		"category": "Terminal"
+	},
+	{
+		"code": "379",
+		"name": "Bangkalan Madura",
+		"category": "Terminal"
+	},
+	{
+		"code": "380",
+		"name": "Bojonegoro",
+		"category": "Terminal"
+	},
+	{
+		"code": "381",
+		"name": "Prambanan",
+		"category": "Terminal"
+	},
+	{
+		"code": "382",
+		"name": "Pati",
+		"category": "Terminal"
+	},
+	{
+		"code": "383",
+		"name": "Palembang",
+		"category": "Terminal"
+	},
+	{
+		"code": "384",
+		"name": "Jambi",
+		"category": "Terminal"
+	},
+	{
+		"code": "385",
+		"name": "Lahat",
+		"category": "Terminal"
+	},
+	{
+		"code": "386",
+		"name": "Muara Enim",
+		"category": "Terminal"
+	},
+	{
+		"code": "387",
+		"name": "Lubuk Linggau",
+		"category": "Terminal"
+	},
+	{
+		"code": "388",
+		"name": "Pekanbaru",
+		"category": "Terminal"
+	},
+	{
+		"code": "389",
+		"name": "Duri",
+		"category": "Terminal"
+	},
+	{
+		"code": "390",
+		"name": "Bukit Tinggi",
+		"category": "Terminal"
+	},
+	{
+		"code": "391",
+		"name": "Liwa",
+		"category": "Terminal"
+	},
+	{
+		"code": "392",
+		"name": "Bintuhan",
+		"category": "Terminal"
+	},
+	{
+		"code": "393",
+		"name": "Manna",
+		"category": "Terminal"
+	},
+	{
+		"code": "394",
+		"name": "Curup",
+		"category": "Terminal"
+	},
+	{
+		"code": "395",
+		"name": "Kepahiang",
+		"category": "Terminal"
+	},
+	{
+		"code": "396",
+		"name": "Singkut",
+		"category": "Terminal"
+	},
+	{
+		"code": "397",
+		"name": "Bagan Batu",
+		"category": "Terminal"
+	},
+	{
+		"code": "398",
+		"name": "Padang",
+		"category": "Terminal"
+	},
+	{
+		"code": "399",
+		"name": "Medan",
+		"category": "Terminal"
+	},
+	{
+		"code": "400",
+		"name": "Sarolangun",
+		"category": "Terminal"
+	},
+	{
+		"code": "401",
+		"name": "Bangko",
+		"category": "Terminal"
+	},
+	{
+		"code": "402",
+		"name": "Muara Bungo",
+		"category": "Terminal"
+	},
+	{
+		"code": "403",
+		"name": "Kiliranjao",
+		"category": "Terminal"
+	},
+	{
+		"code": "404",
+		"name": "Malang",
+		"category": "Terminal"
+	},
+	{
+		"code": "405",
+		"name": "Ciputat",
+		"category": "Terminal"
+	},
+	{
+		"code": "406",
+		"name": "Pulo Gadung",
+		"category": "Terminal"
+	},
+	{
+		"code": "407",
+		"name": "Terminal Pinang Ranti",
+		"category": "Terminal"
+	},
+	{
+		"code": "408",
+		"name": "Ciputat",
+		"category": "Terminal"
+	},
+	{
+		"code": "409",
+		"name": "Ciputat",
+		"category": "Terminal"
+	},
+	{
+		"code": "410",
+		"name": "Pacitan",
+		"category": "Terminal"
+	},
+	{
+		"code": "411",
+		"name": "Pracimantoro",
+		"category": "Terminal"
+	},
+	{
+		"code": "412",
+		"name": "Giribelah",
+		"category": "Terminal"
+	},
+	{
+		"code": "413",
+		"name": "Terminal Pondok Cabe",
+		"category": "Terminal"
+	},
+	{
+		"code": "414",
+		"name": "Karangpandan",
+		"category": "Terminal"
+	},
+	{
+		"code": "415",
+		"name": "Karanganyar",
+		"category": "Terminal"
+	},
+	{
+		"code": "416",
+		"name": "Majenang",
+		"category": "Terminal"
+	},
+	{
+		"code": "417",
+		"name": "Karangpucung",
+		"category": "Terminal"
+	},
+	{
+		"code": "418",
+		"name": "Wangon",
+		"category": "Terminal"
+	},
+	{
+		"code": "419",
+		"name": "Rawalo",
+		"category": "Terminal"
+	},
+	{
+		"code": "420",
+		"name": "Wates",
+		"category": "Terminal"
+	},
+	{
+		"code": "421",
+		"name": "Madura",
+		"category": "Terminal"
+	},
+	{
+		"code": "422",
+		"name": "Pasar Rebo",
+		"category": "Terminal"
+	},
+	{
+		"code": "423",
+		"name": "Pasar Rebo",
+		"category": "Terminal"
+	},
+	{
+		"code": "424",
+		"name": "Delanggu",
+		"category": "Terminal"
+	},
+	{
+		"code": "425",
+		"name": "Trenggalek",
+		"category": "Terminal"
+	},
+	{
+		"code": "426",
+		"name": "Maospati",
+		"category": "Terminal"
+	},
+	{
+		"code": "427",
+		"name": "Sleman",
+		"category": "Terminal"
+	},
+	{
+		"code": "428",
+		"name": "Nganjuk",
+		"category": "Terminal"
+	},
+	{
+		"code": "429",
+		"name": "Kediri",
+		"category": "Terminal"
+	},
+	{
+		"code": "430",
+		"name": "Tulungagung",
+		"category": "Terminal"
+	},
+	{
+		"code": "431",
+		"name": "Blitar",
+		"category": "Terminal"
+	},
+	{
+		"code": "432",
+		"name": "Gresik",
+		"category": "Terminal"
+	},
+	{
+		"code": "433",
+		"name": "Magetan",
+		"category": "Terminal"
+	},
+	{
+		"code": "434",
+		"name": "Pasuruan",
+		"category": "Terminal"
+	},
+	{
+		"code": "435",
+		"name": "Bangil",
+		"category": "Terminal"
+	},
+	{
+		"code": "436",
+		"name": "Probolinggo",
+		"category": "Terminal"
+	},
+	{
+		"code": "437",
+		"name": "Banyuwangi",
+		"category": "Terminal"
+	},
+	{
+		"code": "438",
+		"name": "Denpasar",
+		"category": "Terminal"
+	},
+	{
+		"code": "439",
+		"name": "Bandar Lampung",
+		"category": "Terminal"
+	},
+	{
+		"code": "440",
+		"name": "Temanggung",
+		"category": "Terminal"
+	},
+	{
+		"code": "441",
+		"name": "Banjarnegara",
+		"category": "Terminal"
+	},
+	{
+		"code": "442",
+		"name": "Depok",
+		"category": "Terminal"
+	},
+	{
+		"code": "443",
+		"name": "Baturetno",
+		"category": "Terminal"
+	},
+	{
+		"code": "444",
+		"name": "Matesih",
+		"category": "Terminal"
+	},
+	{
+		"code": "445",
+		"name": "Pasar Rebo",
+		"category": "Terminal"
+	},
+	{
+		"code": "446",
+		"name": "Purbalingga",
+		"category": "Terminal"
+	},
+	{
+		"code": "447",
+		"name": "Pulo Gadung",
+		"category": "Terminal"
+	},
+	{
+		"code": "448",
+		"name": "Placi",
+		"category": "Terminal"
+	},
+	{
+		"code": "449",
+		"name": "Parakan",
+		"category": "Terminal"
+	},
+	{
+		"code": "450",
+		"name": "Rengat",
+		"category": "Terminal"
+	},
+	{
+		"code": "451",
+		"name": "Pangkalan Kerinci",
+		"category": "Terminal"
+	},
+	{
+		"code": "452",
+		"name": "Kota Pinang",
+		"category": "Terminal"
+	},
+	{
+		"code": "453",
+		"name": "Kisaran",
+		"category": "Terminal"
+	},
+	{
+		"code": "454",
+		"name": "Lhokseumawe",
+		"category": "Terminal"
+	},
+	{
+		"code": "455",
+		"name": "Banda Aceh",
+		"category": "Terminal"
+	},
+	{
+		"code": "456",
+		"name": "Terminal Takengon",
+		"category": "Terminal"
+	},
+	{
+		"code": "457",
+		"name": "Jatirogo",
+		"category": "Terminal"
+	},
+	{
+		"code": "458",
+		"name": "Terminal Bangilan",
+		"category": "Terminal"
+	},
+	{
+		"code": "459",
+		"name": "Secang",
+		"category": "Terminal"
+	},
+	{
+		"code": "460",
+		"name": "Lumajang",
+		"category": "Terminal"
+	},
+	{
+		"code": "461",
+		"name": "Jember",
+		"category": "Terminal"
+	},
+	{
+		"code": "462",
+		"name": "Genteng Kulon",
+		"category": "Terminal"
+	},
+	{
+		"code": "463",
+		"name": "Kotabumi",
+		"category": "Terminal"
+	},
+	{
+		"code": "464",
+		"name": "Rajabasa",
+		"category": "Terminal"
+	},
+	{
+		"code": "465",
+		"name": "Terminal Poris Plawad",
+		"category": "Terminal"
+	},
+	{
+		"code": "466",
+		"name": "Terminal Tanjung Priok",
+		"category": "Terminal"
+	},
+	{
+		"code": "467",
+		"name": "Terminal Arya Wiraraja",
+		"category": "Terminal"
+	},
+	{
+		"code": "468",
+		"name": "Agen Pahala Kencana Cileungsi",
+		"category": "Terminal"
+	},
+	{
+		"code": "469",
+		"name": "Kantor Perwakilan Wangun",
+		"category": "Terminal"
+	},
+	{
+		"code": "470",
+		"name": "Kantor Perwakilan Pekayon",
+		"category": "Terminal"
+	},
+	{
+		"code": "471",
+		"name": "Agen Pahala Kencana Cibitung",
+		"category": "Terminal"
+	},
+	{
+		"code": "472",
+		"name": "Kantor Perwakilan Sukasari",
+		"category": "Terminal"
+	},
+	{
+		"code": "473",
+		"name": "Terminal Pondok Pinang",
+		"category": "Terminal"
+	},
+	{
+		"code": "474",
+		"name": "Kantor Perwakilan Pasar Kemis",
+		"category": "Terminal"
+	},
+	{
+		"code": "475",
+		"name": "Kantor Perwakilan Daan Mogot",
+		"category": "Terminal"
+	},
+	{
+		"code": "476",
+		"name": "Kantor Perwakilan Merak",
+		"category": "Terminal"
+	},
+	{
+		"code": "477",
+		"name": "Terminal Rawa Buaya",
+		"category": "Terminal"
+	},
+	{
+		"code": "478",
+		"name": "Agen Pahala Kencana Pluit",
+		"category": "Terminal"
+	},
+	{
+		"code": "479",
+		"name": "Agen Pahala Kencana Bitung",
+		"category": "Terminal"
+	},
+	{
+		"code": "480",
+		"name": "Agen Pahala Kencana Cikupa",
+		"category": "Terminal"
+	},
+	{
+		"code": "481",
+		"name": "Kantor Cabang Bandung",
+		"category": "Terminal"
+	},
+	{
+		"code": "482",
+		"name": "Prabumulih",
+		"category": "Terminal"
+	},
+	{
+		"code": "483",
+		"name": "Terminal Pamekasan",
+		"category": "Terminal"
+	},
+	{
+		"code": "484",
+		"name": "Tanah Merah",
+		"category": "Terminal"
+	},
+	{
+		"code": "485",
+		"name": "Blega",
+		"category": "Terminal"
+	},
+	{
+		"code": "486",
+		"name": "Terminal Bangkalan",
+		"category": "Terminal"
+	},
+	{
+		"code": "487",
+		"name": "Terminal Galis",
+		"category": "Terminal"
+	},
+	{
+		"code": "488",
+		"name": "Terminal Sampang",
+		"category": "Terminal"
+	},
+	{
+		"code": "489",
+		"name": "Banyumanik",
+		"category": "Terminal"
+	},
+	{
+		"code": "490",
+		"name": "Terminal Solok",
+		"category": "Terminal"
+	},
+	{
+		"code": "491",
+		"name": "Terminal Kartasura",
+		"category": "Terminal"
+	},
+	{
+		"code": "492",
+		"name": "Terminal Sruwen",
+		"category": "Terminal"
+	},
+	{
+		"code": "493",
+		"name": "Terminal Sukoharjo",
+		"category": "Terminal"
+	},
+	{
+		"code": "494",
+		"name": "Terminal Giwangan",
+		"category": "Terminal"
+	},
+	{
+		"code": "495",
+		"name": "Tol Jakarta - Cikampek Km. 19",
+		"category": "Terminal"
+	},
+	{
+		"code": "496",
+		"name": "Kantor Pahala RM. Aroma Kanci",
+		"category": "Terminal"
+	},
+	{
+		"code": "497",
+		"name": "Kantor Perwakilan Cikopo",
+		"category": "Terminal"
+	},
+	{
+		"code": "498",
+		"name": "Agen Pahala Kencana Perak",
+		"category": "Terminal"
+	},
+	{
+		"code": "499",
+		"name": "Terminal Terboyo",
+		"category": "Terminal"
+	},
+	{
+		"code": "500",
+		"name": "Mantingan",
+		"category": "Terminal"
+	},
+	{
+		"code": "501",
+		"name": "Gendingan",
+		"category": "Terminal"
+	},
+	{
+		"code": "502",
+		"name": "Dolopo",
+		"category": "Terminal"
+	},
+	{
+		"code": "503",
+		"name": "Pool Pahala Kencana Bubulak",
+		"category": "Terminal"
+	},
+	{
+		"code": "504",
+		"name": "Jatisrono",
+		"category": "Terminal"
+	},
+	{
+		"code": "505",
+		"name": "Kantor Pahala Kencana Janti",
+		"category": "Terminal"
+	},
+	{
+		"code": "506",
+		"name": "Terminal Jombor",
+		"category": "Terminal"
+	},
+	{
+		"code": "507",
+		"name": "Gamping",
+		"category": "Terminal"
+	},
+	{
+		"code": "508",
+		"name": "Jatilawang",
+		"category": "Terminal"
+	},
+	{
+		"code": "509",
+		"name": "Ajibarang",
+		"category": "Terminal"
+	},
+	{
+		"code": "510",
+		"name": "Bumiayu",
+		"category": "Terminal"
+	},
+	{
+		"code": "511",
+		"name": "Prembun",
+		"category": "Terminal"
+	},
+	{
+		"code": "512",
+		"name": "Buntu",
+		"category": "Terminal"
+	},
+	{
+		"code": "513",
+		"name": "Situbondo",
+		"category": "Terminal"
+	},
+	{
+		"code": "514",
+		"name": "Pelabuhan Ketapang",
+		"category": "Terminal"
+	},
+	{
+		"code": "515",
+		"name": "Terminal Ubung",
+		"category": "Terminal"
+	},
+	{
+		"code": "516",
+		"name": "Pelabuhan Gilimanuk",
+		"category": "Terminal"
+	},
+	{
+		"code": "517",
+		"name": "Terminal Mengwi",
+		"category": "Terminal"
+	},
+	{
+		"code": "518",
+		"name": "Sawangan",
+		"category": "Terminal"
+	},
+	{
+		"code": "519",
+		"name": "Klampok",
+		"category": "Terminal"
+	},
+	{
+		"code": "520",
+		"name": "Mandiraja",
+		"category": "Terminal"
+	},
+	{
+		"code": "521",
+		"name": "Sidoarjo",
+		"category": "Terminal"
+	},
+	{
+		"code": "522",
+		"name": "Pandaan",
+		"category": "Terminal"
+	},
+	{
+		"code": "523",
+		"name": "Caruban",
+		"category": "Terminal"
+	},
+	{
+		"code": "524",
+		"name": "Pace",
+		"category": "Terminal"
+	},
+	{
+		"code": "525",
+		"name": "Tingkir",
+		"category": "Terminal"
+	},
+	{
+		"code": "526",
+		"name": "Porong",
+		"category": "Terminal"
+	},
+	{
+		"code": "527",
+		"name": "Gempol",
+		"category": "Terminal"
+	},
+	{
+		"code": "528",
+		"name": "Singosari",
+		"category": "Terminal"
+	},
+	{
+		"code": "529",
+		"name": "Bululawang",
+		"category": "Terminal"
+	},
+	{
+		"code": "530",
+		"name": "Turen",
+		"category": "Terminal"
+	},
+	{
+		"code": "531",
+		"name": "Kunduran",
+		"category": "Terminal"
+	},
+	{
+		"code": "532",
+		"name": "Paiton",
+		"category": "Terminal"
+	},
+	{
+		"code": "533",
+		"name": "Besuki",
+		"category": "Terminal"
+	},
+	{
+		"code": "534",
+		"name": "Pasir Putih",
+		"category": "Terminal"
+	},
+	{
+		"code": "535",
+		"name": "Sumberanyar",
+		"category": "Terminal"
+	},
+	{
+		"code": "536",
+		"name": "Wongsorejo",
+		"category": "Terminal"
+	},
+	{
+		"code": "537",
+		"name": "Melaya",
+		"category": "Terminal"
+	},
+	{
+		"code": "538",
+		"name": "Negara",
+		"category": "Terminal"
+	},
+	{
+		"code": "539",
+		"name": "Pulukan",
+		"category": "Terminal"
+	},
+	{
+		"code": "540",
+		"name": "Terminal Tabanan",
+		"category": "Terminal"
+	},
+	{
+		"code": "541",
+		"name": "Soka",
+		"category": "Terminal"
+	},
+	{
+		"code": "542",
+		"name": "Jombang",
+		"category": "Terminal"
+	},
+	{
+		"code": "543",
+		"name": "Mojokerto",
+		"category": "Terminal"
+	},
+	{
+		"code": "544",
+		"name": "Mojosari",
+		"category": "Terminal"
+	},
+	{
+		"code": "545",
+		"name": "Bakauheni",
+		"category": "Terminal"
+	},
+	{
+		"code": "546",
+		"name": "Panjang",
+		"category": "Terminal"
+	},
+	{
+		"code": "547",
+		"name": "Bandar Jaya",
+		"category": "Terminal"
+	},
+	{
+		"code": "548",
+		"name": "Pringsewu",
+		"category": "Terminal"
+	},
+	{
+		"code": "549",
+		"name": "Metro",
+		"category": "Terminal"
+	},
+	{
+		"code": "550",
+		"name": "Kalianda",
+		"category": "Terminal"
+	},
+	{
+		"code": "551",
+		"name": "Way halim",
+		"category": "Terminal"
+	},
+	{
+		"code": "552",
+		"name": "Natar",
+		"category": "Terminal"
+	},
+	{
+		"code": "553",
+		"name": "Tigeneneng",
+		"category": "Terminal"
+	},
+	{
+		"code": "554",
+		"name": "Tulangbawang",
+		"category": "Terminal"
+	},
+	{
+		"code": "555",
+		"name": "Menggala",
+		"category": "Terminal"
+	},
+	{
+		"code": "556",
+		"name": "Mesuji",
+		"category": "Terminal"
+	},
+	{
+		"code": "557",
+		"name": "Simpang Pematang",
+		"category": "Terminal"
+	},
+	{
+		"code": "558",
+		"name": "Kayu Agung\t",
+		"category": "Terminal"
+	},
+	{
+		"code": "559",
+		"name": "Tanjung Raja",
+		"category": "Terminal"
+	},
+	{
+		"code": "560",
+		"name": "Indralaya",
+		"category": "Terminal"
+	},
+	{
+		"code": "561",
+		"name": "Way Kanan",
+		"category": "Terminal"
+	},
+	{
+		"code": "562",
+		"name": "Baradatu",
+		"category": "Terminal"
+	},
+	{
+		"code": "563",
+		"name": "Martapura",
+		"category": "Terminal"
+	},
+	{
+		"code": "564",
+		"name": "Bukit Kemuning",
+		"category": "Terminal"
+	},
+	{
+		"code": "565",
+		"name": "Tanjung enim",
+		"category": "Terminal"
+	},
+	{
+		"code": "566",
+		"name": "Simpang Meo",
+		"category": "Terminal"
+	},
+	{
+		"code": "567",
+		"name": "Simpang Belimbing",
+		"category": "Terminal"
+	},
+	{
+		"code": "568",
+		"name": "Gunung Megang",
+		"category": "Terminal"
+	},
+	{
+		"code": "569",
+		"name": "Singgahan",
+		"category": "Terminal"
+	},
+	{
+		"code": "570",
+		"name": "Jlaru",
+		"category": "Terminal"
+	},
+	{
+		"code": "571",
+		"name": "Bakalan",
+		"category": "Terminal"
+	},
+	{
+		"code": "572",
+		"name": "Agen Pahala Kencana Pasar Rebo",
+		"category": "Terminal"
+	},
+	{
+		"code": "573",
+		"name": "Terminal Pulo Gebang",
+		"category": "Terminal"
+	},
+	{
+		"code": "574",
+		"name": "Garasi PO. New Shantika",
+		"category": "Terminal"
+	},
+	{
+		"code": "575",
+		"name": "Pool Pegangsaan Dua Pahala Kencana",
+		"category": "Terminal"
+	},
+	{
+		"code": "576",
+		"name": "Terminal Arjosari",
+		"category": "Terminal"
+	},
+	{
+		"code": "577",
+		"name": "Terminal Bima",
+		"category": "Terminal"
+	},
+	{
+		"code": "578",
+		"name": "Badegan",
+		"category": "Terminal"
+	},
+	{
+		"code": "579",
+		"name": "Krisak",
+		"category": "Terminal"
+	},
+	{
+		"code": "580",
+		"name": "Manyaran",
+		"category": "Terminal"
+	},
+	{
+		"code": "581",
+		"name": "Eromoko",
+		"category": "Terminal"
+	},
+	{
+		"code": "582",
+		"name": "Pulo Gadung",
+		"category": "Terminal"
+	},
+	{
+		"code": "583",
+		"name": "Pulo Gadung",
+		"category": "Terminal"
+	},
+	{
+		"code": "584",
+		"name": "Jakarta Jakarta",
+		"category": "Terminal"
+	},
+	{
+		"code": "585",
+		"name": "Soekarno Hatta Terminal 1",
+		"category": "Terminal"
+	},
+	{
+		"code": "586",
+		"name": "Soekarno Hatta Terminal 2",
+		"category": "Terminal"
+	},
+	{
+		"code": "587",
+		"name": "Soekarno Hatta Terminal 3",
+		"category": "Terminal"
+	},
+	{
+		"code": "588",
+		"name": "Lebak Bulus",
+		"category": "Terminal"
+	},
+	{
+		"code": "589",
+		"name": "pool Primajasa Ciputat",
+		"category": "Terminal"
+	},
+	{
+		"code": "590",
+		"name": "Tasikmalaya",
+		"category": "Terminal"
+	},
+	{
+		"code": "591",
+		"name": "Terminal Garut",
+		"category": "Terminal"
+	},
+	{
+		"code": "592",
+		"name": "Terminal Leuwi Panjang",
+		"category": "Terminal"
+	},
+	{
+		"code": "593",
+		"name": "Terminal garut",
+		"category": "Terminal"
+	},
+	{
+		"code": "594",
+		"name": "Terminal Tasikmalaya",
+		"category": "Terminal"
+	},
+	{
+		"code": "595",
+		"name": "Agen Pahala Kencana Cimahi",
+		"category": "Terminal"
+	},
+	{
+		"code": "596",
+		"name": "Barisan",
+		"category": "Terminal"
+	},
+	{
+		"code": "597",
+		"name": "Terminal Harjamukti",
+		"category": "Terminal"
+	},
+	{
+		"code": "598",
+		"name": "Kantor Pahala Kedawung",
+		"category": "Terminal"
+	},
+	{
+		"code": "599",
+		"name": "Jl. Kenjeran",
+		"category": "Terminal"
+	},
+	{
+		"code": "600",
+		"name": "Jl. Hang Tuah",
+		"category": "Terminal"
+	},
+	{
+		"code": "601",
+		"name": "Jembatan Suramadu",
+		"category": "Terminal"
+	},
+	{
+		"code": "602",
+		"name": "Kantor Pahala Cantian",
+		"category": "Terminal"
+	},
+	{
+		"code": "603",
+		"name": "Dumajah",
+		"category": "Terminal"
+	},
+	{
+		"code": "604",
+		"name": "Terminal Bunder",
+		"category": "Terminal"
+	},
+	{
+		"code": "605",
+		"name": "SPBU 54.611.20 Gresik",
+		"category": "Terminal"
+	},
+	{
+		"code": "606",
+		"name": "Pucuk",
+		"category": "Terminal"
+	},
+	{
+		"code": "607",
+		"name": "Kantor Pahala RM. Taman Sari",
+		"category": "Terminal"
+	},
+	{
+		"code": "608",
+		"name": "Tambak Boyo",
+		"category": "Terminal"
+	},
+	{
+		"code": "609",
+		"name": "Bulu",
+		"category": "Terminal"
+	},
+	{
+		"code": "610",
+		"name": "Sluke Lasem",
+		"category": "Terminal"
+	},
+	{
+		"code": "611",
+		"name": "Terminal Kembang Joyo",
+		"category": "Terminal"
+	},
+	{
+		"code": "612",
+		"name": "Pool Pahala Loram Wetan",
+		"category": "Terminal"
+	},
+	{
+		"code": "613",
+		"name": "Sayung",
+		"category": "Terminal"
+	},
+	{
+		"code": "614",
+		"name": "Kantor Pahala Mangkang",
+		"category": "Terminal"
+	},
+	{
+		"code": "615",
+		"name": "Terminal Mangkang",
+		"category": "Terminal"
+	},
+	{
+		"code": "616",
+		"name": "Weleri",
+		"category": "Terminal"
+	},
+	{
+		"code": "617",
+		"name": "Cepiring",
+		"category": "Terminal"
+	},
+	{
+		"code": "618",
+		"name": "Batang",
+		"category": "Terminal"
+	},
+	{
+		"code": "619",
+		"name": "Kantor Pahala RM. Sendang Wungu",
+		"category": "Terminal"
+	},
+	{
+		"code": "620",
+		"name": "Terminal Tegal",
+		"category": "Terminal"
+	},
+	{
+		"code": "621",
+		"name": "Kantor Pahala Tegal",
+		"category": "Terminal"
+	},
+	{
+		"code": "622",
+		"name": "Kantor Pahala Cikampek",
+		"category": "Terminal"
+	},
+	{
+		"code": "623",
+		"name": "Jl. Jakarta Perak Timur Pabean Cantian",
+		"category": "Terminal"
+	},
+	{
+		"code": "624",
+		"name": "Lomaer",
+		"category": "Terminal"
+	},
+	{
+		"code": "625",
+		"name": "Jrengik",
+		"category": "Terminal"
+	},
+	{
+		"code": "626",
+		"name": "Torjun",
+		"category": "Terminal"
+	},
+	{
+		"code": "627",
+		"name": "Camplong",
+		"category": "Terminal"
+	},
+	{
+		"code": "628",
+		"name": "Larangan",
+		"category": "Terminal"
+	},
+	{
+		"code": "629",
+		"name": "Prenduan",
+		"category": "Terminal"
+	},
+	{
+		"code": "630",
+		"name": "Tlanakan",
+		"category": "Terminal"
+	},
+	{
+		"code": "631",
+		"name": "Agen Pahala Kencana Bulak Kapal",
+		"category": "Terminal"
+	},
+	{
+		"code": "632",
+		"name": "Besel",
+		"category": "Terminal"
+	},
+	{
+		"code": "633",
+		"name": "Terminal Cikarang",
+		"category": "Terminal"
+	},
+	{
+		"code": "634",
+		"name": "Poter Tanah Merah",
+		"category": "Terminal"
+	},
+	{
+		"code": "635",
+		"name": "Terminal Patria",
+		"category": "Terminal"
+	},
+	{
+		"code": "636",
+		"name": "RM. Utama Caruban",
+		"category": "Terminal"
+	},
+	{
+		"code": "637",
+		"name": "Terminal Caruban",
+		"category": "Terminal"
+	},
+	{
+		"code": "638",
+		"name": "Terminal Madiun",
+		"category": "Terminal"
+	},
+	{
+		"code": "639",
+		"name": "Terminal Ngawi",
+		"category": "Terminal"
+	},
+	{
+		"code": "640",
+		"name": "Sidowayah",
+		"category": "Terminal"
+	},
+	{
+		"code": "641",
+		"name": "Palur",
+		"category": "Terminal"
+	},
+	{
+		"code": "642",
+		"name": "Cakrawala",
+		"category": "Terminal"
+	},
+	{
+		"code": "643",
+		"name": "Kantor Pahala A. yani",
+		"category": "Terminal"
+	},
+	{
+		"code": "644",
+		"name": "SPBU Pabelan",
+		"category": "Terminal"
+	},
+	{
+		"code": "645",
+		"name": "Poltas",
+		"category": "Terminal"
+	},
+	{
+		"code": "646",
+		"name": "Terminal Banyumanik",
+		"category": "Terminal"
+	},
+	{
+		"code": "647",
+		"name": "Kantor Pahala Jati Asih",
+		"category": "Terminal"
+	},
+	{
+		"code": "648",
+		"name": "Sidoharjo",
+		"category": "Terminal"
+	},
+	{
+		"code": "649",
+		"name": "Terminal Krisak",
+		"category": "Terminal"
+	},
+	{
+		"code": "650",
+		"name": "Guntur",
+		"category": "Terminal"
+	},
+	{
+		"code": "651",
+		"name": "Nguter",
+		"category": "Terminal"
+	},
+	{
+		"code": "652",
+		"name": "Terminal Sukoharjo",
+		"category": "Terminal"
+	},
+	{
+		"code": "653",
+		"name": "Gemblegan",
+		"category": "Terminal"
+	},
+	{
+		"code": "654",
+		"name": "Bendogantungan",
+		"category": "Terminal"
+	},
+	{
+		"code": "655",
+		"name": "Kraguman",
+		"category": "Terminal"
+	},
+	{
+		"code": "656",
+		"name": "Sedayu",
+		"category": "Terminal"
+	},
+	{
+		"code": "657",
+		"name": "Sentolo",
+		"category": "Terminal"
+	},
+	{
+		"code": "658",
+		"name": "Pendowo",
+		"category": "Terminal"
+	},
+	{
+		"code": "659",
+		"name": "Kutoarjo",
+		"category": "Terminal"
+	},
+	{
+		"code": "660",
+		"name": "Kutowinangun",
+		"category": "Terminal"
+	},
+	{
+		"code": "661",
+		"name": "Sruweng",
+		"category": "Terminal"
+	},
+	{
+		"code": "662",
+		"name": "Kantor Pahala RM. Lestari",
+		"category": "Terminal"
+	},
+	{
+		"code": "663",
+		"name": "Sumpiuh",
+		"category": "Terminal"
+	},
+	{
+		"code": "664",
+		"name": "Sampang",
+		"category": "Terminal"
+	},
+	{
+		"code": "665",
+		"name": "Terminal Bumiayu",
+		"category": "Terminal"
+	},
+	{
+		"code": "666",
+		"name": "Kantor Pahala RM. Mustika",
+		"category": "Terminal"
+	},
+	{
+		"code": "667",
+		"name": "Terminal Klari",
+		"category": "Terminal"
+	},
+	{
+		"code": "668",
+		"name": "Karawang Barat",
+		"category": "Terminal"
+	},
+	{
+		"code": "669",
+		"name": "Citeureup",
+		"category": "Terminal"
+	},
+	{
+		"code": "670",
+		"name": "SPBU 44.502.18 Mangkang KM. 15",
+		"category": "Terminal"
+	},
+	{
+		"code": "671",
+		"name": "Kandang Roda",
+		"category": "Terminal"
+	},
+	{
+		"code": "672",
+		"name": "Cibinong",
+		"category": "Terminal"
+	},
+	{
+		"code": "673",
+		"name": "Pomad",
+		"category": "Terminal"
+	},
+	{
+		"code": "674",
+		"name": "Warung Jambu",
+		"category": "Terminal"
+	},
+	{
+		"code": "675",
+		"name": "Terminal Baranangsiang",
+		"category": "Terminal"
+	},
+	{
+		"code": "676",
+		"name": "Ciawi",
+		"category": "Terminal"
+	},
+	{
+		"code": "677",
+		"name": "Pool Pahala Kencana Bogor",
+		"category": "Terminal"
+	},
+	{
+		"code": "678",
+		"name": "Tempel",
+		"category": "Terminal"
+	},
+	{
+		"code": "679",
+		"name": "Terminal Magelang",
+		"category": "Terminal"
+	},
+	{
+		"code": "680",
+		"name": "Terminal Secang",
+		"category": "Terminal"
+	},
+	{
+		"code": "681",
+		"name": "Cilameri",
+		"category": "Terminal"
+	},
+	{
+		"code": "682",
+		"name": "Kalijati",
+		"category": "Terminal"
+	},
+	{
+		"code": "683",
+		"name": "Kragilan",
+		"category": "Terminal"
+	},
+	{
+		"code": "684",
+		"name": "Serang Timur",
+		"category": "Terminal"
+	},
+	{
+		"code": "685",
+		"name": "Taman Serang Barat",
+		"category": "Terminal"
+	},
+	{
+		"code": "686",
+		"name": "Terminal Seruni",
+		"category": "Terminal"
+	},
+	{
+		"code": "687",
+		"name": "Grogol",
+		"category": "Terminal"
+	},
+	{
+		"code": "688",
+		"name": "Teluk Gong",
+		"category": "Terminal"
+	},
+	{
+		"code": "689",
+		"name": "Jembatan Gantung",
+		"category": "Terminal"
+	},
+	{
+		"code": "690",
+		"name": "Jembatan Baru",
+		"category": "Terminal"
+	},
+	{
+		"code": "691",
+		"name": "Ciputat",
+		"category": "Terminal"
+	},
+	{
+		"code": "692",
+		"name": "Rempoa",
+		"category": "Terminal"
+	},
+	{
+		"code": "693",
+		"name": "Terminal Pasar Minggu",
+		"category": "Terminal"
+	},
+	{
+		"code": "694",
+		"name": "Ampera",
+		"category": "Terminal"
+	},
+	{
+		"code": "695",
+		"name": "Cikokol",
+		"category": "Terminal"
+	},
+	{
+		"code": "696",
+		"name": "Kebon Nanas",
+		"category": "Terminal"
+	},
+	{
+		"code": "697",
+		"name": "Jatake",
+		"category": "Terminal"
+	},
+	{
+		"code": "698",
+		"name": "Terminal Ponorogo",
+		"category": "Terminal"
+	},
+	{
+		"code": "699",
+		"name": "Cimanggis",
+		"category": "Terminal"
+	},
+	{
+		"code": "700",
+		"name": "Simpangan",
+		"category": "Terminal"
+	},
+	{
+		"code": "701",
+		"name": "Cilodong",
+		"category": "Terminal"
+	},
+	{
+		"code": "702",
+		"name": "Cijantung",
+		"category": "Terminal"
+	},
+	{
+		"code": "703",
+		"name": "Carikan",
+		"category": "Terminal"
+	},
+	{
+		"code": "704",
+		"name": "Terminal Pasar Jumat",
+		"category": "Terminal"
+	},
+	{
+		"code": "705",
+		"name": "AGEN PAHALA KEDIRI",
+		"category": "Terminal"
+	},
+	{
+		"code": "706",
+		"name": "AGEN PAHALA NGANJUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "707",
+		"name": "RM UTAMA CARUBAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "708",
+		"name": "AGEN PAHALA MAOSPATI",
+		"category": "Terminal"
+	},
+	{
+		"code": "709",
+		"name": "AGEN PAHALA SIDOWAYAH",
+		"category": "Terminal"
+	},
+	{
+		"code": "710",
+		"name": "AGEN PAHALA GENDINGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "711",
+		"name": "AGEN PAHALA SRAGEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "712",
+		"name": "AGEN PAHALA PALUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "713",
+		"name": "A YANI.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "714",
+		"name": "AGEN PAHALA KARTASURA",
+		"category": "Terminal"
+	},
+	{
+		"code": "715",
+		"name": "AGEN PAHALA SRUWEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "716",
+		"name": "AGEN PAHALA POLTAS",
+		"category": "Terminal"
+	},
+	{
+		"code": "717",
+		"name": "AGEN PAHALA BAWEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "718",
+		"name": "AGEN PAHALA UNGARAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "719",
+		"name": "SPBU 44.502.18 MANGKANG KM 15",
+		"category": "Terminal"
+	},
+	{
+		"code": "720",
+		"name": "RM SENDANG WUNGU.GRINGSING.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "721",
+		"name": "TEGAL.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "722",
+		"name": "KEDAWUNG.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "723",
+		"name": "CIKOPO REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "724",
+		"name": "KLARI.KARAWANG TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "725",
+		"name": "TERMINAL KLARI.KARAWANG TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "726",
+		"name": "BULAK KAPAL.BEKASI TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "727",
+		"name": "PEKAYON.BEKASI BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "728",
+		"name": "JATIASIH.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "729",
+		"name": "TERMINAL PULOGEBANG.JAKARTA TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "730",
+		"name": "PONDOK PINANG.JAKARTA SELATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "731",
+		"name": "AGEN PAHALA PURWANTORO",
+		"category": "Terminal"
+	},
+	{
+		"code": "732",
+		"name": "AGEN PAHALA SLOGOHIMO",
+		"category": "Terminal"
+	},
+	{
+		"code": "733",
+		"name": "AGEN PAHALA JATISRONO",
+		"category": "Terminal"
+	},
+	{
+		"code": "734",
+		"name": "AGEN PAHALA SIDOHARJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "735",
+		"name": "AGEN PAHALA NGADIROJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "736",
+		"name": "AGEN PAHALA GUNTUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "737",
+		"name": "AGEN PAHALA NGUTER",
+		"category": "Terminal"
+	},
+	{
+		"code": "738",
+		"name": "AGEN PAHALA CARIKAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "739",
+		"name": "AGEN PAHALA GEMBLEGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "740",
+		"name": "RM AROMA.KANCI.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "741",
+		"name": "TERMINAL GROGOL.JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "742",
+		"name": "DAAN MOGOT.REP. OFFICE.JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "743",
+		"name": "JEMBATAN GANTUNG. JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "744",
+		"name": "TERMINAL KALIDERES.JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "745",
+		"name": "CIKUPA",
+		"category": "Terminal"
+	},
+	{
+		"code": "746",
+		"name": "POOL PT PAHALA KENCANA PASAR KEMIS",
+		"category": "Terminal"
+	},
+	{
+		"code": "747",
+		"name": "PLUIT. JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "748",
+		"name": "TERMINAL GROGOL. JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "749",
+		"name": "JEMBATAN BARU. CENGKARENG. JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "750",
+		"name": "TERMINAL RAWA BUAYA. JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "751",
+		"name": "PAL",
+		"category": "Terminal"
+	},
+	{
+		"code": "752",
+		"name": "",
+		"category": "Terminal"
+	},
+	{
+		"code": "753",
+		"name": "CIKOPO.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "754",
+		"name": "TERMINAL PASAR MINGGU.JAKARTA SELATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "755",
+		"name": "REMPOA TANGERANG SELATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "756",
+		"name": "BUMI SERPONG DAMAI - BSD",
+		"category": "Terminal"
+	},
+	{
+		"code": "757",
+		"name": "SERANG. BANTEN. TERM.",
+		"category": "Terminal"
+	},
+	{
+		"code": "758",
+		"name": "GROGOL CILEGON",
+		"category": "Terminal"
+	},
+	{
+		"code": "759",
+		"name": "RM DHARMA RAYA.REP. OFFICE.MERAK",
+		"category": "Terminal"
+	},
+	{
+		"code": "760",
+		"name": "AGEN PAHALA DOLOPO",
+		"category": "Terminal"
+	},
+	{
+		"code": "761",
+		"name": "JEMBATAN BARU.CENGKARENG.JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "762",
+		"name": "SUKASARI.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "763",
+		"name": "WANGUN. CIAWI. BOGOR. JAWA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "764",
+		"name": "POOL PT PAHALA KENCANA. SINDANG BARANG JERO",
+		"category": "Terminal"
+	},
+	{
+		"code": "765",
+		"name": "POOL PT PAHALA KENCANA.PEGANGSAAN DUA.KELAPA GADING.JAKARTA UTARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "766",
+		"name": "AGEN PAHALA BENDOGANTUNGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "767",
+		"name": "AGEN PAHALA KRAGUMAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "768",
+		"name": "AGEN PAHALA PRAMBANAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "769",
+		"name": "JL. JANTI.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "770",
+		"name": "AGEN PAHALA GAMPING",
+		"category": "Terminal"
+	},
+	{
+		"code": "771",
+		"name": "AGEN PAHALA SEDAYU",
+		"category": "Terminal"
+	},
+	{
+		"code": "772",
+		"name": "AGEN PAHALA SENTOLO",
+		"category": "Terminal"
+	},
+	{
+		"code": "773",
+		"name": "AGEN PAHALA WATES",
+		"category": "Terminal"
+	},
+	{
+		"code": "774",
+		"name": "AGEN PAHALA PENDOWO",
+		"category": "Terminal"
+	},
+	{
+		"code": "775",
+		"name": "AGEN PAHALA KUTOARJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "776",
+		"name": "AGEN PAHALA PREMBUN",
+		"category": "Terminal"
+	},
+	{
+		"code": "777",
+		"name": "AGEN PAHALA KUTOWINANGUN",
+		"category": "Terminal"
+	},
+	{
+		"code": "778",
+		"name": "AGEN PAHALA SRUWENG",
+		"category": "Terminal"
+	},
+	{
+		"code": "779",
+		"name": "RM. LESTARI KARANGANNYA REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "780",
+		"name": "AGEN PAHALA GOMBONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "781",
+		"name": "AGEN PAHALA SUMPIUH",
+		"category": "Terminal"
+	},
+	{
+		"code": "782",
+		"name": "AGEN PAHALA BUNTU",
+		"category": "Terminal"
+	},
+	{
+		"code": "783",
+		"name": "TERMINAL BUMIAYU.BUMIAYU",
+		"category": "Terminal"
+	},
+	{
+		"code": "784",
+		"name": "RM. MUSTIKA.REP.OFFICE.TONJONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "785",
+		"name": "T KLARI.KARAWANG TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "786",
+		"name": "AGEN PAHALA TEMPEL",
+		"category": "Terminal"
+	},
+	{
+		"code": "787",
+		"name": "AGEN PAHALA MUNTILAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "788",
+		"name": "TERMINAL TIDAR",
+		"category": "Terminal"
+	},
+	{
+		"code": "789",
+		"name": "AGEN PAHALA AMBARAWA",
+		"category": "Terminal"
+	},
+	{
+		"code": "790",
+		"name": "AGEN PAHALA NGAWEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "791",
+		"name": "AGEN PAHALA KRAPYAK",
+		"category": "Terminal"
+	},
+	{
+		"code": "792",
+		"name": "TERMINAL PAKUPATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "793",
+		"name": "SUKASARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "794",
+		"name": "BULAK KAPAL. BEKASI TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "795",
+		"name": "PEKAYON. BEKASI BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "796",
+		"name": "TERMINAL SUMENEP",
+		"category": "Terminal"
+	},
+	{
+		"code": "797",
+		"name": "AGEN PAHALA KENCANA SARONGGI",
+		"category": "Terminal"
+	},
+	{
+		"code": "798",
+		"name": "AGEN PAHALA KENCANA BLUTO",
+		"category": "Terminal"
+	},
+	{
+		"code": "799",
+		"name": "AGEN PAHALA KENCANA KAPEDI",
+		"category": "Terminal"
+	},
+	{
+		"code": "800",
+		"name": "AGEN PAHALA KENCANA PRENDUAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "801",
+		"name": "AGEN PAHALA KENCANA LARANGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "802",
+		"name": "TERMINAL PAMEKASAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "803",
+		"name": "AGEN PAHALA KENCANA TLANAKAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "804",
+		"name": "AGEN PAHALA KENCANA BLEGA",
+		"category": "Terminal"
+	},
+	{
+		"code": "805",
+		"name": "AGEN PAHALA KENCANA GALIS",
+		"category": "Terminal"
+	},
+	{
+		"code": "806",
+		"name": "AGEN PAHALA KENCANA POTER. TANAH MERAH",
+		"category": "Terminal"
+	},
+	{
+		"code": "807",
+		"name": "CANTIAN. REP OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "808",
+		"name": "AGEN PAHALA KENCANA JEMBATAN SURAMADU",
+		"category": "Terminal"
+	},
+	{
+		"code": "809",
+		"name": "AGEN PAHALA KENCANA TANAH MERAH",
+		"category": "Terminal"
+	},
+	{
+		"code": "810",
+		"name": "AGEN PAHALA KENCANA DUMAJAH",
+		"category": "Terminal"
+	},
+	{
+		"code": "811",
+		"name": "AGEN PAHALA KENCANA JL. KENJERAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "812",
+		"name": "AGEN PAHALA KENCANA JL. HANG TUAH",
+		"category": "Terminal"
+	},
+	{
+		"code": "813",
+		"name": "AGEN PAHALA KENCANA JL. JAKARTA. PERAK TIMUR. PABEAN CANTIAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "814",
+		"name": "SPBU 54.611.20.GRESIK",
+		"category": "Terminal"
+	},
+	{
+		"code": "815",
+		"name": "RM TAMAN SARI. JENU. REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "816",
+		"name": "SLUKE. LASEM",
+		"category": "Terminal"
+	},
+	{
+		"code": "817",
+		"name": "TERMINAL PANDEAN.REMBANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "818",
+		"name": "TERMINAL KEMBANG JOYO. SLEKO",
+		"category": "Terminal"
+	},
+	{
+		"code": "819",
+		"name": "POOL PT PAHALA KENCANA. LORAM WETAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "820",
+		"name": "TERMINAL TANJUNG PRIOK.JAKARTA UTARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "821",
+		"name": "AGEN PAHALA KENCANA BARISAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "822",
+		"name": "AGEN PAHALA KENCANA TORJUN",
+		"category": "Terminal"
+	},
+	{
+		"code": "823",
+		"name": "AGEN PAHALA KENCANA JRENGIK",
+		"category": "Terminal"
+	},
+	{
+		"code": "824",
+		"name": "AGEN PAHALA KENCANA LOMAER",
+		"category": "Terminal"
+	},
+	{
+		"code": "825",
+		"name": "AGEN PAHALA KENCANA BESEL",
+		"category": "Terminal"
+	},
+	{
+		"code": "826",
+		"name": "AGEN PAHALA KENCANA BURNEH",
+		"category": "Terminal"
+	},
+	{
+		"code": "827",
+		"name": "SPBU 54.611.20",
+		"category": "Terminal"
+	},
+	{
+		"code": "828",
+		"name": "SLUKE. LASE",
+		"category": "Terminal"
+	},
+	{
+		"code": "829",
+		"name": "CIKARANG. BEKASI. JAWA BARAT. TERMINAL CIKARANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "830",
+		"name": "TERMINAL KAMPUNG RAMBUTAN.JAKARTA TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "831",
+		"name": "TERMINAL PONDOK CABE.TANGERANG SELATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "832",
+		"name": "TEGAL.REP. OFFICE.TERMINAL TEGAL",
+		"category": "Terminal"
+	},
+	{
+		"code": "833",
+		"name": "AGEN PAHALA KENCANA BESE",
+		"category": "Terminal"
+	},
+	{
+		"code": "834",
+		"name": "SPBU 34.175.28.KM 19 TOL CIKAMPEK. REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "835",
+		"name": "SPBU 44.501.05. MANGKANG. REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "836",
+		"name": "JL JAKARTA. PERAK TIMUR. PABEAN CANTIAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "837",
+		"name": "AGEN PAHALA BANTAR GEBANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "838",
+		"name": "AGEN PAHALA PEKAYON",
+		"category": "Terminal"
+	},
+	{
+		"code": "839",
+		"name": "AGEN PAHALA BULAK KAPAL",
+		"category": "Terminal"
+	},
+	{
+		"code": "840",
+		"name": "AGEN PAHALA CIKARANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "841",
+		"name": "AGEN PAHALA WANGUN",
+		"category": "Terminal"
+	},
+	{
+		"code": "842",
+		"name": "AGEN PAHALA WARUNG JAMBU",
+		"category": "Terminal"
+	},
+	{
+		"code": "843",
+		"name": "AGEN PAHALA POMAD",
+		"category": "Terminal"
+	},
+	{
+		"code": "844",
+		"name": "AGEN PAHALA KANDANG RODA",
+		"category": "Terminal"
+	},
+	{
+		"code": "845",
+		"name": "AGEN PAHALA CIBINONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "846",
+		"name": "AGEN PAHALA CITEUREUP",
+		"category": "Terminal"
+	},
+	{
+		"code": "847",
+		"name": "AGEN PAHALA KARAWANG BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "848",
+		"name": "AGEN PAHALA KALIJATI",
+		"category": "Terminal"
+	},
+	{
+		"code": "849",
+		"name": "AGEN PAHALA CILAMERI",
+		"category": "Terminal"
+	},
+	{
+		"code": "850",
+		"name": "AGEN PAHALA CIBITUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "851",
+		"name": "AGEN PAHALA CIKAMPEK. KARAWANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "852",
+		"name": "KAPEDI",
+		"category": "Terminal"
+	},
+	{
+		"code": "853",
+		"name": "BLUTO",
+		"category": "Terminal"
+	},
+	{
+		"code": "854",
+		"name": "SARONGGI",
+		"category": "Terminal"
+	},
+	{
+		"code": "855",
+		"name": "AGEN PAHALA CIPUTAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "856",
+		"name": "AGEN PAHALA PASAR JUMAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "857",
+		"name": "AGEN PAHALA KLARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "858",
+		"name": "TERMINAL KARANGENTE",
+		"category": "Terminal"
+	},
+	{
+		"code": "859",
+		"name": "ROGOJAMPI",
+		"category": "Terminal"
+	},
+	{
+		"code": "860",
+		"name": "SRONO",
+		"category": "Terminal"
+	},
+	{
+		"code": "861",
+		"name": "BENCULUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "862",
+		"name": "JAJAG",
+		"category": "Terminal"
+	},
+	{
+		"code": "863",
+		"name": "GENTENG",
+		"category": "Terminal"
+	},
+	{
+		"code": "864",
+		"name": "GLENMORE",
+		"category": "Terminal"
+	},
+	{
+		"code": "865",
+		"name": "KALIBARU",
+		"category": "Terminal"
+	},
+	{
+		"code": "866",
+		"name": "SEMPOLAN. SILO",
+		"category": "Terminal"
+	},
+	{
+		"code": "867",
+		"name": "JEMBER.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "868",
+		"name": "BANGSALSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "869",
+		"name": "GAMBIRONO. BANGSALSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "870",
+		"name": "TANGGUL",
+		"category": "Terminal"
+	},
+	{
+		"code": "871",
+		"name": "BATUURIP. SUMBER BARU",
+		"category": "Terminal"
+	},
+	{
+		"code": "872",
+		"name": "JATIROTO",
+		"category": "Terminal"
+	},
+	{
+		"code": "873",
+		"name": "KLAKAH",
+		"category": "Terminal"
+	},
+	{
+		"code": "874",
+		"name": "SPBU 54.611.20 GRESIK REP.OFFICE GRESIK",
+		"category": "Terminal"
+	},
+	{
+		"code": "875",
+		"name": "CIKOPO REP OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "876",
+		"name": "TERMINAL PULOGEBANG. JAKARTA TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "877",
+		"name": "POOL PT PAHALA KENCANA. PEGANGSAAN DUA.KELAPA GADING.JAKARTA UTARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "878",
+		"name": "BANGSALSARI. JEMBER",
+		"category": "Terminal"
+	},
+	{
+		"code": "879",
+		"name": "TERMINAL. ALANG-ALANG LEBAR",
+		"category": "Terminal"
+	},
+	{
+		"code": "880",
+		"name": "SULTAN MAHMUD BADARRUDIN KM 11.PALEMBANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "881",
+		"name": "POLIGON",
+		"category": "Terminal"
+	},
+	{
+		"code": "882",
+		"name": "TERMINAL.KARYA JAYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "883",
+		"name": "KM 32 INDRALAYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "884",
+		"name": "KAYU AGUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "885",
+		"name": "PADAMARAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "886",
+		"name": "RM PAGI SORE.TELUK GELAM",
+		"category": "Terminal"
+	},
+	{
+		"code": "887",
+		"name": "LUBUK SEBERUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "888",
+		"name": "DABUK REJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "889",
+		"name": "TUGU MULYO",
+		"category": "Terminal"
+	},
+	{
+		"code": "890",
+		"name": "DESA SURYA ADI.MESUJI",
+		"category": "Terminal"
+	},
+	{
+		"code": "891",
+		"name": "RM GADANG JAYA 3",
+		"category": "Terminal"
+	},
+	{
+		"code": "892",
+		"name": "TEGINENENG. PESAWARAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "893",
+		"name": "TERMINAL RAJABASA",
+		"category": "Terminal"
+	},
+	{
+		"code": "894",
+		"name": "KALI BALOK",
+		"category": "Terminal"
+	},
+	{
+		"code": "895",
+		"name": "SPBU 24.354.61.KALIANDA",
+		"category": "Terminal"
+	},
+	{
+		"code": "896",
+		"name": "PELABUHAN BAKAUHENI",
+		"category": "Terminal"
+	},
+	{
+		"code": "897",
+		"name": "PELABUHAN MERAK",
+		"category": "Terminal"
+	},
+	{
+		"code": "898",
+		"name": "RM DHARMA RAYA.MERAK.REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "899",
+		"name": "PAHALA KENCANA JATI ASIH REP.OFFICE. BEKASI",
+		"category": "Terminal"
+	},
+	{
+		"code": "900",
+		"name": "PAHALA KENCANA PEKAYON. REP.OFFICE BEKASI BARAT. BEKASI",
+		"category": "Terminal"
+	},
+	{
+		"code": "901",
+		"name": "BULAK KAPAL BEKASI TIMUR. BEKASI",
+		"category": "Terminal"
+	},
+	{
+		"code": "902",
+		"name": "CIKARANG BARAT. BEKASI",
+		"category": "Terminal"
+	},
+	{
+		"code": "903",
+		"name": "KLARI. KARAWANG TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "904",
+		"name": "PAHALA KENCANA RIAU REP.OFFICE. JL R.E MARTADINATA BANDUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "905",
+		"name": "POOL PAHALA KENCANA GEDEBAGE REP.OFFICE. BANDUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "906",
+		"name": "TERMINAL PESIAPAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "907",
+		"name": "BAJERA. SELEMADEG",
+		"category": "Terminal"
+	},
+	{
+		"code": "908",
+		"name": "TERMINAL NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "909",
+		"name": "MELAYA NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "910",
+		"name": "RM BAKUNGAN.GILIMANUK.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "911",
+		"name": "KETAPANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "912",
+		"name": "GALEAN. WONGSOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "913",
+		"name": "BAJULMATI.WONGSOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "914",
+		"name": "ASEMBAGUS",
+		"category": "Terminal"
+	},
+	{
+		"code": "915",
+		"name": "SUKOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "916",
+		"name": "RM.CHURIEN. SITUBONDO.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "917",
+		"name": "KRAKSAAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "918",
+		"name": "SPBU KM19 TOLL CIKAMPEK. REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "919",
+		"name": "PALEMBANG.SULTAN MAHMUD BADARRUDIN KM 11.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "920",
+		"name": "DESA SURYA ADI",
+		"category": "Terminal"
+	},
+	{
+		"code": "921",
+		"name": "TEGINENENG. PESAWARAN. LAMPUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "922",
+		"name": "PAHALA KENCANA PEKAYON. REP.OFFICE BEKASI BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "923",
+		"name": "BULAK KAPAL BEKASI TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "924",
+		"name": "NEGARA.MELAYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "925",
+		"name": "TERMINAL PANDEAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "926",
+		"name": "SPBU 34.175.28 KM 19 TOLL CIKAMPEK. REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "927",
+		"name": "KEDAWUNG. REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "928",
+		"name": "GAMBIRONO. BANGSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "929",
+		"name": "SEMPOLAN. SILO. JEMBER",
+		"category": "Terminal"
+	},
+	{
+		"code": "930",
+		"name": "WANGUN. CIAWI",
+		"category": "Terminal"
+	},
+	{
+		"code": "931",
+		"name": "PEKAYON REP.OFFICE BEKASI BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "932",
+		"name": "PAHALA KENCANA JATI ASIH REP.OFFICE BEKASI",
+		"category": "Terminal"
+	},
+	{
+		"code": "933",
+		"name": "TERMINAL KAMPUNG RAMBUTAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "934",
+		"name": "BARADATU.WAY KANAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "935",
+		"name": "WAY TUBA.WAY KANAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "936",
+		"name": "BATUMARTA",
+		"category": "Terminal"
+	},
+	{
+		"code": "937",
+		"name": "SPBU 24.321.112 BATURAJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "938",
+		"name": "BATURAJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "939",
+		"name": "PRABUMULIH.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "940",
+		"name": "PAHALA KENCANA JATI ASIH REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "941",
+		"name": "PONDOK PINANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "942",
+		"name": "PALEMBANGSULTAN MAHMUD BADARRUDIN KM 11.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "943",
+		"name": "POOL PT PAHALA KENCANA.SINDANG BARANG JERO",
+		"category": "Terminal"
+	},
+	{
+		"code": "944",
+		"name": "BARANANG SIANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "945",
+		"name": "TERMINAL MENDOLO",
+		"category": "Terminal"
+	},
+	{
+		"code": "946",
+		"name": "TERMINAL SAWANGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "947",
+		"name": "TERMINAL BANJARNEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "948",
+		"name": "PROYEK MRICA",
+		"category": "Terminal"
+	},
+	{
+		"code": "949",
+		"name": "TERMINAL MANDIRAJA.MANDIRAJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "950",
+		"name": "PASAR PERJA. KLAMPOK",
+		"category": "Terminal"
+	},
+	{
+		"code": "951",
+		"name": "BUKATEJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "952",
+		"name": "TERMINAL PURBALINGGA",
+		"category": "Terminal"
+	},
+	{
+		"code": "953",
+		"name": "SOKARAJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "954",
+		"name": "TERMINAL BULUPITU.PURWOKERTO",
+		"category": "Terminal"
+	},
+	{
+		"code": "955",
+		"name": "TERMINAL AJIBARANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "956",
+		"name": "RM MUSTIKA INDAH. TONJONG. REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "957",
+		"name": "JEMBATAN GANTUNG.JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "958",
+		"name": "PEKAYON.BEKASI BARAT.REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "959",
+		"name": "TERMINAL BOBOTSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "960",
+		"name": "KEBON",
+		"category": "Terminal"
+	},
+	{
+		"code": "961",
+		"name": "NANAS",
+		"category": "Terminal"
+	},
+	{
+		"code": "962",
+		"name": "POOL PT PAHALA KENCANA.PASAR KEMIS",
+		"category": "Terminal"
+	},
+	{
+		"code": "963",
+		"name": "SPBU 34.17528 KM.19.TOL CIKAMPEK.REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "964",
+		"name": "SUMBER ARTA.BEKASI BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "965",
+		"name": "LATUMENTEN.JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "966",
+		"name": "TERMINAL TERMINAL AJIBARANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "967",
+		"name": "TERMINAL RAWA BUAYA.JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "968",
+		"name": "SPBU 34.175.28. KM19 TOL CIKAMPEK. REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "969",
+		"name": "RUKO MASJID AGUNG LASEM",
+		"category": "Terminal"
+	},
+	{
+		"code": "970",
+		"name": "KARAS. LASEM",
+		"category": "Terminal"
+	},
+	{
+		"code": "971",
+		"name": "SALE. LASEM",
+		"category": "Terminal"
+	},
+	{
+		"code": "972",
+		"name": "SOTO",
+		"category": "Terminal"
+	},
+	{
+		"code": "973",
+		"name": "JELARU",
+		"category": "Terminal"
+	},
+	{
+		"code": "974",
+		"name": "TERMINAL PULOGEBANG.JAKARTA TIMUR",
+		"category": "JAKARTA"
+	},
+	{
+		"code": "975",
+		"name": "SPBU 34.175.28.KM 19 TOL CIKAMPEK. REP. OFFICE",
+		"category": "BEKASI"
+	},
+	{
+		"code": "976",
+		"name": "TERMINAL HARJAMUKTI",
+		"category": "CIREBON"
+	},
+	{
+		"code": "977",
+		"name": "SPBU KM 19 TOL CIKAMPEK. REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "978",
+		"name": "JATIASIH.REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "979",
+		"name": "TEGAL.REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "980",
+		"name": "TIRTONADI",
+		"category": "Terminal"
+	},
+	{
+		"code": "981",
+		"name": "PLUIT. JAKARTA UTARA. DKI JAKARTA",
+		"category": "Terminal"
+	},
+	{
+		"code": "982",
+		"name": "CIKAMPEK. KARAWANG. JAWA BARAT. JL. RAYA PANGULAH",
+		"category": "Terminal"
+	},
+	{
+		"code": "983",
+		"name": "REMPOA. TANGERANG SELATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "984",
+		"name": "MERAK. CILEGON. BANTEN. RO",
+		"category": "Terminal"
+	},
+	{
+		"code": "985",
+		"name": "SERANG. BANTEN. TERM. PAKUPATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "986",
+		"name": "TERMINAL PORIS PLAWAD AMPERA",
+		"category": "Terminal"
+	},
+	{
+		"code": "987",
+		"name": "DAAN MOGOT.REP. OFFICE.JAKARTA BARAT TERMINAL GROGOL.JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "988",
+		"name": "MAGELANG. JAWA TENGAH. TERM. TIDAR",
+		"category": "Terminal"
+	},
+	{
+		"code": "989",
+		"name": "TERMINAL KLATEN BENDOGANTUNGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "990",
+		"name": "SUKASARI.REP. OFFICETERMINAL BARANANGSIANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "991",
+		"name": "POOL PT PAHALA KENCANA.PAKIS",
+		"category": "Terminal"
+	},
+	{
+		"code": "992",
+		"name": "TERMINAL ARJOSARI.MALANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "993",
+		"name": "TUMAPEL.SINGOSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "994",
+		"name": "LAWANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "995",
+		"name": "PURWOSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "996",
+		"name": "ARJUNA.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "997",
+		"name": "TUBAN. JAWA TIMUR. JL. GAJAH MADA",
+		"category": "Terminal"
+	},
+	{
+		"code": "998",
+		"name": "TUBAN. JAWA TIMUR. JL. DR WAHIDIN",
+		"category": "Terminal"
+	},
+	{
+		"code": "999",
+		"name": "PEKAYON.BEKASI BARAT. REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1000",
+		"name": "JATIASIH REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1001",
+		"name": "PONDOK PINANG. JAKARTA SELATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1002",
+		"name": "TERMINAL PURABAYA.",
+		"category": "Terminal"
+	},
+	{
+		"code": "1003",
+		"name": "CIKARANG. BEKASI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1004",
+		"name": "TERMINAL PURABAYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1005",
+		"name": "BULAK KAPAL.BEKASI TIMUR.",
+		"category": "Terminal"
+	},
+	{
+		"code": "1006",
+		"name": "PEKAYON.BEKASI BARAT. REP OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1007",
+		"name": "WONOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1008",
+		"name": "TERMINAL PASURUAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1009",
+		"name": "MELAYA.NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1010",
+		"name": "POOL PT. PAHALA KENCANA.PAKIS",
+		"category": "Terminal"
+	},
+	{
+		"code": "1011",
+		"name": "KEPANJEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1012",
+		"name": "SUMBER PUCUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1013",
+		"name": "KARANGKATES",
+		"category": "Terminal"
+	},
+	{
+		"code": "1014",
+		"name": "KESAMBEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1015",
+		"name": "WLINGI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1016",
+		"name": "TALUN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1017",
+		"name": "GARUM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1018",
+		"name": "TERMINAL PURABAYA.BUNGURASIH",
+		"category": "Terminal"
+	},
+	{
+		"code": "1019",
+		"name": "MERAK REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1020",
+		"name": "BULAK KAPAL.BEKASI TIMUR.BEKAS",
+		"category": "Terminal"
+	},
+	{
+		"code": "1021",
+		"name": "SULANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1022",
+		"name": "BLOK T",
+		"category": "Terminal"
+	},
+	{
+		"code": "1023",
+		"name": "SAMBONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1024",
+		"name": "CEPU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1025",
+		"name": "PADANGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1026",
+		"name": "KALITUDU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1027",
+		"name": "TERMINAL RAJEKWESI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1028",
+		"name": "AGEN PAHALA AMPERA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1029",
+		"name": "AGEN PAHALA RAWA BUAYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1030",
+		"name": "AGEN PAHALA JEMBATAN BARU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1031",
+		"name": "AGEN PAHALA JEMBATAN GANTUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1032",
+		"name": "TERMINAL GROGOL JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "1033",
+		"name": "BREBES",
+		"category": "BREBES"
+	},
+	{
+		"code": "1034",
+		"name": "TERMINAL PINANG RANTI. JAKARTA TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1035",
+		"name": "AGEN PAHALA JATIASIH",
+		"category": "Terminal"
+	},
+	{
+		"code": "1036",
+		"name": "AGEN PAHALA CILEDUG. PASAR LEMBANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1037",
+		"name": "GERBANG TOL MANYARAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1038",
+		"name": "POOL PT PAHALA KENCANA PUCANG GADING",
+		"category": "Terminal"
+	},
+	{
+		"code": "1039",
+		"name": "TERMINAL GODONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1040",
+		"name": "TERMINAL NGAWEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1041",
+		"name": "AGEN PAHALA BITUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1042",
+		"name": "AGEN PAHALA KEBON NANAS",
+		"category": "Terminal"
+	},
+	{
+		"code": "1043",
+		"name": "AGEN PAHALA CIKOKOL",
+		"category": "Terminal"
+	},
+	{
+		"code": "1044",
+		"name": "TERMINAL PERSIAPAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1045",
+		"name": "AGEN PAHALA BAJERA. SELEMADEG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1046",
+		"name": "AGEN PAHALA NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1047",
+		"name": "AGEN PAHALA MELAYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1048",
+		"name": "AGEN PAHALA KETAPANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1049",
+		"name": "AGEN PAHALA GALEAN. WONGSOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1050",
+		"name": "AGEN PAHALA BAJULMATI.WONGSOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1051",
+		"name": "AGEN PAHALA ASEMBAGUS",
+		"category": "Terminal"
+	},
+	{
+		"code": "1052",
+		"name": "AGEN PAHALA SUKOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1053",
+		"name": "AGEN PAHALA SITUBONDO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1054",
+		"name": "AGEN PAHALA KRAKSAAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1055",
+		"name": "AGEN PAHALA PROBOLINGGO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1056",
+		"name": "RM SEDAP AGNI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1057",
+		"name": "KARANGAWEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1058",
+		"name": "MRANGGEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1059",
+		"name": "POOL PT PAHALA KENCANA. PUCANG GADING",
+		"category": "Terminal"
+	},
+	{
+		"code": "1060",
+		"name": "CIKOPO.REP. OFFICE",
+		"category": "PURWAKARTA"
+	},
+	{
+		"code": "1061",
+		"name": "KALITIDU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1062",
+		"name": "POOL PT PAHALA KENCANA.GEDEBAGE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1063",
+		"name": "RIAU.BRANCH OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1064",
+		"name": "AGEN PAHALA CIBIRU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1065",
+		"name": "AGEN PAHALA JATINANGOR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1066",
+		"name": "RM ALAM SARI.SUMEDANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1067",
+		"name": "AGEN PAHALA KADIPATEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1068",
+		"name": "AGEN PAHALA PARAKAN MUNCANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1069",
+		"name": "AGEN PAHALA LIMBANGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1070",
+		"name": "AGEN PAHALA MALANGBONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1071",
+		"name": "AGEN PAHALA RAJAPOLAH",
+		"category": "Terminal"
+	},
+	{
+		"code": "1072",
+		"name": "AGEN PAHALA TASIKMALAYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1073",
+		"name": "RM DE LEKKER",
+		"category": "Terminal"
+	},
+	{
+		"code": "1074",
+		"name": "TERMINAL BANJAR.RADEGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1075",
+		"name": "BUNTU.KROYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1076",
+		"name": "RM LESTARI.REP. OFFICE.KARANGANYAR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1077",
+		"name": "TERMINAL KEBUMEN.KEBUMEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1078",
+		"name": "SALAMAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1079",
+		"name": "TERMINAL TIDAR.MAGELANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1080",
+		"name": "TERMINAL MUNTILAN.MUNTILAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1081",
+		"name": "TERMINAL JOMBOR.JOMBOR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1082",
+		"name": "TERMINAL GIWANGAN.GIWANGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1083",
+		"name": "BANGUNTAPAN.REP.OFFICE.JANTI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1084",
+		"name": "TERMINAL BANYUMANIK.BANYUMANIK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1085",
+		"name": "TERMINAL UNGARAN.UNGARAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1086",
+		"name": "TERMINAL BOYOLALI.BOYOLALI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1087",
+		"name": "SPBU 44.571.01.PABELAN.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1088",
+		"name": "PRAMBANAN.KLATEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1089",
+		"name": "KRAGUMAN.JOGONALAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1090",
+		"name": "TERMINAL KLATEN.KLATEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1091",
+		"name": "TERMINAL SUKOHARJO.SUKOHARJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1092",
+		"name": "TERMINAL KRISAK.KRISAK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1093",
+		"name": "TERMINAL NGADIROJO.NGADIROJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1094",
+		"name": "AGEN SOEKARNO HATTA 147B.CARINGIN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1095",
+		"name": "AGEN SOEKARNO HATTA 186.CARINGIN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1096",
+		"name": "GERBANG TOL SADANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1097",
+		"name": "KLARI.KARAWANG TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1098",
+		"name": "JATIBENING.PONDOK GEDE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1099",
+		"name": "CUT NYAK DIEN.BANDAR LAMPUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1100",
+		"name": "KALI BALOK.TANJUNG KARANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1101",
+		"name": "KARANG ANYAR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1102",
+		"name": "GAYAMSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1103",
+		"name": "PUCANG GADING",
+		"category": "Terminal"
+	},
+	{
+		"code": "1104",
+		"name": "PALUR.MOJOLABAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1105",
+		"name": "GENDINGAN.WIDODAREN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1106",
+		"name": "RM UTAMA.CARUBAN.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1107",
+		"name": "AGEN SADANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1108",
+		"name": "BEKASI TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1109",
+		"name": "AGEN PEKAYON.BEKASI BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "1110",
+		"name": "PELABUHAN MERAK.REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1111",
+		"name": "AGEN WAY HALIM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1112",
+		"name": "RM SIANG MALAM.BATURAJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1113",
+		"name": "GUNUNG MEGANG.MUARA ENIM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1114",
+		"name": "SIMPANG BELIMBING.MUARA ENIM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1115",
+		"name": "PEDAMARAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1116",
+		"name": "AGEN PAHALA WANGON",
+		"category": "Terminal"
+	},
+	{
+		"code": "1117",
+		"name": "AGEN PAHALA JATILAWANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1118",
+		"name": "AGEN PAHALA SAMPANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1119",
+		"name": "AGEN PAHALA BUNTU.KROYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1120",
+		"name": "KUTOWINANGUN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1121",
+		"name": "AGEN PAHALA PREMBUN.TAMBAK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1122",
+		"name": "JAPANAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1123",
+		"name": "AGEN PAHALA PRAMBANAN.KLATEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1124",
+		"name": "AGEN PAHALA KRAGUMAN.JOGONALAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1125",
+		"name": "AGEN PAHALA DELANGGU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1126",
+		"name": "TERMINAL TIRTONADI.SOLO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1127",
+		"name": "AGEN PAHALA GENDINGAN.WIDODAREN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1128",
+		"name": "AGEN PAHALA NGAWI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1129",
+		"name": "AGEN PAHALA MADIUN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1130",
+		"name": "AGEN PAHALA CARUBAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1131",
+		"name": "AGEN PAHALA KERTOSONO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1132",
+		"name": "AGEN PAHALA JUWANA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1133",
+		"name": "AGEN PAHALA DEMAK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1134",
+		"name": "AGEN PAHALA CEPIRING",
+		"category": "Terminal"
+	},
+	{
+		"code": "1135",
+		"name": "PLUMBON",
+		"category": "Terminal"
+	},
+	{
+		"code": "1136",
+		"name": "PALIMANAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1137",
+		"name": "KADIPATEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1138",
+		"name": "JATINANGOR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1139",
+		"name": "CIMINDI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1140",
+		"name": "CIBIRU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1141",
+		"name": "TERMINAL CICAHEUM.CICAHEUM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1142",
+		"name": "SOEKARNO HATTA 147B.CARINGIN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1143",
+		"name": "SOEKARNO HATTA 186.CARINGIN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1144",
+		"name": "AGEN PAHALA SLEMAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1145",
+		"name": "AGEN PAHALA PURWOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1146",
+		"name": "RAJAPOLAH",
+		"category": "Terminal"
+	},
+	{
+		"code": "1147",
+		"name": "MALANGBONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1148",
+		"name": "LIMBANGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1149",
+		"name": "RANCAEKEK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1150",
+		"name": "CILEUNYI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1151",
+		"name": "TERRMINAL SUKOHARJO.SUKOHARJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1152",
+		"name": "PREMBUN.TAMBAK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1153",
+		"name": "PARAKANMUNCANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1154",
+		"name": "AGEN PAHALA BANDAR JAYA.TERBANGGI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1155",
+		"name": "AGEN PAHALA METRO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1156",
+		"name": "AGEN PAHALA NATAR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1157",
+		"name": "AGEN PAHALA WAY HALIM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1158",
+		"name": "AGEN PAHALA KALI BALOK.TANJUNG KARANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1159",
+		"name": "JATIBENING.PONDOK GEDE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1160",
+		"name": "PASIR KOJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1161",
+		"name": "SOEKA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1162",
+		"name": "RNO HATTA 186. CARINGIN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1163",
+		"name": "SOEKARNO HATTA 147 B. CARINGIN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1164",
+		"name": "AGEN PAHALA LAMONGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1165",
+		"name": "AGEN PAHALA PUCUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1166",
+		"name": "AGEN PAHALA BABAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "1167",
+		"name": "AGEN PAHALA TUBAN. JAWA TIMUR. JL. GAJAH MADA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1168",
+		"name": "AGEN PAHALA TUBAN. JAWA TIMUR. JL. DR WAHIDIN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1169",
+		"name": "JL. ABD. SALEH. POOL PAHALA MALANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1170",
+		"name": "AGEN PAHALA SINGOSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1171",
+		"name": "AGEN PAHALA LAWANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1172",
+		"name": "AGEN PAHALA PURWOSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1173",
+		"name": "AGEN PAHALA PANDAAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1174",
+		"name": "AGEN PAHALA GEMPOL",
+		"category": "Terminal"
+	},
+	{
+		"code": "1175",
+		"name": "AGEN PAHALA PORONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1176",
+		"name": "AGEN PAHALA MELAYA.NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1177",
+		"name": "AGEN PAHALA BOJONEGORO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1178",
+		"name": "AGEN PAHALA CEPU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1179",
+		"name": "AGEN PAHALA BLORA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1180",
+		"name": "AGEN PAHALA WIROSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1181",
+		"name": "AGEN PAHALA PURWODADI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1182",
+		"name": "AGEN PAHALA GODONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1183",
+		"name": "AGEN PAHALA GUBUG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1184",
+		"name": "AGEN PAHALA MRANGGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1185",
+		"name": "AGEN PAHALA PUCANG GADING",
+		"category": "Terminal"
+	},
+	{
+		"code": "1186",
+		"name": "RM UTAMA.CARUBAN.REP. OFFICE",
+		"category": "MADIUN"
+	},
+	{
+		"code": "1187",
+		"name": "AGEN PAHALA PALUR.MOJOLABAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1188",
+		"name": "AGEN PAHALA SIMPANG BELIMBING.MUARA ENIM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1189",
+		"name": "AGEN PAHALA GUNUNG MEGANG.MUARA ENIM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1190",
+		"name": "AGEN PAHALA TANJUNG ENIM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1191",
+		"name": "AGEN PAHALA BATURAJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1192",
+		"name": "AGEN PAHALA BATUMARTA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1193",
+		"name": "AGEN PAHALA MARTAPURA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1194",
+		"name": "AGEN PAHALA WAY KANAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1195",
+		"name": "AGEN PAHALA BARADATU.WAY KANAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1196",
+		"name": "AGEN PAHALA BUKIT KEMUNING",
+		"category": "Terminal"
+	},
+	{
+		"code": "1197",
+		"name": "AGEN PAHALA KOTABUMI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1198",
+		"name": "Terminal Cilegon",
+		"category": "Terminal"
+	},
+	{
+		"code": "1199",
+		"name": "AGEN PAHALA SULTAN MAHMUD BADARRUDIN KM 11.PALEMBANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1200",
+		"name": "AGEN PAHALA KM 32 INDRALAYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1201",
+		"name": "AGEN PAHALA TANJUNG RAJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1202",
+		"name": "AGEN PAHALA TUGU MULYO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1203",
+		"name": "AGEN PAHALA MESUJI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1204",
+		"name": "AGEN PAHALA MENGGALA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1205",
+		"name": "AGEN PAHALA BANDAR JAYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1206",
+		"name": "AGEN PAHALA RM GADANG JAYA 3",
+		"category": "Terminal"
+	},
+	{
+		"code": "1207",
+		"name": "AGEN PAHALA PELABUHAN GILIMANUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1208",
+		"name": "AGEN PAHALA PELABUHAN KETAPANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1209",
+		"name": "JOMBANG",
+		"category": "JOMBANG"
+	},
+	{
+		"code": "1210",
+		"name": "KERTOSONO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1211",
+		"name": "TERMINAL  RAJEKWESI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1212",
+		"name": "JATIASIH",
+		"category": "Terminal"
+	},
+	{
+		"code": "1213",
+		"name": "TERMINAL KAMPUNG RAMBUTAN. JAKARTA TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1214",
+		"name": "DAAN MOGOT.REP. OFFICE JAKARTA BARAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "1215",
+		"name": "TERMINAL NGAWEN. GUNUNG WURUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1216",
+		"name": "TERMINAL CEPU. CEPU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1217",
+		"name": "GRESIK. JAWA TIMUR. RM SEDAP AGNI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1218",
+		"name": "AGEN PAHALA BULAK KAPAL.BEKASI TIMUR.BEKAS",
+		"category": "Terminal"
+	},
+	{
+		"code": "1219",
+		"name": "AGEN PAHALA KLARI.KARAWANG TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1220",
+		"name": "TERMINAL PONDOK PINANG.JAKARTA SELATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1221",
+		"name": "Indonesia",
+		"category": "Province"
+	},
+	{
+		"code": "1225",
+		"name": "DKI Jakarta",
+		"category": "Province"
+	},
+	{
+		"code": "1226",
+		"name": "Nanggro Aceh Darussalam",
+		"category": "Province"
+	},
+	{
+		"code": "1227",
+		"name": "Sumatera Utara",
+		"category": "Province"
+	},
+	{
+		"code": "1228",
+		"name": "Sumatera Barat",
+		"category": "Province"
+	},
+	{
+		"code": "1229",
+		"name": "Riau",
+		"category": "Province"
+	},
+	{
+		"code": "1230",
+		"name": "Kepulauan Riau",
+		"category": "Province"
+	},
+	{
+		"code": "1231",
+		"name": "Jambi",
+		"category": "Province"
+	},
+	{
+		"code": "1232",
+		"name": "Sumatera Selatan",
+		"category": "Province"
+	},
+	{
+		"code": "1233",
+		"name": "Bangka Belitung",
+		"category": "Province"
+	},
+	{
+		"code": "1234",
+		"name": "Bengkulu",
+		"category": "Province"
+	},
+	{
+		"code": "1235",
+		"name": "Lampung",
+		"category": "Province"
+	},
+	{
+		"code": "1236",
+		"name": "Jawa Barat",
+		"category": "Province"
+	},
+	{
+		"code": "1237",
+		"name": "Banten",
+		"category": "Province"
+	},
+	{
+		"code": "1238",
+		"name": "Jawa Tengah",
+		"category": "Province"
+	},
+	{
+		"code": "1239",
+		"name": "Daerah Istimewa Yogyakarta",
+		"category": "Province"
+	},
+	{
+		"code": "1240",
+		"name": "Jawa Timur",
+		"category": "Province"
+	},
+	{
+		"code": "1241",
+		"name": "Bali",
+		"category": "Province"
+	},
+	{
+		"code": "1242",
+		"name": "Nusa Tenggara Barat",
+		"category": "Province"
+	},
+	{
+		"code": "1243",
+		"name": "Nusa Tenggara Timur",
+		"category": "Province"
+	},
+	{
+		"code": "1244",
+		"name": "Kalimantan Barat",
+		"category": "Province"
+	},
+	{
+		"code": "1245",
+		"name": "Kalimantan Tengah",
+		"category": "Province"
+	},
+	{
+		"code": "1246",
+		"name": "Kalimantan Selatan",
+		"category": "Province"
+	},
+	{
+		"code": "1248",
+		"name": "Kalimantan Utara",
+		"category": "Province"
+	},
+	{
+		"code": "1249",
+		"name": "Sulawesi Utara",
+		"category": "Province"
+	},
+	{
+		"code": "1250",
+		"name": "Sulawesi Barat",
+		"category": "Province"
+	},
+	{
+		"code": "1251",
+		"name": "Sulawesi Tengah",
+		"category": "Province"
+	},
+	{
+		"code": "1252",
+		"name": "Sulawesi Tenggara",
+		"category": "Province"
+	},
+	{
+		"code": "1253",
+		"name": "Sulawesi Selatan",
+		"category": "Province"
+	},
+	{
+		"code": "1254",
+		"name": "Gorontalo",
+		"category": "Province"
+	},
+	{
+		"code": "1255",
+		"name": "Maluku",
+		"category": "Province"
+	},
+	{
+		"code": "1256",
+		"name": "Maluku Utara",
+		"category": "Province"
+	},
+	{
+		"code": "1257",
+		"name": "Papua Barat",
+		"category": "Province"
+	},
+	{
+		"code": "1258",
+		"name": "Papua",
+		"category": "Province"
+	},
+	{
+		"code": "1259",
+		"name": "Solo",
+		"category": "City"
+	},
+	{
+		"code": "1260",
+		"name": "Bandung",
+		"category": "City"
+	},
+	{
+		"code": "1261",
+		"name": "Ambarawa",
+		"category": "City"
+	},
+	{
+		"code": "1262",
+		"name": "Jakarta Barat",
+		"category": "District"
+	},
+	{
+		"code": "1263",
+		"name": "Jakarta Pusat",
+		"category": "District"
+	},
+	{
+		"code": "1264",
+		"name": "Jakarta Timur",
+		"category": "District"
+	},
+	{
+		"code": "1265",
+		"name": "Jakarta Selatan",
+		"category": "District"
+	},
+	{
+		"code": "1266",
+		"name": "Jakarta Utara",
+		"category": "District"
+	},
+	{
+		"code": "1267",
+		"name": "Bekasi Timur",
+		"category": "District"
+	},
+	{
+		"code": "1268",
+		"name": "Bekasi Barat",
+		"category": "District"
+	},
+	{
+		"code": "1269",
+		"name": "Bekasi Utara",
+		"category": "District"
+	},
+	{
+		"code": "1270",
+		"name": "Bekasi Selatan",
+		"category": "District"
+	},
+	{
+		"code": "1271",
+		"name": "Bogor",
+		"category": "District"
+	},
+	{
+		"code": "1272",
+		"name": "Depok",
+		"category": "District"
+	},
+	{
+		"code": "1273",
+		"name": "Tangerang",
+		"category": "District"
+	},
+	{
+		"code": "1274",
+		"name": "Tangerang Selatan",
+		"category": "District"
+	},
+	{
+		"code": "1275",
+		"name": "Bandung",
+		"category": "District"
+	},
+	{
+		"code": "1276",
+		"name": "Surakarta",
+		"category": "City"
+	},
+	{
+		"code": "1277",
+		"name": "Bandung Sumedang",
+		"category": "Terminal"
+	},
+	{
+		"code": "1278",
+		"name": "Majalengka",
+		"category": "District"
+	},
+	{
+		"code": "1279",
+		"name": "Solo / Surakarta",
+		"category": "District"
+	},
+	{
+		"code": "1280",
+		"name": "Cepu",
+		"category": "District"
+	},
+	{
+		"code": "1281",
+		"name": "Blora",
+		"category": "District"
+	},
+	{
+		"code": "1282",
+		"name": "Demak",
+		"category": "District"
+	},
+	{
+		"code": "1283",
+		"name": "Gemolong",
+		"category": "District"
+	},
+	{
+		"code": "1284",
+		"name": "Jepara",
+		"category": "District"
+	},
+	{
+		"code": "1285",
+		"name": "Kudus",
+		"category": "District"
+	},
+	{
+		"code": "1286",
+		"name": "Purwodadi",
+		"category": "District"
+	},
+	{
+		"code": "1287",
+		"name": "District Semaran",
+		"category": "District"
+	},
+	{
+		"code": "1288",
+		"name": "Pati",
+		"category": "District"
+	},
+	{
+		"code": "1289",
+		"name": "Bawen",
+		"category": "District"
+	},
+	{
+		"code": "1291",
+		"name": "Surabaya",
+		"category": "District"
+	},
+	{
+		"code": "1292",
+		"name": "Boyolali",
+		"category": "District"
+	},
+	{
+		"code": "1293",
+		"name": "Yogyakarta",
+		"category": "District"
+	},
+	{
+		"code": "1294",
+		"name": "Tuban",
+		"category": "District"
+	},
+	{
+		"code": "1295",
+		"name": "Ambarawa",
+		"category": "District"
+	},
+	{
+		"code": "1296",
+		"name": "Gombong",
+		"category": "District"
+	},
+	{
+		"code": "1297",
+		"name": "Kebumen",
+		"category": "District"
+	},
+	{
+		"code": "1298",
+		"name": "Klaten",
+		"category": "District"
+	},
+	{
+		"code": "1299",
+		"name": "Kutoarjo",
+		"category": "District"
+	},
+	{
+		"code": "1300",
+		"name": "Lasem",
+		"category": "District"
+	},
+	{
+		"code": "1301",
+		"name": "Cileunyi",
+		"category": "Terminal"
+	},
+	{
+		"code": "1302",
+		"name": "Kadipaten",
+		"category": "Terminal"
+	},
+	{
+		"code": "1303",
+		"name": "Klaten",
+		"category": "District"
+	},
+	{
+		"code": "1304",
+		"name": "Wonosari",
+		"category": "District"
+	},
+	{
+		"code": "1305",
+		"name": "Wonogiri",
+		"category": "District"
+	},
+	{
+		"code": "1306",
+		"name": "Wirosari",
+		"category": "District"
+	},
+	{
+		"code": "1307",
+		"name": "Purworejo",
+		"category": "District"
+	},
+	{
+		"code": "1308",
+		"name": "Rembang",
+		"category": "District"
+	},
+	{
+		"code": "1309",
+		"name": "Magelang",
+		"category": "District"
+	},
+	{
+		"code": "1310",
+		"name": "Muntilan",
+		"category": "District"
+	},
+	{
+		"code": "1311",
+		"name": "Ungaran",
+		"category": "District"
+	},
+	{
+		"code": "1312",
+		"name": "Pekalongan",
+		"category": "District"
+	},
+	{
+		"code": "1313",
+		"name": "Gubug",
+		"category": "District"
+	},
+	{
+		"code": "1314",
+		"name": "Gubug",
+		"category": "Terminal"
+	},
+	{
+		"code": "1315",
+		"name": "Karawang",
+		"category": "District"
+	},
+	{
+		"code": "1316",
+		"name": "Gresik",
+		"category": "District"
+	},
+	{
+		"code": "1317",
+		"name": "Pemalang",
+		"category": "District"
+	},
+	{
+		"code": "1318",
+		"name": "TERMINAL PEMALANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1319",
+		"name": "Bojonegoro",
+		"category": "District"
+	},
+	{
+		"code": "1320",
+		"name": "Kertosono",
+		"category": "District"
+	},
+	{
+		"code": "1321",
+		"name": "Jombang",
+		"category": "District"
+	},
+	{
+		"code": "1322",
+		"name": "Ketapang",
+		"category": "District"
+	},
+	{
+		"code": "1323",
+		"name": "Gilimanuk",
+		"category": "District"
+	},
+	{
+		"code": "1324",
+		"name": "Lampung",
+		"category": "District"
+	},
+	{
+		"code": "1325",
+		"name": "Tulang Bawang",
+		"category": "District"
+	},
+	{
+		"code": "1326",
+		"name": "Mesuji",
+		"category": "District"
+	},
+	{
+		"code": "1327",
+		"name": "Bangkalan",
+		"category": "District"
+	},
+	{
+		"code": "1328",
+		"name": "Galis",
+		"category": "District"
+	},
+	{
+		"code": "1329",
+		"name": "Ogan Ilir",
+		"category": "District"
+	},
+	{
+		"code": "1330",
+		"name": "Sampang",
+		"category": "District"
+	},
+	{
+		"code": "1331",
+		"name": "Banyumanik",
+		"category": "District"
+	},
+	{
+		"code": "1332",
+		"name": "Madura",
+		"category": "District"
+	},
+	{
+		"code": "1333",
+		"name": "Prabumulih",
+		"category": "District"
+	},
+	{
+		"code": "1334",
+		"name": "Kartasura",
+		"category": "District"
+	},
+	{
+		"code": "1335",
+		"name": "Grobogan",
+		"category": "District"
+	},
+	{
+		"code": "1336",
+		"name": "Madiun",
+		"category": "District"
+	},
+	{
+		"code": "1337",
+		"name": "Sragen",
+		"category": "District"
+	},
+	{
+		"code": "1338",
+		"name": "sumedang",
+		"category": "District"
+	},
+	{
+		"code": "1339",
+		"name": "Muara Enim",
+		"category": "District"
+	},
+	{
+		"code": "1340",
+		"name": "Ogan Komering Ulu",
+		"category": "District"
+	},
+	{
+		"code": "1341",
+		"name": "Solo",
+		"category": "District"
+	},
+	{
+		"code": "1342",
+		"name": "Ogan Komering Ulu Timur",
+		"category": "District"
+	},
+	{
+		"code": "1343",
+		"name": "Lampung Utara",
+		"category": "District"
+	},
+	{
+		"code": "1344",
+		"name": "Cilegon",
+		"category": "District"
+	},
+	{
+		"code": "1345",
+		"name": "Wirosari",
+		"category": "Terminal"
+	},
+	{
+		"code": "1346",
+		"name": "Palembang",
+		"category": "District"
+	},
+	{
+		"code": "1347",
+		"name": "Lamongan",
+		"category": "District"
+	},
+	{
+		"code": "1348",
+		"name": "Malang",
+		"category": "District"
+	},
+	{
+		"code": "1349",
+		"name": "Purwokerto",
+		"category": "District"
+	},
+	{
+		"code": "1350",
+		"name": "Pasuruan",
+		"category": "District"
+	},
+	{
+		"code": "1351",
+		"name": "AGEN PAHALA SUKOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1352",
+		"name": "Ngawi",
+		"category": "District"
+	},
+	{
+		"code": "1353",
+		"name": "Bali",
+		"category": "District"
+	},
+	{
+		"code": "1354",
+		"name": "AGEN PAHALA NGAWEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1355",
+		"name": "Ponorogo",
+		"category": "District"
+	},
+	{
+		"code": "1356",
+		"name": "wonosobo",
+		"category": "District"
+	},
+	{
+		"code": "1357",
+		"name": "Cilacap",
+		"category": "District"
+	},
+	{
+		"code": "1358",
+		"name": "Brebes",
+		"category": "District"
+	},
+	{
+		"code": "1359",
+		"name": "Tegal",
+		"category": "District"
+	},
+	{
+		"code": "1360",
+		"name": "Sumedang",
+		"category": "Terminal"
+	},
+	{
+		"code": "1361",
+		"name": "Kadipaten",
+		"category": "Terminal"
+	},
+	{
+		"code": "1362",
+		"name": "Serang",
+		"category": "District"
+	},
+	{
+		"code": "1363",
+		"name": "Purbalingga",
+		"category": "District"
+	},
+	{
+		"code": "1364",
+		"name": "Bengkulu",
+		"category": "District"
+	},
+	{
+		"code": "1365",
+		"name": "Depok",
+		"category": "Terminal"
+	},
+	{
+		"code": "1366",
+		"name": "Kendal",
+		"category": "District"
+	},
+	{
+		"code": "1367",
+		"name": "Garut",
+		"category": "District"
+	},
+	{
+		"code": "1368",
+		"name": "Jatirogo",
+		"category": "District"
+	},
+	{
+		"code": "1369",
+		"name": "Godog",
+		"category": "City"
+	},
+	{
+		"code": "1370",
+		"name": "Jatirogo",
+		"category": "Terminal"
+	},
+	{
+		"code": "1371",
+		"name": "bangil",
+		"category": "District"
+	},
+	{
+		"code": "1372",
+		"name": "Godong",
+		"category": "District"
+	},
+	{
+		"code": "1373",
+		"name": "Godong",
+		"category": "Terminal"
+	},
+	{
+		"code": "1374",
+		"name": "Singgahan",
+		"category": "District"
+	},
+	{
+		"code": "1375",
+		"name": "Cirebon",
+		"category": "District"
+	},
+	{
+		"code": "1376",
+		"name": "Lahat",
+		"category": "District"
+	},
+	{
+		"code": "1377",
+		"name": "Lubuk Linggau",
+		"category": "District"
+	},
+	{
+		"code": "1378",
+		"name": "Jambi",
+		"category": "District"
+	},
+	{
+		"code": "1379",
+		"name": "AGEN PAHALA SRUWEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1380",
+		"name": "Purwakarta",
+		"category": "District"
+	},
+	{
+		"code": "1381",
+		"name": "Sukoharjo",
+		"category": "District"
+	},
+	{
+		"code": "1382",
+		"name": "Bangilan",
+		"category": "District"
+	},
+	{
+		"code": "1383",
+		"name": "Pekanbaru",
+		"category": "District"
+	},
+	{
+		"code": "1384",
+		"name": "Duri",
+		"category": "District"
+	},
+	{
+		"code": "1385",
+		"name": "Bukit Tinggi",
+		"category": "District"
+	},
+	{
+		"code": "1386",
+		"name": "Probolinggo",
+		"category": "District"
+	},
+	{
+		"code": "1387",
+		"name": "Liwah",
+		"category": "District"
+	},
+	{
+		"code": "1388",
+		"name": "Metro",
+		"category": "District"
+	},
+	{
+		"code": "1389",
+		"name": "Bintuhan",
+		"category": "District"
+	},
+	{
+		"code": "1390",
+		"name": "Manna",
+		"category": "District"
+	},
+	{
+		"code": "1391",
+		"name": "Kalianda",
+		"category": "District"
+	},
+	{
+		"code": "1392",
+		"name": "Curup",
+		"category": "District"
+	},
+	{
+		"code": "1393",
+		"name": "Kepahiang",
+		"category": "District"
+	},
+	{
+		"code": "1394",
+		"name": "Banyuwangi",
+		"category": "District"
+	},
+	{
+		"code": "1395",
+		"name": "Singkut",
+		"category": "District"
+	},
+	{
+		"code": "1396",
+		"name": "Ajibarang",
+		"category": "Terminal"
+	},
+	{
+		"code": "1397",
+		"name": "Bagan Batu",
+		"category": "District"
+	},
+	{
+		"code": "1398",
+		"name": "Padang",
+		"category": "District"
+	},
+	{
+		"code": "1399",
+		"name": "Medan",
+		"category": "City"
+	},
+	{
+		"code": "1400",
+		"name": "Sarulangun",
+		"category": "District"
+	},
+	{
+		"code": "1401",
+		"name": "Medan",
+		"category": "District"
+	},
+	{
+		"code": "1402",
+		"name": "KLARI.KARAWANG TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1403",
+		"name": "TERMINAL KLARI.KARAWANG TIMUR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1404",
+		"name": "Denpasar",
+		"category": "District"
+	},
+	{
+		"code": "1405",
+		"name": "Bangko",
+		"category": "District"
+	},
+	{
+		"code": "1406",
+		"name": "Sleman",
+		"category": "District"
+	},
+	{
+		"code": "1407",
+		"name": "Muara Bungo",
+		"category": "District"
+	},
+	{
+		"code": "1408",
+		"name": "Kiliranjao",
+		"category": "District"
+	},
+	{
+		"code": "1409",
+		"name": "Bandar Lampung",
+		"category": "District"
+	},
+	{
+		"code": "1410",
+		"name": "Muntilan",
+		"category": "Terminal"
+	},
+	{
+		"code": "1411",
+		"name": "Nganjuk",
+		"category": "District"
+	},
+	{
+		"code": "1412",
+		"name": "Terminal Giwangan",
+		"category": "Terminal"
+	},
+	{
+		"code": "1413",
+		"name": "Secang",
+		"category": "District"
+	},
+	{
+		"code": "1414",
+		"name": "Juwana",
+		"category": "District"
+	},
+	{
+		"code": "1415",
+		"name": "Juwana",
+		"category": "Terminal"
+	},
+	{
+		"code": "1416",
+		"name": "Subang",
+		"category": "District"
+	},
+	{
+		"code": "1417",
+		"name": "Tooroh",
+		"category": "District"
+	},
+	{
+		"code": "1418",
+		"name": "Toroh",
+		"category": "Terminal"
+	},
+	{
+		"code": "1419",
+		"name": "Ambarawa",
+		"category": "Terminal"
+	},
+	{
+		"code": "1420",
+		"name": "Situbondo",
+		"category": "District"
+	},
+	{
+		"code": "1421",
+		"name": "Temanggung",
+		"category": "District"
+	},
+	{
+		"code": "1422",
+		"name": "Pacitan",
+		"category": "District"
+	},
+	{
+		"code": "1423",
+		"name": "Cimahi",
+		"category": "District"
+	},
+	{
+		"code": "1424",
+		"name": "Banyumas",
+		"category": "District"
+	},
+	{
+		"code": "1425",
+		"name": "Karanganyar",
+		"category": "District"
+	},
+	{
+		"code": "1426",
+		"name": "Terminal CIMAHI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1427",
+		"name": "Cilacap",
+		"category": "City"
+	},
+	{
+		"code": "1428",
+		"name": "Banjar Negara",
+		"category": "District"
+	},
+	{
+		"code": "1429",
+		"name": "Kartasura",
+		"category": "Terminal"
+	},
+	{
+		"code": "1430",
+		"name": "Cilacap",
+		"category": "District"
+	},
+	{
+		"code": "1431",
+		"name": "AGEN PAHALA BUNTU.KROYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1432",
+		"name": "AGEN PAHALA SAMPANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1433",
+		"name": "Sruwen",
+		"category": "Terminal"
+	},
+	{
+		"code": "1434",
+		"name": "Tasikmalaya",
+		"category": "District"
+	},
+	{
+		"code": "1435",
+		"name": "Wates",
+		"category": "District"
+	},
+	{
+		"code": "1436",
+		"name": "Wates",
+		"category": "Terminal"
+	},
+	{
+		"code": "1437",
+		"name": "Terminal MESUJI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1438",
+		"name": "Trenggalek",
+		"category": "District"
+	},
+	{
+		"code": "1439",
+		"name": "Maseji",
+		"category": "City"
+	},
+	{
+		"code": "1440",
+		"name": "Maospati",
+		"category": "District"
+	},
+	{
+		"code": "1441",
+		"name": "Matesi",
+		"category": "District"
+	},
+	{
+		"code": "1442",
+		"name": "AGEN PAHALA SUMPIUH",
+		"category": "Terminal"
+	},
+	{
+		"code": "1443",
+		"name": "Bawen",
+		"category": "Terminal"
+	},
+	{
+		"code": "1444",
+		"name": "Jembrana",
+		"category": "District"
+	},
+	{
+		"code": "1445",
+		"name": "Terminal Banyumas",
+		"category": "Terminal"
+	},
+	{
+		"code": "1446",
+		"name": "Tulangbawang",
+		"category": "District"
+	},
+	{
+		"code": "1447",
+		"name": "Ungaran",
+		"category": "Terminal"
+	},
+	{
+		"code": "1448",
+		"name": "Kediri",
+		"category": "District"
+	},
+	{
+		"code": "1449",
+		"name": "Tulonagung",
+		"category": "District"
+	},
+	{
+		"code": "1450",
+		"name": "Badung",
+		"category": "District"
+	},
+	{
+		"code": "1451",
+		"name": "Blitar",
+		"category": "District"
+	},
+	{
+		"code": "1452",
+		"name": "DESA SURYA ADI.MESUJI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1453",
+		"name": "Ogan Komering Ilir",
+		"category": "District"
+	},
+	{
+		"code": "1454",
+		"name": "OGAN ILIR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1455",
+		"name": "Magetan",
+		"category": "District"
+	},
+	{
+		"code": "1456",
+		"name": "Mojokerto",
+		"category": "District"
+	},
+	{
+		"code": "1457",
+		"name": "Placimantoro",
+		"category": "District"
+	},
+	{
+		"code": "1458",
+		"name": "Dolopo",
+		"category": "Terminal"
+	},
+	{
+		"code": "1459",
+		"name": "Parakan",
+		"category": "District"
+	},
+	{
+		"code": "1460",
+		"name": "Gubug",
+		"category": "Terminal"
+	},
+	{
+		"code": "1461",
+		"name": "Godong",
+		"category": "Terminal"
+	},
+	{
+		"code": "1462",
+		"name": "Rengat",
+		"category": "District"
+	},
+	{
+		"code": "1463",
+		"name": "Pangkalan Krinci",
+		"category": "District"
+	},
+	{
+		"code": "1464",
+		"name": "Bandar Lampung",
+		"category": "Terminal"
+	},
+	{
+		"code": "1465",
+		"name": "LAMPUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1466",
+		"name": "Terminal Grobogan",
+		"category": "Terminal"
+	},
+	{
+		"code": "1467",
+		"name": "Kota Pinang",
+		"category": "City"
+	},
+	{
+		"code": "1468",
+		"name": "Kota Pinang",
+		"category": "District"
+	},
+	{
+		"code": "1469",
+		"name": "Kisaran",
+		"category": "District"
+	},
+	{
+		"code": "1470",
+		"name": "Siduarjo",
+		"category": "District"
+	},
+	{
+		"code": "1471",
+		"name": "Lhokseumawe",
+		"category": "District"
+	},
+	{
+		"code": "1472",
+		"name": "Terminal Bekasi",
+		"category": "Terminal"
+	},
+	{
+		"code": "1473",
+		"name": "Banda Aceh",
+		"category": "District"
+	},
+	{
+		"code": "1474",
+		"name": "Karawang Barat",
+		"category": "Terminal"
+	},
+	{
+		"code": "1475",
+		"name": "Takengon",
+		"category": "District"
+	},
+	{
+		"code": "1476",
+		"name": "BATUMARTA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1477",
+		"name": "SPBU 24.321.112 BATURAJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1478",
+		"name": "BATURAJA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1479",
+		"name": "Lumajang",
+		"category": "District"
+	},
+	{
+		"code": "1480",
+		"name": "Jember",
+		"category": "District"
+	},
+	{
+		"code": "1481",
+		"name": "Prambanan",
+		"category": "Terminal"
+	},
+	{
+		"code": "1482",
+		"name": "Genteng Kuloon",
+		"category": "District"
+	},
+	{
+		"code": "1483",
+		"name": "Gamping",
+		"category": "Terminal"
+	},
+	{
+		"code": "1484",
+		"name": "Rajabasa",
+		"category": "District"
+	},
+	{
+		"code": "1485",
+		"name": "Bantul",
+		"category": "District"
+	},
+	{
+		"code": "1486",
+		"name": "Terminal Jombor",
+		"category": "Terminal"
+	},
+	{
+		"code": "1487",
+		"name": "Sumenep",
+		"category": "District"
+	},
+	{
+		"code": "1488",
+		"name": "Pamekasan",
+		"category": "District"
+	},
+	{
+		"code": "1489",
+		"name": "Ciamis",
+		"category": "District"
+	},
+	{
+		"code": "1490",
+		"name": "Kulon Progo",
+		"category": "District"
+	},
+	{
+		"code": "1491",
+		"name": "TERMINAL CIAMIS",
+		"category": "Terminal"
+	},
+	{
+		"code": "1492",
+		"name": "Solok",
+		"category": "District"
+	},
+	{
+		"code": "1493",
+		"name": "GAMPING",
+		"category": "Terminal"
+	},
+	{
+		"code": "1494",
+		"name": "Sruwen",
+		"category": "District"
+	},
+	{
+		"code": "1495",
+		"name": "Wates",
+		"category": "Terminal"
+	},
+	{
+		"code": "1496",
+		"name": "Giwangan",
+		"category": "District"
+	},
+	{
+		"code": "1497",
+		"name": "Banjar",
+		"category": "City"
+	},
+	{
+		"code": "1498",
+		"name": "Terminal Purwakarta",
+		"category": "Terminal"
+	},
+	{
+		"code": "1499",
+		"name": "Tabanan",
+		"category": "District"
+	},
+	{
+		"code": "1500",
+		"name": "Maospati",
+		"category": "Terminal"
+	},
+	{
+		"code": "1501",
+		"name": "Batang",
+		"category": "District"
+	},
+	{
+		"code": "1502",
+		"name": "Lampung Selatan",
+		"category": "District"
+	},
+	{
+		"code": "1503",
+		"name": "TERMINAL KARAWANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1504",
+		"name": "CIKOPO.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1505",
+		"name": "Bandar Jaya",
+		"category": "District"
+	},
+	{
+		"code": "1506",
+		"name": "TERMINAL CILEGON",
+		"category": "Terminal"
+	},
+	{
+		"code": "1507",
+		"name": "Gombong",
+		"category": "Terminal"
+	},
+	{
+		"code": "1508",
+		"name": "KEDAWUNG. REP.OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1509",
+		"name": "Banjar",
+		"category": "District"
+	},
+	{
+		"code": "1510",
+		"name": "LAMPUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1511",
+		"name": "TERMINAL HARJAMUKTI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1512",
+		"name": "Pringsewu",
+		"category": "District"
+	},
+	{
+		"code": "1513",
+		"name": "RM AROMA.KANCI.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1514",
+		"name": "Rajabasa",
+		"category": "Terminal"
+	},
+	{
+		"code": "1515",
+		"name": "SUMPIUH",
+		"category": "Terminal"
+	},
+	{
+		"code": "1516",
+		"name": "TERMINAL TEGAL",
+		"category": "Terminal"
+	},
+	{
+		"code": "1517",
+		"name": "TEGAL.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1518",
+		"name": "Wangon",
+		"category": "Terminal"
+	},
+	{
+		"code": "1519",
+		"name": "TERMINAL PEKALONGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1520",
+		"name": "CEPU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1521",
+		"name": "WIROSARI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1522",
+		"name": "PURWODADI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1523",
+		"name": "WELERI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1524",
+		"name": "CEPIRING",
+		"category": "Terminal"
+	},
+	{
+		"code": "1525",
+		"name": "SRUWEN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1526",
+		"name": "KENDAL",
+		"category": "Terminal"
+	},
+	{
+		"code": "1527",
+		"name": "SAYUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1528",
+		"name": "Karawang Barat",
+		"category": "District"
+	},
+	{
+		"code": "1529",
+		"name": "Waykanan",
+		"category": "District"
+	},
+	{
+		"code": "1530",
+		"name": "TERMINAL KEMBANG JOYO. SLEKO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1531",
+		"name": "JUWANA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1532",
+		"name": "PUCUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1533",
+		"name": "GEMPOL",
+		"category": "Terminal"
+	},
+	{
+		"code": "1534",
+		"name": "BULU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1535",
+		"name": "Terminal Jakarta",
+		"category": "Terminal"
+	},
+	{
+		"code": "1536",
+		"name": "BANGIL",
+		"category": "Terminal"
+	},
+	{
+		"code": "1537",
+		"name": "TAMBAK BOYO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1538",
+		"name": "TERMINAL PASURUAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1539",
+		"name": "RM TAMAN SARI. JENU. REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1540",
+		"name": "SPBU 54.611.20.GRESIK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1541",
+		"name": "TERMINAL BUNDER",
+		"category": "Terminal"
+	},
+	{
+		"code": "1542",
+		"name": "KOTABUMI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1543",
+		"name": "PROBOLINGGO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1544",
+		"name": "KRAKSAAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1545",
+		"name": "WAY KANAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1546",
+		"name": "Bandara Soeakarno Hatta",
+		"category": "District"
+	},
+	{
+		"code": "1547",
+		"name": "BAJULMATI.WONGSOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1548",
+		"name": "GALEAN. WONGSOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1549",
+		"name": "PELABUHAN KETAPANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1550",
+		"name": "BAJERA. SELEMADEG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1551",
+		"name": "TERMINAL PESIAPAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1552",
+		"name": "Prabumulih",
+		"category": "District"
+	},
+	{
+		"code": "1553",
+		"name": "KEDIRI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1554",
+		"name": "TERMINAL KEMBANG JOYO. SLEKO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1555",
+		"name": "Terminal Mengwi",
+		"category": "Terminal"
+	},
+	{
+		"code": "1556",
+		"name": "JUWANA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1557",
+		"name": "BABAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "1558",
+		"name": "PUCUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1559",
+		"name": "Galis",
+		"category": "Terminal"
+	},
+	{
+		"code": "1560",
+		"name": "TERMINAL GUBUG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1561",
+		"name": "Blega",
+		"category": "Terminal"
+	},
+	{
+		"code": "1562",
+		"name": "CILODONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1563",
+		"name": "Tanah Merah",
+		"category": "District"
+	},
+	{
+		"code": "1564",
+		"name": "KETAPANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1565",
+		"name": "TERMINAL PURWODADI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1566",
+		"name": "Grobogan",
+		"category": "Terminal"
+	},
+	{
+		"code": "1567",
+		"name": "PROBOLINGGO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1568",
+		"name": "KRAKSAAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1569",
+		"name": "Babat",
+		"category": "Terminal"
+	},
+	{
+		"code": "1570",
+		"name": "AGEN PAHALA KEDIRI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1571",
+		"name": "PELABUHAN GILIMANUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1572",
+		"name": "RM BAKUNGAN.GILIMANUK.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1573",
+		"name": "Terminal Lasem",
+		"category": "Terminal"
+	},
+	{
+		"code": "1574",
+		"name": "Karanganyar",
+		"category": "Terminal"
+	},
+	{
+		"code": "1575",
+		"name": "MELAYA NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1576",
+		"name": "NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1577",
+		"name": "TERMINAL NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1578",
+		"name": "GEMPOL",
+		"category": "Terminal"
+	},
+	{
+		"code": "1579",
+		"name": "BANGIL",
+		"category": "Terminal"
+	},
+	{
+		"code": "1580",
+		"name": "CILAMERI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1581",
+		"name": "PASURUAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1582",
+		"name": "PORONG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1583",
+		"name": "PELABUHAN GILIMANUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1584",
+		"name": "RM BAKUNGAN.GILIMANUK.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1585",
+		"name": "MELAYA NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1586",
+		"name": "NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1587",
+		"name": "TERMINAL NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1588",
+		"name": "PELABUHAN GILIMANUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1589",
+		"name": "RM BAKUNGAN.GILIMANUK.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1590",
+		"name": "MELAYA NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1591",
+		"name": "NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1592",
+		"name": "TERMINAL NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1593",
+		"name": "TERMINAL MENGWI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1594",
+		"name": "Lumajang",
+		"category": "Terminal"
+	},
+	{
+		"code": "1595",
+		"name": "Terminal Jember",
+		"category": "Terminal"
+	},
+	{
+		"code": "1596",
+		"name": "Terminal Banyuwangi",
+		"category": "Terminal"
+	},
+	{
+		"code": "1597",
+		"name": "Terminal Jembrana",
+		"category": "Terminal"
+	},
+	{
+		"code": "1598",
+		"name": "Terminal Tabanan",
+		"category": "Terminal"
+	},
+	{
+		"code": "1599",
+		"name": "Terminal Badung",
+		"category": "Terminal"
+	},
+	{
+		"code": "1600",
+		"name": "BAJERA. SELEMADEG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1601",
+		"name": "TERMINAL PESIAPAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1602",
+		"name": "KEDIRI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1603",
+		"name": "BAJULMATI.WONGSOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1604",
+		"name": "GALEAN. WONGSOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1605",
+		"name": "TERMINAL PONDOK CABE.TANGERANG SELATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1606",
+		"name": "KETAPANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1607",
+		"name": "PELABUHAN KETAPANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1608",
+		"name": "NATAR",
+		"category": "Terminal"
+	},
+	{
+		"code": "1609",
+		"name": "PROBOLINGGO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1610",
+		"name": "KRAKSAAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1611",
+		"name": "SPBU 54.611.20.GRESIK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1612",
+		"name": "TERMINAL BUNDER",
+		"category": "Terminal"
+	},
+	{
+		"code": "1613",
+		"name": "BULU",
+		"category": "Terminal"
+	},
+	{
+		"code": "1614",
+		"name": "TAMBAK BOYO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1615",
+		"name": "RM TAMAN SARI. JENU. REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1616",
+		"name": "TERMINAL KEMBANG JOYO. SLEKO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1617",
+		"name": "KRAKSAAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1618",
+		"name": "AGEN PAHALA CIPUTAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "1619",
+		"name": "JUWANA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1620",
+		"name": "BABAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "1621",
+		"name": "PUCUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1622",
+		"name": "SAYUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1623",
+		"name": "TERMINAL MENGWI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1624",
+		"name": "RM.CHURIEN. SITUBONDO.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1625",
+		"name": "WELERI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1626",
+		"name": "CEPIRING",
+		"category": "Terminal"
+	},
+	{
+		"code": "1627",
+		"name": "SITUBONDO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1628",
+		"name": "KENDAL",
+		"category": "Terminal"
+	},
+	{
+		"code": "1629",
+		"name": "SUKOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1630",
+		"name": "ASEMBAGUS",
+		"category": "Terminal"
+	},
+	{
+		"code": "1631",
+		"name": "TERMINAL PEKALONGAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1632",
+		"name": "BABAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "1633",
+		"name": "PELABUHAN GILIMANUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1634",
+		"name": "PUCUK",
+		"category": "Terminal"
+	},
+	{
+		"code": "1635",
+		"name": "TERMINAL MENGWI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1636",
+		"name": "RM BAKUNGAN.GILIMANUK.REP. OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1637",
+		"name": "PROBOLINGGO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1638",
+		"name": "MELAYA NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1639",
+		"name": "KRAKSAAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1640",
+		"name": "BANGIL",
+		"category": "Terminal"
+	},
+	{
+		"code": "1641",
+		"name": "NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1642",
+		"name": "Bumiayu",
+		"category": "District"
+	},
+	{
+		"code": "1643",
+		"name": "TERMINAL NEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1644",
+		"name": "TERMINAL PANDEAN.REMBANG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1645",
+		"name": "PROBOLINGGO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1646",
+		"name": "TERMINAL LASEM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1647",
+		"name": "SLUKE. LASEM",
+		"category": "Terminal"
+	},
+	{
+		"code": "1648",
+		"name": "BAJERA. SELEMADEG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1649",
+		"name": "TERMINAL PESIAPAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1650",
+		"name": "CIKOPO REP OFFICE",
+		"category": "Terminal"
+	},
+	{
+		"code": "1651",
+		"name": "KEDIRI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1652",
+		"name": "KEDIRI",
+		"category": "Terminal"
+	},
+	{
+		"code": "1653",
+		"name": "BABAT",
+		"category": "Terminal"
+	},
+	{
+		"code": "1654",
+		"name": "BAKALAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1655",
+		"name": "REMPOA. TANGERANG SELATAN",
+		"category": "Terminal"
+	},
+	{
+		"code": "1656",
+		"name": "CIBITUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1657",
+		"name": "MENGGALA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1658",
+		"name": "BANDAR JAYA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1659",
+		"name": "CIBITUNG",
+		"category": "Terminal"
+	},
+	{
+		"code": "1660",
+		"name": "KALIANDA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1661",
+		"name": "SUKOREJO",
+		"category": "Terminal"
+	},
+	{
+		"code": "1662",
+		"name": "TERMINAL BANJARNEGARA",
+		"category": "Terminal"
+	},
+	{
+		"code": "1663",
+		"name": "Bima",
+		"category": "District"
+	},
+	{
+		"code": "1664",
+		"name": "Tugu Mulyo",
+		"category": "District"
+	},
+	{
+		"code": "1665",
+		"name": "Cileunyi",
+		"category": "District"
+	},
+	{
+		"code": "1666",
+		"name": "Kadipaten",
+		"category": "District"
+	},
+	{
+		"code": "1668",
+		"name": "Cicaheum",
+		"category": "District"
+	},
+	{
+		"code": "1669",
+		"name": "Ngawen",
+		"category": "District"
+	},
+	{
+		"code": "1670",
+		"name": "Padjajaran",
+		"category": "District"
+	},
+	{
+		"code": "1671",
+		"name": "Jepon",
+		"category": "District"
+	},
+	{
+		"code": "1672",
+		"name": "Balun",
+		"category": "District"
+	},
+	{
+		"code": "1673",
+		"name": "Buyaran",
+		"category": "District"
+	},
+	{
+		"code": "1674",
+		"name": "Gajah",
+		"category": "District"
+	},
+	{
+		"code": "1675",
+		"name": "Pecinan Demak",
+		"category": "District"
+	},
+	{
+		"code": "1676",
+		"name": "Trengguli",
+		"category": "District"
+	},
+	{
+		"code": "1677",
+		"name": "Wonokerto",
+		"category": "District"
+	},
+	{
+		"code": "1678",
+		"name": "Bangsri",
+		"category": "District"
+	},
+	{
+		"code": "1679",
+		"name": "Gotri",
+		"category": "District"
+	},
+	{
+		"code": "1680",
+		"name": "Jabokuto",
+		"category": "District"
+	},
+	{
+		"code": "1681",
+		"name": "Saripan",
+		"category": "District"
+	},
+	{
+		"code": "1682",
+		"name": "Kalinyamatan",
+		"category": "District"
+	},
+	{
+		"code": "1683",
+		"name": "Kelet Pasar",
+		"category": "District"
+	},
+	{
+		"code": "1684",
+		"name": "Keling Perhutani",
+		"category": "District"
+	},
+	{
+		"code": "1685",
+		"name": "Keling Polsek",
+		"category": "District"
+	},
+	{
+		"code": "1686",
+		"name": "Kembang",
+		"category": "District"
+	},
+	{
+		"code": "1687",
+		"name": "Krasak",
+		"category": "District"
+	},
+	{
+		"code": "1688",
+		"name": "Lebak",
+		"category": "District"
+	},
+	{
+		"code": "1689",
+		"name": "Mayong",
+		"category": "District"
+	},
+	{
+		"code": "1690",
+		"name": "Mlonggo",
+		"category": "District"
+	},
+	{
+		"code": "1691",
+		"name": "Pecangaan",
+		"category": "District"
+	},
+	{
+		"code": "1692",
+		"name": "Purwogondo",
+		"category": "District"
+	},
+	{
+		"code": "1693",
+		"name": "Sambung Oyot",
+		"category": "District"
+	},
+	{
+		"code": "1694",
+		"name": "Sebagor",
+		"category": "District"
+	},
+	{
+		"code": "1695",
+		"name": "Sekuro",
+		"category": "District"
+	},
+	{
+		"code": "1696",
+		"name": "Senenan",
+		"category": "District"
+	},
+	{
+		"code": "1697",
+		"name": "Tanggulasi",
+		"category": "District"
+	},
+	{
+		"code": "1698",
+		"name": "Tunggul",
+		"category": "District"
+	},
+	{
+		"code": "1699",
+		"name": "Welahan",
+		"category": "District"
+	},
+	{
+		"code": "1700",
+		"name": "Daren",
+		"category": "District"
+	},
+	{
+		"code": "1701",
+		"name": "Ndawe",
+		"category": "District"
+	},
+	{
+		"code": "1702",
+		"name": "Menawan",
+		"category": "District"
+	},
+	{
+		"code": "1703",
+		"name": "Jati Wetan",
+		"category": "District"
+	},
+	{
+		"code": "1704",
+		"name": "Kuripan",
+		"category": "District"
+	},
+	{
+		"code": "1705",
+		"name": "Depok",
+		"category": "District"
+	},
+	{
+		"code": "1706",
+		"name": "Genuk",
+		"category": "District"
+	},
+	{
+		"code": "1707",
+		"name": "Krapyak",
+		"category": "District"
+	},
+	{
+		"code": "1708",
+		"name": "Pedurungan",
+		"category": "District"
+	},
+	{
+		"code": "1709",
+		"name": "Cileungsi",
+		"category": "District"
+	},
+	{
+		"code": "1710",
+		"name": "Cibinong",
+		"category": "District"
+	},
+	{
+		"code": "1711",
+		"name": "Bubulak",
+		"category": "District"
+	},
+	{
+		"code": "1712",
+		"name": "Cluwak",
+		"category": "District"
+	},
+	{
+		"code": "1713",
+		"name": "Kayen",
+		"category": "District"
+	},
+	{
+		"code": "1714",
+		"name": "Ngablak",
+		"category": "District"
+	},
+	{
+		"code": "1715",
+		"name": "Ngemplak",
+		"category": "District"
+	},
+	{
+		"code": "1716",
+		"name": "Sukolilo",
+		"category": "District"
+	},
+	{
+		"code": "1717",
+		"name": "Tayu",
+		"category": "District"
+	},
+	{
+		"code": "1718",
+		"name": "Trangkil",
+		"category": "District"
+	},
+	{
+		"code": "1719",
+		"name": "Wedari",
+		"category": "District"
+	},
+	{
+		"code": "1720",
+		"name": "Jetak",
+		"category": "District"
+	},
+	{
+		"code": "1721",
+		"name": "Tingkir",
+		"category": "District"
+	},
+	{
+		"code": "1722",
+		"name": "Bungurasih",
+		"category": "District"
+	},
+	{
+		"code": "1723",
+		"name": "Menur Pumpungan",
+		"category": "District"
+	},
+	{
+		"code": "1724",
+		"name": "Umbulharjo",
+		"category": "District"
+	},
+	{
+		"code": "1725",
+		"name": "Pasar Kamis",
+		"category": "District"
+	},
+	{
+		"code": "1726",
+		"name": "Doyong",
+		"category": "District"
+	},
+	{
+		"code": "1727",
+		"name": "BSD",
+		"category": "District"
+	},
+	{
+		"code": "1728",
+		"name": "Muncul Parung",
+		"category": "District"
+	},
+	{
+		"code": "1729",
+		"name": "Poris",
+		"category": "District"
+	},
+	{
+		"code": "1730",
+		"name": "Bandung Sumedang",
+		"category": "District"
+	},
+	{
+		"code": "1731",
+		"name": "Karangsari",
+		"category": "District"
+	},
+	{
+		"code": "1732",
+		"name": "Panjang",
+		"category": "District"
+	},
+	{
+		"code": "1733",
+		"name": "Buntalan",
+		"category": "District"
+	},
+	{
+		"code": "1734",
+		"name": "Purworejo Regency",
+		"category": "District"
+	},
+	{
+		"code": "1735",
+		"name": "Gedongmulyo",
+		"category": "District"
+	},
+	{
+		"code": "1736",
+		"name": "Kebon Polo",
+		"category": "District"
+	},
+	{
+		"code": "1737",
+		"name": "Tambakan",
+		"category": "District"
+	},
+	{
+		"code": "1738",
+		"name": "Pati Regency",
+		"category": "District"
+	},
+	{
+		"code": "1739",
+		"name": "Candisari",
+		"category": "District"
+	},
+	{
+		"code": "1740",
+		"name": "Pandean Rembang",
+		"category": "District"
+	},
+	{
+		"code": "1741",
+		"name": "Ungaran Barat",
+		"category": "District"
+	},
+	{
+		"code": "1742",
+		"name": "Demak Regency",
+		"category": "District"
+	},
+	{
+		"code": "1743",
+		"name": "Gubug Grobogan",
+		"category": "District"
+	},
+	{
+		"code": "1744",
+		"name": "Pekalongan Timur",
+		"category": "District"
+	},
+	{
+		"code": "1745",
+		"name": "Selogiri",
+		"category": "District"
+	},
+	{
+		"code": "1746",
+		"name": "Gunung Kidul",
+		"category": "District"
+	},
+	{
+		"code": "1747",
+		"name": "Banjarsari",
+		"category": "District"
+	},
+	{
+		"code": "1748",
+		"name": "Panyileukan",
+		"category": "District"
+	},
+	{
+		"code": "1749",
+		"name": "Cisarua",
+		"category": "District"
+	},
+	{
+		"code": "1750",
+		"name": "Kiaracondong",
+		"category": "District"
+	},
+	{
+		"code": "1751",
+		"name": "Bintoro",
+		"category": "District"
+	},
+	{
+		"code": "1752",
+		"name": "Citrosancakan",
+		"category": "District"
+	},
+	{
+		"code": "1753",
+		"name": "Singodutan",
+		"category": "District"
+	},
+	{
+		"code": "1754",
+		"name": "Grobogan Regency",
+		"category": "District"
+	},
+	{
+		"code": "1755",
+		"name": "Penawangan",
+		"category": "District"
+	},
+	{
+		"code": "1756",
+		"name": "Toroh",
+		"category": "District"
+	},
+	{
+		"code": "1757",
+		"name": "Sudimara Barat",
+		"category": "District"
+	},
+	{
+		"code": "1758",
+		"name": "Bogor Barat",
+		"category": "District"
+	},
+	{
+		"code": "1759",
+		"name": "Wanaherang",
+		"category": "District"
+	},
+	{
+		"code": "1760",
+		"name": "Parung",
+		"category": "District"
+	},
+	{
+		"code": "1761",
+		"name": "Haurgeulis",
+		"category": "District"
+	},
+	{
+		"code": "1762",
+		"name": "Cinere",
+		"category": "District"
+	},
+	{
+		"code": "1763",
+		"name": "Pamulang",
+		"category": "District"
+	},
+	{
+		"code": "1764",
+		"name": "Gaplek",
+		"category": "District"
+	},
+	{
+		"code": "1765",
+		"name": "Ciputat",
+		"category": "District"
+	},
+	{
+		"code": "1766",
+		"name": "Dipatiukur",
+		"category": "District"
+	},
+	{
+		"code": "1767",
+		"name": "Pasteur",
+		"category": "District"
+	},
+	{
+		"code": "1768",
+		"name": "Bitung",
+		"category": "District"
+	},
+	{
+		"code": "1769",
+		"name": "Balaraja",
+		"category": "District"
+	},
+	{
+		"code": "1770",
+		"name": "Babat",
+		"category": "District"
+	},
+	{
+		"code": "1771",
+		"name": "Terboyo",
+		"category": "District"
+	},
+	{
+		"code": "1772",
+		"name": "Ngantru",
+		"category": "District"
+	},
+	{
+		"code": "1773",
+		"name": "Merak",
+		"category": "District"
+	},
+	{
+		"code": "1774",
+		"name": "Klari",
+		"category": "District"
+	},
+	{
+		"code": "1775",
+		"name": "Mengwitani",
+		"category": "District"
+	},
+	{
+		"code": "1776",
+		"name": "Pulo Gadung",
+		"category": "District"
+	},
+	{
+		"code": "1777",
+		"name": "Semanding",
+		"category": "District"
+	}
+]

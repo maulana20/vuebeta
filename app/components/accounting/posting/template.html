@@ -1,0 +1,31 @@
+<div id="main" role="main" class="accounting-posting">
+	<div id="ribbon">
+		<ol class="breadcrumb">
+			<li>Accounting</li><li>Posting</li>
+		</ol>
+		<div class="user-table-container">
+			<div style="font-weight:800; margin-bottom:10px;">Periode List&nbsp;<div class="btn btn-xs btn-success" v-if="posting_list">{{posting_list[0].period_year}}</div></div>
+			<button type="button" style="font-size: 11px; color: #fff; background-color: #275b89; border-color: #2c699d; position: absolute; right:20px; margin-top: 5px;" v-if="posting_list.length != 12" @click="doUpdatePeriod()">Update Period</button>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th style="vertical-align:middle; width:10px;"></th>
+						<th style="vertical-align:middle;">Bulan</th>
+					</tr>
+				</thead>
+				<tbody v-if="posting_list">
+					<tr v-for="(data, index) in posting_list">
+						<td><input v-model="checked" v-bind:value="data.period_begin" :id="data.period_begin" type="checkbox" v-bind:checked="data.period_status == 'P' || data.period_status == 'C'"  v-bind:disabled="data.period_status == 'C'"></td>
+						<td><label :for="data.period_begin">{{data.period_month}}</label></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="row">
+				<div class="col-xs-12 col-sm-3">
+					<button class="btn btn-primary" @click="doProcess()" v-if="posting_list.length == 12">Posting</button>
+				</div>
+			</div>
+			&nbsp;
+		</div>
+	</div>
+</div>

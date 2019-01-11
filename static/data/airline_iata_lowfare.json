@@ -1,0 +1,210 @@
+[
+	{
+		"airline_code": "",
+		"airline_name": "- Pilih Kode Pesawat -"
+	},
+	{
+		"airline_code": "KE",
+		"airline_name": "Korean Airlines"
+	},
+	{
+		"airline_code": "SQ",
+		"airline_name": "Singapore Airline"
+	},
+	{
+		"airline_code": "AA",
+		"airline_name": "American Airlines"
+	},
+	{
+		"airline_code": "AC",
+		"airline_name": "Air Canada"
+	},
+	{
+		"airline_code": "AF",
+		"airline_name": "Groupe Air France"
+	},
+	{
+		"airline_code": "AM",
+		"airline_name": "Aeromexico"
+	},
+	{
+		"airline_code": "AY",
+		"airline_name": "Finnair"
+	},
+	{
+		"airline_code": "BA",
+		"airline_name": "British Airways"
+	},
+	{
+		"airline_code": "BI",
+		"airline_name": "Royal Brunei Airlines"
+	},
+	{
+		"airline_code": "BR",
+		"airline_name": "Eva Airways"
+	},
+	{
+		"airline_code": "CA",
+		"airline_name": "Air China"
+	},
+	{
+		"airline_code": "CI",
+		"airline_name": "China Airways"
+	},
+	{
+		"airline_code": "CX",
+		"airline_name": "Cathay Pasific Airways"
+	},
+	{
+		"airline_code": "CZ",
+		"airline_name": "China Southern Airlines"
+	},
+	{
+		"airline_code": "DL",
+		"airline_name": "Delta Airlines"
+	},
+	{
+		"airline_code": "EK",
+		"airline_name": "Emirates Airlines"
+	},
+	{
+		"airline_code": "ET",
+		"airline_name": "Ethopian Airlines"
+	},
+	{
+		"airline_code": "EY",
+		"airline_name": "Etihad Airways"
+	},
+	{
+		"airline_code": "GA",
+		"airline_name": "Garuda Indonesia"
+	},
+	{
+		"airline_code": "HR",
+		"airline_name": "Hahn Airlines"
+	},
+	{
+		"airline_code": "HU",
+		"airline_name": "Hainan Airlines"
+	},
+	{
+		"airline_code": "JL",
+		"airline_name": "Japan Airlines"
+	},
+	{
+		"airline_code": "KC",
+		"airline_name": "Air Istana"
+	},
+	{
+		"airline_code": "KL",
+		"airline_name": "KLM Royal Dutch Airlines"
+	},
+	{
+		"airline_code": "KQ",
+		"airline_name": "Kenya Airways"
+	},
+	{
+		"airline_code": "KU",
+		"airline_name": "Kuwait Airlines"
+	},
+	{
+		"airline_code": "LH",
+		"airline_name": "Deutsche Lufthansa"
+	},
+	{
+		"airline_code": "LX",
+		"airline_name": "Swiss International Airlines"
+	},
+	{
+		"airline_code": "LY",
+		"airline_name": "El Al Israel Airlines"
+	},
+	{
+		"airline_code": "MF",
+		"airline_name": "Xiament Airlines"
+	},
+	{
+		"airline_code": "MH",
+		"airline_name": "Malaysia Airline"
+	},
+	{
+		"airline_code": "MJ",
+		"airline_name": "Mihin Lanka"
+	},
+	{
+		"airline_code": "NH",
+		"airline_name": "ANA All Nippon Airways"
+	},
+	{
+		"airline_code": "OZ",
+		"airline_name": "Asiana Airlines"
+	},
+	{
+		"airline_code": "PK",
+		"airline_name": "Pakistan International Airlines"
+	},
+	{
+		"airline_code": "PR",
+		"airline_name": "Philippine Airline"
+	},
+	{
+		"airline_code": "QF",
+		"airline_name": "Qantas Airways"
+	},
+	{
+		"airline_code": "QR",
+		"airline_name": "Qatar Airways"
+	},
+	{
+		"airline_code": "QV",
+		"airline_name": "Lao Airlines"
+	},
+	{
+		"airline_code": "RJ",
+		"airline_name": "Royal Jordanian"
+	},
+	{
+		"airline_code": "SV",
+		"airline_name": "Saudi Arabian Airlines"
+	},
+	{
+		"airline_code": "TG",
+		"airline_name": "Thai Airways"
+	},
+	{
+		"airline_code": "TK",
+		"airline_name": "Turkish Airlines"
+	},
+	{
+		"airline_code": "TP",
+		"airline_name": "Tap Portugal"
+	},
+	{
+		"airline_code": "UA",
+		"airline_name": "United Airlines"
+	},
+	{
+		"airline_code": "VN",
+		"airline_name": "Vietnam Airlines"
+	},
+	{
+		"airline_code": "WY",
+		"airline_name": "Oman Air"
+	},
+	{
+		"airline_code": "YO",
+		"airline_name": "Heli Air Monaco"
+	},
+	{
+		"airline_code": "9W",
+		"airline_name": "Jet Airways"
+	},
+	{
+		"airline_code": "MD",
+		"airline_name": "Air Madagascar"
+	},
+	{
+		"airline_code": "PS",
+		"airline_name": "Ukraina International Airlines"
+	}
+]

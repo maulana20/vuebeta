@@ -1,0 +1,5748 @@
+[
+  {
+    "airportGroupId": "00",
+    "name": "Destinasi Populer",
+    "data": [
+      {
+        "name": "Indonesia",
+        "airports": [
+          {
+            "airport_code": "DPS",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Ngurah Rai Int Airport",
+            "airport_city": "Denpasar"
+          },
+          {
+            "airport_code": "UPG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sultan Hasanudin Airport",
+            "airport_city": "Ujung Pandang, Makassar"
+          },
+          {
+            "airport_code": "KNO",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Kuala Namu Airport",
+            "airport_city": "Medan, Kuala Namu"
+          },
+          {
+            "airport_code": "SUB",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Juanda Int Airport",
+            "airport_city": "Surabaya"
+          },
+          {
+            "airport_code": "JOG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Adi Sutjipto Int Airport",
+            "airport_city": "Jogjakarta"
+          },
+          {
+            "airport_code": "PDG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Minangkabau",
+            "airport_city": "Padang"
+          }
+        ]
+      },
+      {
+        "name": "Singapore",
+        "airports": [
+          {
+            "airport_code": "SIN",
+            "airport_continent": "Asia",
+            "airport_country": "Singapore",
+            "airport_name": "Changi Intl"
+          }
+        ]
+      },
+      {
+        "name": "Malaysia",
+        "airports": [
+          {
+            "airport_code": "JHB",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Sultan Ismail"
+          },
+          {
+            "airport_code": "BKI",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Kota Kinabalu Intl"
+          },
+          {
+            "airport_code": "XKLA",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Kuala Lumpur - Semua Bandara"
+          },
+          {
+            "airport_code": "KCH",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Kuching Intl"
+          },
+          {
+            "airport_code": "PEN",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Penang Intl"
+          }
+        ]
+      },
+      {
+        "name": "Thailand",
+        "airports": [
+          {
+            "airport_code": "BKKA",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Bangkok - Semua Bandara"
+          },
+          {
+            "airport_code": "HDY",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Hat Yai Intl"
+          },
+          {
+            "airport_code": "HKT",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Phuket Intl"
+          }
+        ]
+      },
+      {
+        "name": "Hongkong, Macau & China",
+        "airports": [
+          {
+            "airport_code": "CAN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Baiyun Intl"
+          },
+          {
+            "airport_code": "HKG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Hongkong Intl"
+          },
+          {
+            "airport_code": "MFM",
+            "airport_continent": "Asia",
+            "airport_country": "Macau",
+            "airport_name": "Macau Intl"
+          },
+          {
+            "airport_code": "TPE",
+            "airport_continent": "Asia",
+            "airport_country": "Taiwan",
+            "airport_name": "Taoyuan Intl"
+          }
+        ]
+      },
+      {
+        "name": "Vietnam",
+        "airports": [
+          {
+            "airport_code": "HAN",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Noibai Intl"
+          },
+          {
+            "airport_code": "SGN",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Tansonnhat Intl"
+          }
+        ]
+      },
+      {
+        "name": "Filipina",
+        "airports": [
+          {
+            "airport_code": "MNL",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Ninoy Aquino Intl"
+          }
+        ]
+      },
+      {
+        "name": "Australia",
+        "airports": [
+          {
+            "airport_code": "MEL",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Melbourne Intl"
+          },
+          {
+            "airport_code": "PER",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Perth Intl"
+          }
+        ]
+      },
+      {
+        "name": "Kamboja",
+        "airports": [
+          {
+            "airport_code": "PNH",
+            "airport_continent": "Asia",
+            "airport_country": "Cambodia",
+            "airport_name": "Phnom Penh Intl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airportGroupId": "01",
+    "name": "Indonesia",
+    "data": [
+      {
+        "name": "Jawa",
+        "airports": [
+          {
+            "airport_code": "BDO",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Husein Sastranegara Airport",
+            "airport_city": "Bandung"
+          },
+          {
+            "airport_code": "BWX",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Blimbingsari Airport",
+            "airport_city": "Banyuwangi New"
+          },
+          {
+            "airport_code": "CGK",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Soekarno Hatta Intl Airport",
+            "airport_city": "Jakarta"
+          },
+          {
+            "airport_code": "HLP",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Halim Perdanakusuma International Airport",
+            "airport_city": "Halim (Jakarta)"
+          },
+          {
+            "airport_code": "JBB",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Noto Hadinegoro Airport"
+          },
+          {
+            "airport_code": "MLG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Abdul Rachman Saleh",
+            "airport_city": "Malang"
+          },
+          {
+            "airport_code": "SRG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Achmad Yani Int Airport",
+            "airport_city": "Semarang"
+          },
+          {
+            "airport_code": "SOC",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Adi Sumarmo Wiryokusumo",
+            "airport_city": "Solo"
+          },
+          {
+            "airport_code": "SUB",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Juanda Int Airport",
+            "airport_city": "Surabaya"
+          },
+          {
+            "airport_code": "JOG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Adi Sutjipto Int Airport",
+            "airport_city": "Jogjakarta"
+          }
+        ]
+      },
+      {
+        "name": "Sumatera",
+        "airports": [
+          {
+            "airport_code": "MWK",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Anambas Islands",
+            "airport_city": "Anambas Islands"
+          },
+          {
+            "airport_code": "BTJ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sultan Iskandarmuda Int Airport",
+            "airport_city": "Banda Aceh"
+          },
+          {
+            "airport_code": "TKG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Radin Inten II  Airport",
+            "airport_city": "Bandar Lampung"
+          },
+          {
+            "airport_code": "BTH",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Hang Nadim Airport",
+            "airport_city": "Batam"
+          },
+          {
+            "airport_code": "BKS",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Fatmawati Soekarno Airport",
+            "airport_city": "Bengkulu"
+          },
+          {
+            "airport_code": "DUM",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Pinang Kampai Airport",
+            "airport_city": "Dumai"
+          },
+          {
+            "airport_code": "GNS",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Binaka Airport",
+            "airport_city": "Gunung Sitoli"
+          },
+          {
+            "airport_code": "DJB",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sultan Thaha Airport",
+            "airport_city": "Jambi"
+          },
+          {
+            "airport_code": "LSW",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Malikus Saleh Airport",
+            "airport_city": "Lhokseumawe"
+          },
+          {
+            "airport_code": "LLG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Silampari Airport",
+            "airport_city": "Linggau"
+          },
+          {
+            "airport_code": "KNO",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Kuala Namu Airport",
+            "airport_city": "Medan, Kuala Namu"
+          },
+          {
+            "airport_code": "MEQ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Cut Nyak Dhien Airport",
+            "airport_city": "Meulaboh"
+          },
+          {
+            "airport_code": "MRB",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Muara Bungo"
+          },
+          {
+            "airport_code": "MWS",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Muara Bungo Lion"
+          },
+          {
+            "airport_code": "NTX",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Ranai Airport",
+            "airport_city": "Natuna Ranai"
+          },
+          {
+            "airport_code": "PDG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Minangkabau",
+            "airport_city": "Padang"
+          },
+          {
+            "airport_code": "DPM",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Atung Bungsu Airport"
+          },
+          {
+            "airport_code": "PLM",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sultan Mahmud Badaruddin II",
+            "airport_city": "Palembang"
+          },
+          {
+            "airport_code": "PGK",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Depati Amir Airport",
+            "airport_city": "Pangkal Pinang"
+          },
+          {
+            "airport_code": "PKU",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sultan Syarif Kasim II",
+            "airport_city": "Pekan Baru"
+          },
+          {
+            "airport_code": "SBG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Maimun Saleh Airport",
+            "airport_city": "Maimun Saleh"
+          },
+          {
+            "airport_code": "FLZ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Pinang Sori",
+            "airport_city": "Pinang Sori"
+          },
+          {
+            "airport_code": "DTB",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Silangit Airport",
+            "airport_city": "Silangit"
+          },
+          {
+            "airport_code": "SMG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Lasikin Airport"
+          },
+          {
+            "airport_code": "TXE",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Takengon Rembele Airport"
+          },
+          {
+            "airport_code": "TJQ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "H As Hanandjoeddin",
+            "airport_city": "Tanjung Pandan"
+          },
+          {
+            "airport_code": "TNJ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Raja Haji Fisabilillah Airport",
+            "airport_city": "Tanjung Pinang"
+          },
+          {
+            "airport_code": "AEG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Aek Godang Airport",
+            "airport_city": "Sibolga"
+          }
+        ]
+      },
+      {
+        "name": "Kalimantan",
+        "airports": [
+          {
+            "airport_code": "BPN",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sultan Aji Muhammad Sulaiman Airport",
+            "airport_city": "Balikpapan"
+          },
+          {
+            "airport_code": "BDJ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Syamsudin Noor Int Airport",
+            "airport_city": "Banjarmasin"
+          },
+          {
+            "airport_code": "BTW",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Batulicin Airport",
+            "airport_city": "Batu Licin"
+          },
+          {
+            "airport_code": "BEJ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Kalimarau Airport",
+            "airport_city": "Berau"
+          },
+          {
+            "airport_code": "BTK",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Bratsk"
+          },
+          {
+            "airport_code": "TBM",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Tumbang Samba Airport"
+          },
+          {
+            "airport_code": "KTG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Rahadi Usman Airport",
+            "airport_city": "Ketapang"
+          },
+          {
+            "airport_code": "KLK",
+            "airport_continent": "Africa",
+            "airport_country": "Kenya",
+            "airport_name": "Kalokol"
+          },
+          {
+            "airport_code": "MLN",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Malinau Xpress",
+            "airport_city": "Kalimantan Utara"
+          },
+          {
+            "airport_code": "MLK",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Melalan Airport"
+          },
+          {
+            "airport_code": "NNX",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Nunukan Airport",
+            "airport_city": "Nunukan"
+          },
+          {
+            "airport_code": "PKY",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Tjilik Riwut",
+            "airport_city": "Palangkaraya"
+          },
+          {
+            "airport_code": "PKN",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Iskandar Airport",
+            "airport_city": "Pangkalan Bun"
+          },
+          {
+            "airport_code": "PNK",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Supadio Int Airport",
+            "airport_city": "Pontianak"
+          },
+          {
+            "airport_code": "PXC",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Dirung Lingkin Airport"
+          },
+          {
+            "airport_code": "PSU",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Pangsuma Airport",
+            "airport_city": "Putusibau"
+          },
+          {
+            "airport_code": "SRI",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Temindung Airport",
+            "airport_city": "Samarinda"
+          },
+          {
+            "airport_code": "SMQ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "H Hasan Airport",
+            "airport_city": "Sampit"
+          },
+          {
+            "airport_code": "SGQ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Tanjung Bara Airport",
+            "airport_city": "Sangata"
+          },
+          {
+            "airport_code": "KPX",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Kuala Pembuang Airport"
+          },
+          {
+            "airport_code": "SQG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Susilo Airport/ Sintang Airport",
+            "airport_city": "Susilo Airport"
+          },
+          {
+            "airport_code": "TJS",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Tanjung Harapan Airport",
+            "airport_city": "Tanjung Harapan Airport"
+          },
+          {
+            "airport_code": "TJG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Warukin Airport",
+            "airport_city": "Warukin Airport"
+          },
+          {
+            "airport_code": "TRK",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Juwata Airport",
+            "airport_city": "Tarakan"
+          }
+        ]
+      },
+      {
+        "name": "Sulawesi",
+        "airports": [
+          {
+            "airport_code": "VPM",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Tanjung Api Airport"
+          },
+          {
+            "airport_code": "BUW",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Betoambari Airport",
+            "airport_city": "Baubau"
+          },
+          {
+            "airport_code": "BXE",
+            "airport_continent": "Africa",
+            "airport_country": "Senegal",
+            "airport_name": "Bakel"
+          },
+          {
+            "airport_code": "BUA",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Buka Airport"
+          },
+          {
+            "airport_code": "UOL",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Pogogul Airport",
+            "airport_city": "Buol"
+          },
+          {
+            "airport_code": "GTO",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Jalaluddin Airport",
+            "airport_city": "Gorontalo"
+          },
+          {
+            "airport_code": "KDI",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Haluoleo Airport",
+            "airport_city": "Kendari"
+          },
+          {
+            "airport_code": "LUW",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Bubung",
+            "airport_city": "Luwuk"
+          },
+          {
+            "airport_code": "UPG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sultan Hasanudin Airport",
+            "airport_city": "Ujung Pandang, Makassar"
+          },
+          {
+            "airport_code": "MOH",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Morowali Airport",
+            "airport_city": "Sulawesi Tengah"
+          },
+          {
+            "airport_code": "MSA",
+            "airport_continent": "North America",
+            "airport_country": "Canada",
+            "airport_name": "Muskrat Dam Airport"
+          },
+          {
+            "airport_code": "MJU",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Tampa Padang",
+            "airport_city": "Mamuju"
+          },
+          {
+            "airport_code": "MDC",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sam Ratulangi",
+            "airport_city": "Manado"
+          },
+          {
+            "airport_code": "MXB",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Andi Djemma Airport"
+          },
+          {
+            "airport_code": "RAQ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sugimanuru Airport"
+          },
+          {
+            "airport_code": "NAH",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Naha Airport",
+            "airport_city": "Tahuna"
+          },
+          {
+            "airport_code": "LLO",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Lagaligo Airport"
+          },
+          {
+            "airport_code": "PLW",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Mutiara Sis Al-Jufrie Airport",
+            "airport_city": "Palu"
+          },
+          {
+            "airport_code": "PUM",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Pomalaa",
+            "airport_city": "Pomalaa"
+          },
+          {
+            "airport_code": "PSJ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Kasiguncu Airport",
+            "airport_city": "Poso"
+          },
+          {
+            "airport_code": "RPI",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Onondowa Airport"
+          },
+          {
+            "airport_code": "SKO",
+            "airport_continent": "Africa",
+            "airport_country": "Nigeria",
+            "airport_name": "Sadiq Abubakar Iii Intl"
+          },
+          {
+            "airport_code": "YKR",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "H. Aroeppala Airport",
+            "airport_city": "Selayar"
+          },
+          {
+            "airport_code": "MNA",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Melongguane Airport",
+            "airport_city": "Melanguane"
+          },
+          {
+            "airport_code": "TTR",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Pongtiku Airport",
+            "airport_city": "Toraja"
+          },
+          {
+            "airport_code": "TLI",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sultan Bantilan Airport",
+            "airport_city": "Tolitoli"
+          },
+          {
+            "airport_code": "WNI",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Matahora Airport",
+            "airport_city": "Wakatobi"
+          }
+        ]
+      },
+      {
+        "name": "Bali & Nusa Teng.",
+        "airports": [
+          {
+            "airport_code": "ARD",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Mali Airport",
+            "airport_city": "Alor Island"
+          },
+          {
+            "airport_code": "ABU",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "AA Bere Tallo Airport",
+            "airport_city": "Attambua"
+          },
+          {
+            "airport_code": "BJW",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Soa Airport",
+            "airport_city": "Bajawa"
+          },
+          {
+            "airport_code": "DPS",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Ngurah Rai Int Airport",
+            "airport_city": "Denpasar"
+          },
+          {
+            "airport_code": "BMU",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Muhammad Salahuddin Airport",
+            "airport_city": "Bima"
+          },
+          {
+            "airport_code": "ENE",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "H Hasan Aroeboesman",
+            "airport_city": "Ende"
+          },
+          {
+            "airport_code": "KOE",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "El Tari",
+            "airport_city": "Kupang"
+          },
+          {
+            "airport_code": "LBJ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Mutiara II",
+            "airport_city": "Labuan Bajo"
+          },
+          {
+            "airport_code": "LKA",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Gewayantana Airport",
+            "airport_city": "Larantuka"
+          },
+          {
+            "airport_code": "LOP",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Lombok Int Airport",
+            "airport_city": "Lombok, Mataram"
+          },
+          {
+            "airport_code": "MOF",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Wai Oti Airport",
+            "airport_city": "Maumere"
+          },
+          {
+            "airport_code": "RTI",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Roti Airport"
+          },
+          {
+            "airport_code": "RTG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Frans Sales Lega Airport ",
+            "airport_city": "Ruteng"
+          },
+          {
+            "airport_code": "SWQ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sultan Muhammad kaharudin III Airport",
+            "airport_city": "Sumbawa"
+          },
+          {
+            "airport_code": "TMC",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Tambolaka Airport",
+            "airport_city": "Tambolaka"
+          },
+          {
+            "airport_code": "WGP",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Umbu Mehang Kunda Airport",
+            "airport_city": "Waingapu"
+          }
+        ]
+      },
+      {
+        "name": "Maluku & Papua",
+        "airports": [
+          {
+            "airport_code": "AGI",
+            "airport_continent": "South America",
+            "airport_country": "Suriname",
+            "airport_name": "Wageningen Airstrip"
+          },
+          {
+            "airport_code": "AMQ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Pattimura Airport",
+            "airport_city": "Ambon"
+          },
+          {
+            "airport_code": "EWE",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Ewer Airport"
+          },
+          {
+            "airport_code": "BIK",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Frans Kaisiepo Airport",
+            "airport_city": "Biak"
+          },
+          {
+            "airport_code": "ZGP",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sugapa Airport"
+          },
+          {
+            "airport_code": "WUB",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Buli Airport",
+            "airport_city": "Buli"
+          },
+          {
+            "airport_code": "FKQ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "FakFak Torea",
+            "airport_city": "Fak Fak"
+          },
+          {
+            "airport_code": "GLX",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Gamar Malamo Airport"
+          },
+          {
+            "airport_code": "OKL",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Oksibil Airport"
+          },
+          {
+            "airport_code": "ILA",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Ilaga Airport"
+          },
+          {
+            "airport_code": "DJJ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sentani International Airport",
+            "airport_city": "Jayapura"
+          },
+          {
+            "airport_code": "KNG",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Kaimana",
+            "airport_city": "Kaimana"
+          },
+          {
+            "airport_code": "KNY",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Kenyam Airport"
+          },
+          {
+            "airport_code": "LUV",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Dumatubun Airport",
+            "airport_city": "Tual"
+          },
+          {
+            "airport_code": "MKW",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Rendani Airport",
+            "airport_city": "Manokwari"
+          },
+          {
+            "airport_code": "KEP",
+            "airport_continent": "Asia",
+            "airport_country": "Nepal",
+            "airport_name": "Nepalgunj Airport"
+          },
+          {
+            "airport_code": "MKQ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Mopah Airport",
+            "airport_city": "Merauke"
+          },
+          {
+            "airport_code": "KOX",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Koln"
+          },
+          {
+            "airport_code": "OTI",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Pitu Airport",
+            "airport_city": "Pitu"
+          },
+          {
+            "airport_code": "NBX",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Nabire",
+            "airport_city": "Nabire"
+          },
+          {
+            "airport_code": "PTW",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Potowai Airport"
+          },
+          {
+            "airport_code": "SNK",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sinak Airport"
+          },
+          {
+            "airport_code": "SXK",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Saumlaki Airport",
+            "airport_city": "Saumlaki"
+          },
+          {
+            "airport_code": "SOQ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Jefman Airport",
+            "airport_city": "Sorong"
+          },
+          {
+            "airport_code": "TTE",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Sultan Babullah Airport",
+            "airport_city": "Ternate"
+          },
+          {
+            "airport_code": "TIM",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Moses Kilangin Airport",
+            "airport_city": "Timika"
+          },
+          {
+            "airport_code": "KAZ",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Kuabang Kao Airport",
+            "airport_city": "Tobelo"
+          },
+          {
+            "airport_code": "WMX",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Wamena Airport",
+            "airport_city": "Wamena"
+          },
+          {
+            "airport_code": "DEX",
+            "airport_continent": "Asia",
+            "airport_country": "Indonesia",
+            "airport_name": "Dekai"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airportGroupId": "02",
+    "name": "Malaysia & Singapore",
+    "data": [
+      {
+        "name": "Malaysia",
+        "airports": [
+          {
+            "airport_code": "XKLA",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Kuala Lumpur - Semua Bandara"
+          },
+          {
+            "airport_code": "AOR",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Sultan Abdul Halim"
+          },
+          {
+            "airport_code": "BKM",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Bakalalan Airport"
+          },
+          {
+            "airport_code": "BBN",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Bario Airport"
+          },
+          {
+            "airport_code": "BTU",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Bintulu"
+          },
+          {
+            "airport_code": "IPH",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Sultan Azlan Shah"
+          },
+          {
+            "airport_code": "JHB",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Sultan Ismail"
+          },
+          {
+            "airport_code": "KTE",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Kerteh"
+          },
+          {
+            "airport_code": "KBR",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Sultan Ismail Petra"
+          },
+          {
+            "airport_code": "BKI",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Kota Kinabalu Intl"
+          },
+          {
+            "airport_code": "KUL",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Kuala Lumpur Intl"
+          },
+          {
+            "airport_code": "SZB",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Subang-Sultan Abdul Aziz Shah Intl"
+          },
+          {
+            "airport_code": "TGG",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Sultan Mahmud"
+          },
+          {
+            "airport_code": "KUA",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Kuantan"
+          },
+          {
+            "airport_code": "KCH",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Kuching Intl"
+          },
+          {
+            "airport_code": "KUD",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Kudat Airport"
+          },
+          {
+            "airport_code": "LBU",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Labuan"
+          },
+          {
+            "airport_code": "LDU",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Lahad Datu"
+          },
+          {
+            "airport_code": "LGK",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Langkawi Intl"
+          },
+          {
+            "airport_code": "LWY",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Lawas Airport"
+          },
+          {
+            "airport_code": "LMN",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Limbang"
+          },
+          {
+            "airport_code": "LKH",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Long Akah Airport"
+          },
+          {
+            "airport_code": "LBP",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Long Banga Airport"
+          },
+          {
+            "airport_code": "LGL",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Long Lellang Airport"
+          },
+          {
+            "airport_code": "ODN",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Long Seridan Airport"
+          },
+          {
+            "airport_code": "MKZ",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Malacca"
+          },
+          {
+            "airport_code": "MUR",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Marudi"
+          },
+          {
+            "airport_code": "MYY",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Miri"
+          },
+          {
+            "airport_code": "MKM",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Mukah Airport"
+          },
+          {
+            "airport_code": "MZV",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Mulu"
+          },
+          {
+            "airport_code": "PEN",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Penang Intl"
+          },
+          {
+            "airport_code": "SDK",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Sandakan"
+          },
+          {
+            "airport_code": "SBW",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Sibu"
+          },
+          {
+            "airport_code": "TGC",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Tanjung Manis Airport"
+          },
+          {
+            "airport_code": "TWU",
+            "airport_continent": "Asia",
+            "airport_country": "Malaysia",
+            "airport_name": "Tawau"
+          }
+        ]
+      },
+      {
+        "name": "Singapore",
+        "airports": [
+          {
+            "airport_code": "SIN",
+            "airport_continent": "Asia",
+            "airport_country": "Singapore",
+            "airport_name": "Changi Intl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airportGroupId": "03",
+    "name": "Thailand, Vietnam & Filipina",
+    "data": [
+      {
+        "name": "Thailand",
+        "airports": [
+          {
+            "airport_code": "BKKA",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Bangkok - Semua Bandara"
+          },
+          {
+            "airport_code": "BKK",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Suvarnabhumi Intl"
+          },
+          {
+            "airport_code": "DMK",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Don Muang Intl"
+          },
+          {
+            "airport_code": "BFV",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Buri Ram"
+          },
+          {
+            "airport_code": "CNX",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Chiang Mai Intl"
+          },
+          {
+            "airport_code": "CEI",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Chiang Rai Intl"
+          },
+          {
+            "airport_code": "CJM",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Chumphon"
+          },
+          {
+            "airport_code": "HDY",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Hat Yai Intl"
+          },
+          {
+            "airport_code": "KKC",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Khon Kaen"
+          },
+          {
+            "airport_code": "USM",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Samui"
+          },
+          {
+            "airport_code": "KBV",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Krabi"
+          },
+          {
+            "airport_code": "LPT",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Lampang"
+          },
+          {
+            "airport_code": "LOE",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Loei"
+          },
+          {
+            "airport_code": "HGN",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Mae Hong Son"
+          },
+          {
+            "airport_code": "MAQ",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Mae Sot Airport"
+          },
+          {
+            "airport_code": "KOP",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Nakhon Phanom"
+          },
+          {
+            "airport_code": "NST",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Nakhon Si Thammarat"
+          },
+          {
+            "airport_code": "NNT",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Nan"
+          },
+          {
+            "airport_code": "NAW",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Narathiwat"
+          },
+          {
+            "airport_code": "UTP",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "U Taphao Intl"
+          },
+          {
+            "airport_code": "PHS",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Phitsanulok"
+          },
+          {
+            "airport_code": "PRH",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Phrae"
+          },
+          {
+            "airport_code": "HKT",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Phuket Intl"
+          },
+          {
+            "airport_code": "UNN",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Ranong"
+          },
+          {
+            "airport_code": "ROI",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Roi Et"
+          },
+          {
+            "airport_code": "SNO",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Sakon Nakhon"
+          },
+          {
+            "airport_code": "THS",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Sukhothai"
+          },
+          {
+            "airport_code": "URT",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Surat Thani"
+          },
+          {
+            "airport_code": "TST",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Trang"
+          },
+          {
+            "airport_code": "TDX",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Trat"
+          },
+          {
+            "airport_code": "UBP",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Ubon Ratchathani"
+          },
+          {
+            "airport_code": "UTH",
+            "airport_continent": "Asia",
+            "airport_country": "Thailand",
+            "airport_name": "Udon Thani"
+          }
+        ]
+      },
+      {
+        "name": "Vietnam",
+        "airports": [
+          {
+            "airport_code": "BMV",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Buon Ma Thuot Airport"
+          },
+          {
+            "airport_code": "CAH",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Ca Mau"
+          },
+          {
+            "airport_code": "VCA",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Tra Noc Airport"
+          },
+          {
+            "airport_code": "VCL",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Chu Lai"
+          },
+          {
+            "airport_code": "VCS",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Co Ong Airport"
+          },
+          {
+            "airport_code": "DLI",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Dalat"
+          },
+          {
+            "airport_code": "DAD",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Danang Intl"
+          },
+          {
+            "airport_code": "DIN",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Dien Bien Phu Airport"
+          },
+          {
+            "airport_code": "VDH",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Dong Hoi"
+          },
+          {
+            "airport_code": "HPH",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Cat Bi International Airport"
+          },
+          {
+            "airport_code": "HAN",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Noibai Intl"
+          },
+          {
+            "airport_code": "SGN",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Tansonnhat Intl"
+          },
+          {
+            "airport_code": "HUI",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Phu Bai"
+          },
+          {
+            "airport_code": "CXR",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Cam Ranh Airport"
+          },
+          {
+            "airport_code": "PQC",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Duong Dong Airport"
+          },
+          {
+            "airport_code": "PXU",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Pleiku Airport"
+          },
+          {
+            "airport_code": "UIH",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Phu Cat Airport"
+          },
+          {
+            "airport_code": "VKG",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Rach Gia"
+          },
+          {
+            "airport_code": "THD",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Thanh Hoa"
+          },
+          {
+            "airport_code": "TBB",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Dong Tac"
+          },
+          {
+            "airport_code": "VII",
+            "airport_continent": "Asia",
+            "airport_country": "Vietnam",
+            "airport_name": "Vinh Airport"
+          }
+        ]
+      },
+      {
+        "name": "Filipina",
+        "airports": [
+          {
+            "airport_code": "BCD",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Bacolod"
+          },
+          {
+            "airport_code": "BSO",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Basco Airport"
+          },
+          {
+            "airport_code": "USU",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Busuanga"
+          },
+          {
+            "airport_code": "BXU",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Butuan"
+          },
+          {
+            "airport_code": "CGY",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Cagayan De Oro"
+          },
+          {
+            "airport_code": "CYP",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Calbayog Airport"
+          },
+          {
+            "airport_code": "CRM",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Catarman National Airport"
+          },
+          {
+            "airport_code": "MPH",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Godofredo P"
+          },
+          {
+            "airport_code": "CYZ",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Cauayan Airport"
+          },
+          {
+            "airport_code": "CEB",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Mactan Cebu Intl"
+          },
+          {
+            "airport_code": "CRK",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Diosdado Macapagal International"
+          },
+          {
+            "airport_code": "CBO",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Cotabato"
+          },
+          {
+            "airport_code": "DVO",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Francisco Bangoy International"
+          },
+          {
+            "airport_code": "DPL",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Dipolog"
+          },
+          {
+            "airport_code": "DGT",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Dumaguete"
+          },
+          {
+            "airport_code": "ENI",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "El Nido Airport"
+          },
+          {
+            "airport_code": "GES",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "General Santos International Airport"
+          },
+          {
+            "airport_code": "ILO",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Iloilo"
+          },
+          {
+            "airport_code": "KLO",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Kalibo"
+          },
+          {
+            "airport_code": "LAO",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Laoag Intl"
+          },
+          {
+            "airport_code": "LGP",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Legazpi"
+          },
+          {
+            "airport_code": "MNL",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Ninoy Aquino Intl"
+          },
+          {
+            "airport_code": "MBT",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Masbate Airport"
+          },
+          {
+            "airport_code": "WNP",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Naga Airport"
+          },
+          {
+            "airport_code": "BGN",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Bagabag Airport"
+          },
+          {
+            "airport_code": "OZC",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Ozamis"
+          },
+          {
+            "airport_code": "PAG",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Pagadian"
+          },
+          {
+            "airport_code": "PPS",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Puerto Princesa"
+          },
+          {
+            "airport_code": "TBH",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Romblon Airport",
+            "airport_city": "Tembilahan"
+          },
+          {
+            "airport_code": "RXS",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Roxas Airport"
+          },
+          {
+            "airport_code": "SJI",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Antique"
+          },
+          {
+            "airport_code": "BQA",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Dr. Juan C. Angara Airport"
+          },
+          {
+            "airport_code": "SUG",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Surigao Airport"
+          },
+          {
+            "airport_code": "TAC",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Daniel Z Romualdez"
+          },
+          {
+            "airport_code": "TAG",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Tagbilaran"
+          },
+          {
+            "airport_code": "TWT",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Sanga-Sanga Airport"
+          },
+          {
+            "airport_code": "TUG",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Tuguegarao Airport"
+          },
+          {
+            "airport_code": "VRC",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Virac Airport"
+          },
+          {
+            "airport_code": "ZAM",
+            "airport_continent": "Asia",
+            "airport_country": "Philippines",
+            "airport_name": "Zamboanga Intl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airportGroupId": "04",
+    "name": "China, Hongkong, Jepang & Korea Selatan",
+    "data": [
+      {
+        "name": "China",
+        "airports": [
+          {
+            "airport_code": "SHAA",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Shanghai - Semua Bandara"
+          },
+          {
+            "airport_code": "AQG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Anqing Airport"
+          },
+          {
+            "airport_code": "AOG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Anshan Teng'ao Airport"
+          },
+          {
+            "airport_code": "AVA",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Anshun Huangguoshu Airport"
+          },
+          {
+            "airport_code": "NBS",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Baishan"
+          },
+          {
+            "airport_code": "BAV",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Baotou Airport"
+          },
+          {
+            "airport_code": "BHY",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Beihai Airport"
+          },
+          {
+            "airport_code": "PEK",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Capital Intl"
+          },
+          {
+            "airport_code": "BFJ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Bijie"
+          },
+          {
+            "airport_code": "CGQ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Changchun"
+          },
+          {
+            "airport_code": "CGD",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Changde Airport"
+          },
+          {
+            "airport_code": "CSX",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Huanghua"
+          },
+          {
+            "airport_code": "CIH",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Changzhi Airport"
+          },
+          {
+            "airport_code": "CZX",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Changzhou"
+          },
+          {
+            "airport_code": "CTU",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Shuangliu"
+          },
+          {
+            "airport_code": "JUH",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Chizhou Jiuhuashan Airport"
+          },
+          {
+            "airport_code": "CKG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Jiangbei"
+          },
+          {
+            "airport_code": "DLC",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Zhoushuizi"
+          },
+          {
+            "airport_code": "DYG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Dayong Airport"
+          },
+          {
+            "airport_code": "DOY",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Dongying Airport"
+          },
+          {
+            "airport_code": "FUG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Fuyang"
+          },
+          {
+            "airport_code": "FOC",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Changle"
+          },
+          {
+            "airport_code": "KOW",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Ganzhou Airport"
+          },
+          {
+            "airport_code": "CAN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Baiyun Intl"
+          },
+          {
+            "airport_code": "KWL",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Liangjiang"
+          },
+          {
+            "airport_code": "KWE",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Longdongbao"
+          },
+          {
+            "airport_code": "HAK",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Meilan"
+          },
+          {
+            "airport_code": "HLD",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Dongshan"
+          },
+          {
+            "airport_code": "HDG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Handan"
+          },
+          {
+            "airport_code": "HGH",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Xiaoshan"
+          },
+          {
+            "airport_code": "HRB",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Taiping"
+          },
+          {
+            "airport_code": "HFE",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Luogang"
+          },
+          {
+            "airport_code": "HEK",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Heihe Airport"
+          },
+          {
+            "airport_code": "HET",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Baita Airport"
+          },
+          {
+            "airport_code": "HIA",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Huai An"
+          },
+          {
+            "airport_code": "TXN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Tunxi International Airport"
+          },
+          {
+            "airport_code": "JGS",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Jing Gang Shan Airport"
+          },
+          {
+            "airport_code": "JMU",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Jiamusi Airport"
+          },
+          {
+            "airport_code": "TNA",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Jinan"
+          },
+          {
+            "airport_code": "JDZ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Jingdezhen Airport"
+          },
+          {
+            "airport_code": "JHG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Jinghong"
+          },
+          {
+            "airport_code": "JNG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Jining Airport "
+          },
+          {
+            "airport_code": "KJH",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Kaili Huangping Airport"
+          },
+          {
+            "airport_code": "KMG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Wujiaba"
+          },
+          {
+            "airport_code": "LHW",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Lanzhou Airport"
+          },
+          {
+            "airport_code": "LXA",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Lhasa-Gonggar"
+          },
+          {
+            "airport_code": "LYG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Lianyungang Airport"
+          },
+          {
+            "airport_code": "LLB",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Libo Airport"
+          },
+          {
+            "airport_code": "LJG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Lijiang Airport"
+          },
+          {
+            "airport_code": "LFQ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Linfen Qiaoli Airport"
+          },
+          {
+            "airport_code": "LCX",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Longyan"
+          },
+          {
+            "airport_code": "LYA",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Luoyang Airport"
+          },
+          {
+            "airport_code": "NZH",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Manzhouli"
+          },
+          {
+            "airport_code": "MXZ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Meixian Airport"
+          },
+          {
+            "airport_code": "MIG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Mianyang Airport"
+          },
+          {
+            "airport_code": "MDG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Mudanjiang"
+          },
+          {
+            "airport_code": "KHN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Changbei Intl"
+          },
+          {
+            "airport_code": "NAO",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Nanchong Airport"
+          },
+          {
+            "airport_code": "NKG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Lukou"
+          },
+          {
+            "airport_code": "NNG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Wuxu"
+          },
+          {
+            "airport_code": "NTG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Nantong Airport"
+          },
+          {
+            "airport_code": "NNY",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Nanyang Airport"
+          },
+          {
+            "airport_code": "NGB",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Lishe"
+          },
+          {
+            "airport_code": "JIQ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Qianjiang"
+          },
+          {
+            "airport_code": "TAO",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Liuting"
+          },
+          {
+            "airport_code": "BPE",
+            "airport_continent": "Asia",
+            "airport_country": "Burma",
+            "airport_name": "Bagan"
+          },
+          {
+            "airport_code": "NDG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Qiqihar Sanjiazi Airport"
+          },
+          {
+            "airport_code": "RIZ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Rizhao Shanzihe Airport"
+          },
+          {
+            "airport_code": "SYX",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Phoenix International"
+          },
+          {
+            "airport_code": "PVG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Pudong"
+          },
+          {
+            "airport_code": "SHA",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Hongqiao Intl"
+          },
+          {
+            "airport_code": "SWA",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Wai Sha Airport"
+          },
+          {
+            "airport_code": "SHE",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Shenyang Taoxian International Airport"
+          },
+          {
+            "airport_code": "SZX",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Baoan Intl"
+          },
+          {
+            "airport_code": "SJW",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Shijiazhuang Daguocun International Airport"
+          },
+          {
+            "airport_code": "TYN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Wusu"
+          },
+          {
+            "airport_code": "TSN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Binhai"
+          },
+          {
+            "airport_code": "TGO",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Tongliao Airport"
+          },
+          {
+            "airport_code": "TEN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Tongren"
+          },
+          {
+            "airport_code": "URC",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Diwopu"
+          },
+          {
+            "airport_code": "WXN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Wanxian Airport"
+          },
+          {
+            "airport_code": "WEH",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Weihai Airport"
+          },
+          {
+            "airport_code": "WNZ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Wenzhou Yongqiang Airport"
+          },
+          {
+            "airport_code": "WUH",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Tianhe"
+          },
+          {
+            "airport_code": "WUX",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Wuxi Airport"
+          },
+          {
+            "airport_code": "WUS",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Nanping Wuyishan Airport"
+          },
+          {
+            "airport_code": "XMN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Gaoqi"
+          },
+          {
+            "airport_code": "XIY",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Xianyang"
+          },
+          {
+            "airport_code": "XFN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Xiangfan Airport"
+          },
+          {
+            "airport_code": "ACX",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Xingyi"
+          },
+          {
+            "airport_code": "XNN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Xining Caojiabu Airport"
+          },
+          {
+            "airport_code": "XUZ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Xuzhou Guanyin Airport"
+          },
+          {
+            "airport_code": "YNZ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Yancheng Airport"
+          },
+          {
+            "airport_code": "YTY",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Yangzhou"
+          },
+          {
+            "airport_code": "YNJ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Yanji Airport"
+          },
+          {
+            "airport_code": "YNT",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Laishan"
+          },
+          {
+            "airport_code": "YIH",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Yichang Airport"
+          },
+          {
+            "airport_code": "YIC",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Yichun"
+          },
+          {
+            "airport_code": "INC",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Yinchuan"
+          },
+          {
+            "airport_code": "YIW",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Yiwu Airport"
+          },
+          {
+            "airport_code": "ZHA",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Zhanjiang Airport"
+          },
+          {
+            "airport_code": "CGO",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Xinzheng"
+          },
+          {
+            "airport_code": "HJJ",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Zhijiang"
+          },
+          {
+            "airport_code": "HSN",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Zhoushan Airport"
+          },
+          {
+            "airport_code": "ZUH",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Zhuhai Airport"
+          },
+          {
+            "airport_code": "ZYI",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Zunyi Xinzhou Airport"
+          }
+        ]
+      },
+      {
+        "name": "Hongkong",
+        "airports": [
+          {
+            "airport_code": "HKG",
+            "airport_continent": "Asia",
+            "airport_country": "China",
+            "airport_name": "Hongkong Intl"
+          }
+        ]
+      },
+      {
+        "name": "Jepang",
+        "airports": [
+          {
+            "airport_code": "TYOA",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Tokyo - Semua Bandara"
+          },
+          {
+            "airport_code": "OSAA",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Osaka - Semua Bandara"
+          },
+          {
+            "airport_code": "ONJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Odate Noshiro Airport"
+          },
+          {
+            "airport_code": "AXT",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Akita"
+          },
+          {
+            "airport_code": "ASJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Amami"
+          },
+          {
+            "airport_code": "AOJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Aomori"
+          },
+          {
+            "airport_code": "AKJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Asahikawa"
+          },
+          {
+            "airport_code": "FUK",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Fukuoka"
+          },
+          {
+            "airport_code": "HAC",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Hachijojima"
+          },
+          {
+            "airport_code": "HKD",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Hakodate"
+          },
+          {
+            "airport_code": "HNA",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Hanamaki"
+          },
+          {
+            "airport_code": "HIJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Hiroshima"
+          },
+          {
+            "airport_code": "ISG",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Ishigaki"
+          },
+          {
+            "airport_code": "IWK",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Iwakuni Kintaikyo Airport"
+          },
+          {
+            "airport_code": "IZO",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Izumo"
+          },
+          {
+            "airport_code": "KOJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Kagoshima"
+          },
+          {
+            "airport_code": "KKJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "New Kitakyushu"
+          },
+          {
+            "airport_code": "UKB",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Kobe"
+          },
+          {
+            "airport_code": "KCZ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Kochi"
+          },
+          {
+            "airport_code": "KMQ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Komatsu"
+          },
+          {
+            "airport_code": "KMJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Kumamoto"
+          },
+          {
+            "airport_code": "KUH",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Kushiro Airport"
+          },
+          {
+            "airport_code": "IWJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Iwami Airport"
+          },
+          {
+            "airport_code": "MYJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Matsuyama"
+          },
+          {
+            "airport_code": "MMB",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Memanbetsu"
+          },
+          {
+            "airport_code": "YGJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Yonago Kitaro"
+          },
+          {
+            "airport_code": "MSJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Misawa Ab"
+          },
+          {
+            "airport_code": "MMY",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Miyako"
+          },
+          {
+            "airport_code": "KMI",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Miyazaki"
+          },
+          {
+            "airport_code": "MBE",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Monbetsu"
+          },
+          {
+            "airport_code": "NGS",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Nagasaki"
+          },
+          {
+            "airport_code": "NGO",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Chubu Centrair Intl"
+          },
+          {
+            "airport_code": "SHB",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Nakashibetsu"
+          },
+          {
+            "airport_code": "SHM",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Nanki Shirahama"
+          },
+          {
+            "airport_code": "KIJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Niigata"
+          },
+          {
+            "airport_code": "OBO",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Obihiro"
+          },
+          {
+            "airport_code": "OIT",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Oita"
+          },
+          {
+            "airport_code": "OKJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Okayama"
+          },
+          {
+            "airport_code": "OKA",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Naha"
+          },
+          {
+            "airport_code": "KIX",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Kansai Osaka"
+          },
+          {
+            "airport_code": "ITM",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Itami Osaka"
+          },
+          {
+            "airport_code": "HSG",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Saga Airport"
+          },
+          {
+            "airport_code": "CTS",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "New Chitose"
+          },
+          {
+            "airport_code": "SDJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Sendai"
+          },
+          {
+            "airport_code": "FSZ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Mt. Fuji Shizuoka Airport"
+          },
+          {
+            "airport_code": "SYO",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Shonai Airport"
+          },
+          {
+            "airport_code": "TAK",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Takamatsu"
+          },
+          {
+            "airport_code": "TKS",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Tokushima"
+          },
+          {
+            "airport_code": "NRT",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Narita Intl"
+          },
+          {
+            "airport_code": "HND",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Tokyo Intl"
+          },
+          {
+            "airport_code": "TTJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Tottori"
+          },
+          {
+            "airport_code": "TOY",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Toyama"
+          },
+          {
+            "airport_code": "NTQ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Noto"
+          },
+          {
+            "airport_code": "WKJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Wakkanai"
+          },
+          {
+            "airport_code": "GAJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Yamagata"
+          },
+          {
+            "airport_code": "UBJ",
+            "airport_continent": "Asia",
+            "airport_country": "Japan",
+            "airport_name": "Yamaguchi Ube"
+          }
+        ]
+      },
+      {
+        "name": "Korea Selatan",
+        "airports": [
+          {
+            "airport_code": "SEOA",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Seoul - Semua Bandara"
+          },
+          {
+            "airport_code": "PUS",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Gimhae Intl"
+          },
+          {
+            "airport_code": "CJJ",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Cheongju International Airport"
+          },
+          {
+            "airport_code": "CJU",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Jeju Intl"
+          },
+          {
+            "airport_code": "KWJ",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Gwangju"
+          },
+          {
+            "airport_code": "HIN",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Sacheon Air Base"
+          },
+          {
+            "airport_code": "GMP",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Gimpo"
+          },
+          {
+            "airport_code": "ICN",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Incheon Intl"
+          },
+          {
+            "airport_code": "TAE",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Daegu Ab"
+          },
+          {
+            "airport_code": "USN",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Ulsan"
+          },
+          {
+            "airport_code": "YNY",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Yangyang International Airport"
+          },
+          {
+            "airport_code": "RSU",
+            "airport_continent": "Asia",
+            "airport_country": "South Korea",
+            "airport_name": "Yeosu"
+          }
+        ]
+      },
+      {
+        "name": "Taiwan",
+        "airports": [
+          {
+            "airport_code": "TAIA",
+            "airport_continent": "Asia",
+            "airport_country": "Taiwan",
+            "airport_name": "Taipei - Semua Bandara"
+          },
+          {
+            "airport_code": "KHH",
+            "airport_continent": "Asia",
+            "airport_country": "Taiwan",
+            "airport_name": "Kaohsiung Intl"
+          },
+          {
+            "airport_code": "RMQ",
+            "airport_continent": "Asia",
+            "airport_country": "Taiwan",
+            "airport_name": "Ching Chuang Kang"
+          },
+          {
+            "airport_code": "TNN",
+            "airport_continent": "Asia",
+            "airport_country": "Taiwan",
+            "airport_name": "Tainan"
+          },
+          {
+            "airport_code": "TPE",
+            "airport_continent": "Asia",
+            "airport_country": "Taiwan",
+            "airport_name": "Taoyuan Intl"
+          },
+          {
+            "airport_code": "TSA",
+            "airport_continent": "Asia",
+            "airport_country": "Taiwan",
+            "airport_name": "Sungshan"
+          }
+        ]
+      },
+      {
+        "name": "Makau",
+        "airports": [
+          {
+            "airport_code": "MFM",
+            "airport_continent": "Asia",
+            "airport_country": "Macau",
+            "airport_name": "Macau Intl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airportGroupId": "05",
+    "name": "Australia & Selandia Baru",
+    "data": [
+      {
+        "name": "Australia",
+        "airports": [
+          {
+            "airport_code": "ADL",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Adelaide Intl"
+          },
+          {
+            "airport_code": "ABX",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Albury"
+          },
+          {
+            "airport_code": "ASP",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Alice Springs"
+          },
+          {
+            "airport_code": "ARM",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Armidale"
+          },
+          {
+            "airport_code": "BNE",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Brisbane Intl"
+          },
+          {
+            "airport_code": "BME",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Broome"
+          },
+          {
+            "airport_code": "BDB",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Bundaberg"
+          },
+          {
+            "airport_code": "CNS",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Cairns Intl"
+          },
+          {
+            "airport_code": "CBR",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Canberra"
+          },
+          {
+            "airport_code": "CNJ",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Cloncurry Airport"
+          },
+          {
+            "airport_code": "CFS",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Coffs Harbour"
+          },
+          {
+            "airport_code": "DRW",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Darwin Intl"
+          },
+          {
+            "airport_code": "DBO",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Dubbo"
+          },
+          {
+            "airport_code": "EMD",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Emerald"
+          },
+          {
+            "airport_code": "GLT",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Gladstone Airport"
+          },
+          {
+            "airport_code": "OOL",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Gold Coast"
+          },
+          {
+            "airport_code": "HTI",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Hamilton Island Airport"
+          },
+          {
+            "airport_code": "HVB",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Hervey Bay Airport"
+          },
+          {
+            "airport_code": "HBA",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Hobart"
+          },
+          {
+            "airport_code": "LDH",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Lord Howe Island Airport"
+          },
+          {
+            "airport_code": "MKY",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Mackay"
+          },
+          {
+            "airport_code": "MCY",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Sunshine Coast"
+          },
+          {
+            "airport_code": "MEL",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Melbourne Intl"
+          },
+          {
+            "airport_code": "MOV",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Moranbah Airport"
+          },
+          {
+            "airport_code": "MRZ",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Moree Airport"
+          },
+          {
+            "airport_code": "ISA",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Mount Isa"
+          },
+          {
+            "airport_code": "NTL",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Newcastle Airport"
+          },
+          {
+            "airport_code": "PER",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Perth Intl"
+          },
+          {
+            "airport_code": "PHE",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Port Hedland Intl"
+          },
+          {
+            "airport_code": "PQQ",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Port Macquarie Airport"
+          },
+          {
+            "airport_code": "PPP",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Proserpine Whitsunday Coast"
+          },
+          {
+            "airport_code": "ROK",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Rockhampton"
+          },
+          {
+            "airport_code": "SYD",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Sydney Intl"
+          },
+          {
+            "airport_code": "TMW",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Tamworth"
+          },
+          {
+            "airport_code": "WTB",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Brisbane West Wellcamp Airport"
+          },
+          {
+            "airport_code": "TSV",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Townsville"
+          },
+          {
+            "airport_code": "WGA",
+            "airport_continent": "Oceania",
+            "airport_country": "Australia",
+            "airport_name": "Wagga Wagga"
+          }
+        ]
+      },
+      {
+        "name": "Selandia Baru",
+        "airports": [
+          {
+            "airport_code": "AKL",
+            "airport_continent": "Oceania",
+            "airport_country": "New Zealand",
+            "airport_name": "Auckland Intl"
+          },
+          {
+            "airport_code": "CHC",
+            "airport_continent": "Oceania",
+            "airport_country": "New Zealand",
+            "airport_name": "Christchurch Intl"
+          },
+          {
+            "airport_code": "DUD",
+            "airport_continent": "Oceania",
+            "airport_country": "New Zealand",
+            "airport_name": "Dunedin"
+          },
+          {
+            "airport_code": "ZQN",
+            "airport_continent": "Oceania",
+            "airport_country": "New Zealand",
+            "airport_name": "Queenstown"
+          },
+          {
+            "airport_code": "WLG",
+            "airport_continent": "Oceania",
+            "airport_country": "New Zealand",
+            "airport_name": "Wellington Intl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airportGroupId": "06",
+    "name": "Eropa",
+    "data": [
+      {
+        "name": "Inggris",
+        "airports": [
+          {
+            "airport_code": "LONA",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "London - Semua Bandara"
+          },
+          {
+            "airport_code": "ABZ",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Dyce"
+          },
+          {
+            "airport_code": "BHD",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Belfast City"
+          },
+          {
+            "airport_code": "BHX",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Birmingham"
+          },
+          {
+            "airport_code": "BRS",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Bristol"
+          },
+          {
+            "airport_code": "CWL",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Cardiff"
+          },
+          {
+            "airport_code": "EDI",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Edinburgh"
+          },
+          {
+            "airport_code": "GLA",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Glasgow"
+          },
+          {
+            "airport_code": "HUY",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Humberside"
+          },
+          {
+            "airport_code": "INV",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Inverness"
+          },
+          {
+            "airport_code": "LBA",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Leeds Bradford"
+          },
+          {
+            "airport_code": "LGW",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Gatwick"
+          },
+          {
+            "airport_code": "LCY",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "City"
+          },
+          {
+            "airport_code": "LHR",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Heathrow"
+          },
+          {
+            "airport_code": "MAN",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Manchester"
+          },
+          {
+            "airport_code": "NCL",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Newcastle"
+          },
+          {
+            "airport_code": "NWI",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Norwich"
+          },
+          {
+            "airport_code": "SOU",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Southampton"
+          },
+          {
+            "airport_code": "MME",
+            "airport_continent": "Europe",
+            "airport_country": "United Kingdom",
+            "airport_name": "Durham Tees Valley Airport"
+          }
+        ]
+      },
+      {
+        "name": "Finlandia",
+        "airports": [
+          {
+            "airport_code": "ENF",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Enontekio"
+          },
+          {
+            "airport_code": "HEL",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Helsinki Vantaa"
+          },
+          {
+            "airport_code": "IVL",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Ivalo"
+          },
+          {
+            "airport_code": "JOE",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Joensuu"
+          },
+          {
+            "airport_code": "JYV",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Jyvaskyla"
+          },
+          {
+            "airport_code": "KAJ",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Kajaani"
+          },
+          {
+            "airport_code": "KEM",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Kemi Tornio"
+          },
+          {
+            "airport_code": "KTT",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Kittila"
+          },
+          {
+            "airport_code": "KUO",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Kuopio"
+          },
+          {
+            "airport_code": "KAO",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Kuusamo"
+          },
+          {
+            "airport_code": "MHQ",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Mariehamn"
+          },
+          {
+            "airport_code": "OUL",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Oulu"
+          },
+          {
+            "airport_code": "RVN",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Rovaniemi"
+          },
+          {
+            "airport_code": "TMP",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Tampere Pirkkala"
+          },
+          {
+            "airport_code": "TKU",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Turku"
+          },
+          {
+            "airport_code": "VAA",
+            "airport_continent": "Europe",
+            "airport_country": "Finland",
+            "airport_name": "Vaasa"
+          }
+        ]
+      },
+      {
+        "name": "Rusia",
+        "airports": [
+          {
+            "airport_code": "MOWA",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Moscow - Semua Bandara"
+          },
+          {
+            "airport_code": "AAQ",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Vityazevo"
+          },
+          {
+            "airport_code": "IKT",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Irkutsk"
+          },
+          {
+            "airport_code": "KGD",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Khrabrovo"
+          },
+          {
+            "airport_code": "KZN",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Kazan"
+          },
+          {
+            "airport_code": "KVX",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Pobedilovo Airport"
+          },
+          {
+            "airport_code": "KRR",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Pashkovskiy"
+          },
+          {
+            "airport_code": "DME",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Domododevo"
+          },
+          {
+            "airport_code": "VKO",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Vnukovo"
+          },
+          {
+            "airport_code": "SVO",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Sheremetyevo"
+          },
+          {
+            "airport_code": "OVB",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Tolmachevo"
+          },
+          {
+            "airport_code": "AER",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Sochi"
+          },
+          {
+            "airport_code": "LED",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Pulkovo"
+          },
+          {
+            "airport_code": "VVO",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Knevichi"
+          },
+          {
+            "airport_code": "SVX",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Koltsovo"
+          }
+        ]
+      },
+      {
+        "name": "Jerman",
+        "airports": [
+          {
+            "airport_code": "TXL",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Tegel"
+          },
+          {
+            "airport_code": "BRE",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Neuenland"
+          },
+          {
+            "airport_code": "CGN",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Koln Bonn"
+          },
+          {
+            "airport_code": "DRS",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Dresden"
+          },
+          {
+            "airport_code": "DUS",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Dusseldorf"
+          },
+          {
+            "airport_code": "FRA",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Frankfurt Main"
+          },
+          {
+            "airport_code": "HAM",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Hamburg"
+          },
+          {
+            "airport_code": "HAJ",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Hannover"
+          },
+          {
+            "airport_code": "MUC",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Franz Josef Strauss"
+          },
+          {
+            "airport_code": "NUE",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Nurnberg"
+          },
+          {
+            "airport_code": "STR",
+            "airport_continent": "Europe",
+            "airport_country": "Germany",
+            "airport_name": "Stuttgart"
+          }
+        ]
+      },
+      {
+        "name": "Prancis",
+        "airports": [
+          {
+            "airport_code": "PARA",
+            "airport_continent": "Europe",
+            "airport_country": "France",
+            "airport_name": "Paris - Semua Bandara"
+          },
+          {
+            "airport_code": "BOD",
+            "airport_continent": "Europe",
+            "airport_country": "France",
+            "airport_name": "Merignac"
+          },
+          {
+            "airport_code": "LYS",
+            "airport_continent": "Europe",
+            "airport_country": "France",
+            "airport_name": "Saint Exupery"
+          },
+          {
+            "airport_code": "MRS",
+            "airport_continent": "Europe",
+            "airport_country": "France",
+            "airport_name": "Provence"
+          },
+          {
+            "airport_code": "MPL",
+            "airport_continent": "Europe",
+            "airport_country": "France",
+            "airport_name": "Mediterranee"
+          },
+          {
+            "airport_code": "NTE",
+            "airport_continent": "Europe",
+            "airport_country": "France",
+            "airport_name": "Nantes Atlantique"
+          },
+          {
+            "airport_code": "NCE",
+            "airport_continent": "Europe",
+            "airport_country": "France",
+            "airport_name": "Cote D\\'Azur"
+          },
+          {
+            "airport_code": "ORY",
+            "airport_continent": "Europe",
+            "airport_country": "France",
+            "airport_name": "Orly"
+          },
+          {
+            "airport_code": "CDG",
+            "airport_continent": "Europe",
+            "airport_country": "France",
+            "airport_name": "Charles De Gaulle"
+          },
+          {
+            "airport_code": "TLS",
+            "airport_continent": "Europe",
+            "airport_country": "France",
+            "airport_name": "Blagnac"
+          }
+        ]
+      },
+      {
+        "name": "Italia",
+        "airports": [
+          {
+            "airport_code": "MILA",
+            "airport_continent": "Europe",
+            "airport_country": "Italy",
+            "airport_name": "Milan - Semua Bandara"
+          },
+          {
+            "airport_code": "BLQ",
+            "airport_continent": "Europe",
+            "airport_country": "Italy",
+            "airport_name": "Bologna"
+          },
+          {
+            "airport_code": "FLR",
+            "airport_continent": "Europe",
+            "airport_country": "Italy",
+            "airport_name": "Firenze"
+          },
+          {
+            "airport_code": "GOA",
+            "airport_continent": "Europe",
+            "airport_country": "Italy",
+            "airport_name": "Genova Sestri"
+          },
+          {
+            "airport_code": "LIN",
+            "airport_continent": "Europe",
+            "airport_country": "Italy",
+            "airport_name": "Linate"
+          },
+          {
+            "airport_code": "MXP",
+            "airport_continent": "Europe",
+            "airport_country": "Italy",
+            "airport_name": "Malpensa"
+          },
+          {
+            "airport_code": "NAP",
+            "airport_continent": "Europe",
+            "airport_country": "Italy",
+            "airport_name": "Capodichino"
+          },
+          {
+            "airport_code": "FCO",
+            "airport_continent": "Europe",
+            "airport_country": "Italy",
+            "airport_name": "Fiumicino"
+          },
+          {
+            "airport_code": "TRN",
+            "airport_continent": "Europe",
+            "airport_country": "Italy",
+            "airport_name": "Torino"
+          },
+          {
+            "airport_code": "VCE",
+            "airport_continent": "Europe",
+            "airport_country": "Italy",
+            "airport_name": "Venezia Tessera"
+          }
+        ]
+      },
+      {
+        "name": "Norwegia",
+        "airports": [
+          {
+            "airport_code": "AES",
+            "airport_continent": "Europe",
+            "airport_country": "Norway",
+            "airport_name": "Vigra"
+          },
+          {
+            "airport_code": "BGO",
+            "airport_continent": "Europe",
+            "airport_country": "Norway",
+            "airport_name": "Flesland"
+          },
+          {
+            "airport_code": "KRS",
+            "airport_continent": "Europe",
+            "airport_country": "Norway",
+            "airport_name": "Kjevik"
+          },
+          {
+            "airport_code": "OSL",
+            "airport_continent": "Europe",
+            "airport_country": "Norway",
+            "airport_name": "Gardermoen"
+          },
+          {
+            "airport_code": "TRF",
+            "airport_continent": "Europe",
+            "airport_country": "Norway",
+            "airport_name": "Torp"
+          },
+          {
+            "airport_code": "SVG",
+            "airport_continent": "Europe",
+            "airport_country": "Norway",
+            "airport_name": "Sola"
+          },
+          {
+            "airport_code": "TRD",
+            "airport_continent": "Europe",
+            "airport_country": "Norway",
+            "airport_name": "Vaernes"
+          }
+        ]
+      },
+      {
+        "name": "Spanyol",
+        "airports": [
+          {
+            "airport_code": "ALC",
+            "airport_continent": "Europe",
+            "airport_country": "Spain",
+            "airport_name": "Alicante"
+          },
+          {
+            "airport_code": "BCN",
+            "airport_continent": "Europe",
+            "airport_country": "Spain",
+            "airport_name": "Barcelona"
+          },
+          {
+            "airport_code": "BIO",
+            "airport_continent": "Europe",
+            "airport_country": "Spain",
+            "airport_name": "Bilbao"
+          },
+          {
+            "airport_code": "IBZ",
+            "airport_continent": "Europe",
+            "airport_country": "Spain",
+            "airport_name": "Ibiza"
+          },
+          {
+            "airport_code": "MAD",
+            "airport_continent": "Europe",
+            "airport_country": "Spain",
+            "airport_name": "Barajas"
+          },
+          {
+            "airport_code": "PMI",
+            "airport_continent": "Europe",
+            "airport_country": "Spain",
+            "airport_name": "Son Sant Joan"
+          },
+          {
+            "airport_code": "VLC",
+            "airport_continent": "Europe",
+            "airport_country": "Spain",
+            "airport_name": "Valencia"
+          }
+        ]
+      },
+      {
+        "name": "Turki",
+        "airports": [
+          {
+            "airport_code": "ISTA",
+            "airport_continent": "Asia",
+            "airport_country": "Turkey",
+            "airport_name": "Istanbul - Semua Bandara"
+          },
+          {
+            "airport_code": "ESB",
+            "airport_continent": "Asia",
+            "airport_country": "Turkey",
+            "airport_name": "Esenboga"
+          },
+          {
+            "airport_code": "AYT",
+            "airport_continent": "Asia",
+            "airport_country": "Turkey",
+            "airport_name": "Antalya"
+          },
+          {
+            "airport_code": "IST",
+            "airport_continent": "Asia",
+            "airport_country": "Turkey",
+            "airport_name": "Ataturk"
+          },
+          {
+            "airport_code": "SAW",
+            "airport_continent": "Asia",
+            "airport_country": "Turkey",
+            "airport_name": "Sabiha Gokcen"
+          },
+          {
+            "airport_code": "ADB",
+            "airport_continent": "Asia",
+            "airport_country": "Turkey",
+            "airport_name": "Adnan Menderes"
+          },
+          {
+            "airport_code": "TZX",
+            "airport_continent": "Asia",
+            "airport_country": "Turkey",
+            "airport_name": "Trabzon"
+          }
+        ]
+      },
+      {
+        "name": "Uni Emirat Arab",
+        "airports": [
+          {
+            "airport_code": "DNK",
+            "airport_continent": "Europe",
+            "airport_country": "Ukraine",
+            "airport_name": "Dnipropetrovsk Intl"
+          },
+          {
+            "airport_code": "HRK",
+            "airport_continent": "Europe",
+            "airport_country": "Ukraine",
+            "airport_name": "Osnova International Airport"
+          },
+          {
+            "airport_code": "KBP",
+            "airport_continent": "Europe",
+            "airport_country": "Ukraine",
+            "airport_name": "Boryspil Intl"
+          },
+          {
+            "airport_code": "LWO",
+            "airport_continent": "Europe",
+            "airport_country": "Ukraine",
+            "airport_name": "Lviv Intl"
+          },
+          {
+            "airport_code": "ODS",
+            "airport_continent": "Europe",
+            "airport_country": "Ukraine",
+            "airport_name": "Odesa Intl"
+          }
+        ]
+      },
+      {
+        "name": "Swedia",
+        "airports": [
+          {
+            "airport_code": "GOT",
+            "airport_continent": "Europe",
+            "airport_country": "Sweden",
+            "airport_name": "Landvetter"
+          },
+          {
+            "airport_code": "LPI",
+            "airport_continent": "Europe",
+            "airport_country": "Sweden",
+            "airport_name": "Saab"
+          },
+          {
+            "airport_code": "ARN",
+            "airport_continent": "Europe",
+            "airport_country": "Sweden",
+            "airport_name": "Arlanda"
+          }
+        ]
+      },
+      {
+        "name": "Denmark",
+        "airports": [
+          {
+            "airport_code": "AAL",
+            "airport_continent": "Europe",
+            "airport_country": "Denmark",
+            "airport_name": "Aalborg"
+          },
+          {
+            "airport_code": "BLL",
+            "airport_continent": "Europe",
+            "airport_country": "Denmark",
+            "airport_name": "Billund"
+          },
+          {
+            "airport_code": "CPH",
+            "airport_continent": "Europe",
+            "airport_country": "Denmark",
+            "airport_name": "Kastrup"
+          }
+        ]
+      },
+      {
+        "name": "Swiss",
+        "airports": [
+          {
+            "airport_code": "BSL",
+            "airport_continent": "Europe",
+            "airport_country": "Switzerland",
+            "airport_name": "EuroAirport Basel-Mulhouse-Freiburg"
+          },
+          {
+            "airport_code": "GVA",
+            "airport_continent": "Europe",
+            "airport_country": "Switzerland",
+            "airport_name": "Geneve Cointrin"
+          },
+          {
+            "airport_code": "ZRH",
+            "airport_continent": "Europe",
+            "airport_country": "Switzerland",
+            "airport_name": "Zurich"
+          }
+        ]
+      },
+      {
+        "name": "Portugal",
+        "airports": [
+          {
+            "airport_code": "LIS",
+            "airport_continent": "Europe",
+            "airport_country": "Portugal",
+            "airport_name": "Lisboa"
+          },
+          {
+            "airport_code": "OPO",
+            "airport_continent": "Europe",
+            "airport_country": "Portugal",
+            "airport_name": "Porto"
+          }
+        ]
+      },
+      {
+        "name": "Serbia",
+        "airports": [
+          {
+            "airport_code": "BEG",
+            "airport_continent": "Europe",
+            "airport_country": "Serbia",
+            "airport_name": "Beograd"
+          },
+          {
+            "airport_code": "PRN",
+            "airport_continent": "Europe",
+            "airport_country": "Serbia",
+            "airport_name": "Pristina"
+          }
+        ]
+      },
+      {
+        "name": "Yunani",
+        "airports": [
+          {
+            "airport_code": "ATH",
+            "airport_continent": "Europe",
+            "airport_country": "Greece",
+            "airport_name": "Eleftherios Venizelos Intl"
+          },
+          {
+            "airport_code": "SKG",
+            "airport_continent": "Europe",
+            "airport_country": "Greece",
+            "airport_name": "Makedonia"
+          }
+        ]
+      },
+      {
+        "name": "Polandia",
+        "airports": [
+          {
+            "airport_code": "KRK",
+            "airport_continent": "Europe",
+            "airport_country": "Poland",
+            "airport_name": "Balice"
+          },
+          {
+            "airport_code": "WAW",
+            "airport_continent": "Europe",
+            "airport_country": "Poland",
+            "airport_name": "Okecie"
+          }
+        ]
+      },
+      {
+        "name": "Hungaria",
+        "airports": [
+          {
+            "airport_code": "BUD",
+            "airport_continent": "Europe",
+            "airport_country": "Hungary",
+            "airport_name": "Ferihegy"
+          }
+        ]
+      },
+      {
+        "name": "Austria",
+        "airports": [
+          {
+            "airport_code": "VIE",
+            "airport_continent": "Europe",
+            "airport_country": "Austria",
+            "airport_name": "Schwechat"
+          }
+        ]
+      },
+      {
+        "name": "Luksemburg",
+        "airports": [
+          {
+            "airport_code": "LUX",
+            "airport_continent": "Europe",
+            "airport_country": "Luxembourg",
+            "airport_name": "Luxembourg"
+          }
+        ]
+      },
+      {
+        "name": "Irlandia",
+        "airports": [
+          {
+            "airport_code": "DUB",
+            "airport_continent": "Europe",
+            "airport_country": "Ireland",
+            "airport_name": "Dublin"
+          }
+        ]
+      },
+      {
+        "name": "Malta",
+        "airports": [
+          {
+            "airport_code": "MLA",
+            "airport_continent": "Europe",
+            "airport_country": "Malta",
+            "airport_name": "Luqa"
+          }
+        ]
+      },
+      {
+        "name": "Kroasia",
+        "airports": [
+          {
+            "airport_code": "ZAG",
+            "airport_continent": "Europe",
+            "airport_country": "Croatia",
+            "airport_name": "Zagreb"
+          }
+        ]
+      },
+      {
+        "name": "Republik Ceko",
+        "airports": [
+          {
+            "airport_code": "PRG",
+            "airport_continent": "Europe",
+            "airport_country": "Czech Republic",
+            "airport_name": "Ruzyne"
+          }
+        ]
+      },
+      {
+        "name": "Rumania",
+        "airports": [
+          {
+            "airport_code": "OTP",
+            "airport_continent": "Europe",
+            "airport_country": "Romania",
+            "airport_name": "Henri Coanda"
+          }
+        ]
+      },
+      {
+        "name": "Bulgaria",
+        "airports": [
+          {
+            "airport_code": "SOF",
+            "airport_continent": "Europe",
+            "airport_country": "Bulgaria",
+            "airport_name": "Sofia"
+          }
+        ]
+      },
+      {
+        "name": "Belgia",
+        "airports": [
+          {
+            "airport_code": "BRU",
+            "airport_continent": "Europe",
+            "airport_country": "Belgium",
+            "airport_name": "Brussels Natl"
+          }
+        ]
+      },
+      {
+        "name": "Belanda",
+        "airports": [
+          {
+            "airport_code": "AMS",
+            "airport_continent": "Europe",
+            "airport_country": "Netherlands",
+            "airport_name": "Schiphol"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airportGroupId": "07",
+    "name": "Destinasi Lainnya",
+    "data": [
+      {
+        "name": "Amerika Serikat",
+        "airports": [
+          {
+            "airport_code": "WASA",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Washington - Semua Bandara"
+          },
+          {
+            "airport_code": "NEWA",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "New York - Semua Bandara"
+          },
+          {
+            "airport_code": "HOUA",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Houston - Semua Bandara"
+          },
+          {
+            "airport_code": "ANC",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Ted Stevens Anchorage Intl"
+          },
+          {
+            "airport_code": "ATL",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Hartsfield Jackson Atlanta Intl"
+          },
+          {
+            "airport_code": "AUS",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Austin Bergstrom Intl"
+          },
+          {
+            "airport_code": "BWI",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Baltimore Washington Intl"
+          },
+          {
+            "airport_code": "BOS",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "General Edward Lawrence Logan Intl"
+          },
+          {
+            "airport_code": "CLT",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Charlotte Douglas Intl"
+          },
+          {
+            "airport_code": "ORD",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Chicago Ohare Intl"
+          },
+          {
+            "airport_code": "CVG",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Cincinnati Northern Kentucky Intl"
+          },
+          {
+            "airport_code": "CLE",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Cleveland Hopkins Intl"
+          },
+          {
+            "airport_code": "DFW",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Dallas Fort Worth Intl"
+          },
+          {
+            "airport_code": "DEN",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Denver Intl"
+          },
+          {
+            "airport_code": "DTW",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Detroit Metro Wayne Co"
+          },
+          {
+            "airport_code": "FLL",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Fort Lauderdale Hollywood Intl"
+          },
+          {
+            "airport_code": "HNL",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Honolulu Intl"
+          },
+          {
+            "airport_code": "HOU",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "William P Hobby"
+          },
+          {
+            "airport_code": "IAH",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "George Bush Intercontinental"
+          },
+          {
+            "airport_code": "LAS",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Mc Carran Intl"
+          },
+          {
+            "airport_code": "LAX",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Los Angeles Intl"
+          },
+          {
+            "airport_code": "MIA",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Miami Intl"
+          },
+          {
+            "airport_code": "MSP",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Minneapolis St Paul Intl"
+          },
+          {
+            "airport_code": "MSY",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Louis Armstrong New Orleans Intl"
+          },
+          {
+            "airport_code": "JFK",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "John F Kennedy Intl"
+          },
+          {
+            "airport_code": "LGA",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "La Guardia"
+          },
+          {
+            "airport_code": "EWR",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Newark Liberty Intl"
+          },
+          {
+            "airport_code": "MCO",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Orlando Intl"
+          },
+          {
+            "airport_code": "PHL",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Philadelphia Intl"
+          },
+          {
+            "airport_code": "PHX",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Phoenix Sky Harbor Intl"
+          },
+          {
+            "airport_code": "PDX",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Portland Intl"
+          },
+          {
+            "airport_code": "SLC",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Salt Lake City Intl"
+          },
+          {
+            "airport_code": "SAN",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "San Diego Intl"
+          },
+          {
+            "airport_code": "SFO",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "San Francisco Intl"
+          },
+          {
+            "airport_code": "SJC",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Norman Y Mineta San Jose Intl"
+          },
+          {
+            "airport_code": "SEA",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Seattle Tacoma Intl"
+          },
+          {
+            "airport_code": "DCA",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Ronald Reagan Washington Natl"
+          },
+          {
+            "airport_code": "IAD",
+            "airport_continent": "North America",
+            "airport_country": "United States",
+            "airport_name": "Washington Dulles Intl"
+          }
+        ]
+      },
+      {
+        "name": "Papua Nugini",
+        "airports": [
+          {
+            "airport_code": "GUR",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Gurney Airport"
+          },
+          {
+            "airport_code": "DAU",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Daru Airport"
+          },
+          {
+            "airport_code": "GKA",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Goroka"
+          },
+          {
+            "airport_code": "HKN",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Kimbe Airport"
+          },
+          {
+            "airport_code": "KVG",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Kavieng Airport"
+          },
+          {
+            "airport_code": "KIE",
+            "airport_continent": "Asia",
+            "airport_country": "Russia",
+            "airport_name": "Kineshma"
+          },
+          {
+            "airport_code": "UNG",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Kiunga Airport"
+          },
+          {
+            "airport_code": "LNV",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Londolovit Airport"
+          },
+          {
+            "airport_code": "MAS",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Momote Airport"
+          },
+          {
+            "airport_code": "LSA",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Losuia Airport"
+          },
+          {
+            "airport_code": "MAG",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Madang"
+          },
+          {
+            "airport_code": "MDU",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Mendi Airport"
+          },
+          {
+            "airport_code": "MXH",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Moro Airport"
+          },
+          {
+            "airport_code": "HGU",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Mount Hagen"
+          },
+          {
+            "airport_code": "LAE",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Nadzab"
+          },
+          {
+            "airport_code": "PNP",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Girua Airport"
+          },
+          {
+            "airport_code": "POM",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Port Moresby Jacksons Intl"
+          },
+          {
+            "airport_code": "RAB",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Tokua Airport"
+          },
+          {
+            "airport_code": "TBG",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Tabubil Airport"
+          },
+          {
+            "airport_code": "TIZ",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Tari Airport"
+          },
+          {
+            "airport_code": "VAI",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Vanimo Airport"
+          },
+          {
+            "airport_code": "WBM",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Wapenamanda Airport"
+          },
+          {
+            "airport_code": "WWK",
+            "airport_continent": "Oceania",
+            "airport_country": "Papua New Guinea",
+            "airport_name": "Wewak Intl"
+          }
+        ]
+      },
+      {
+        "name": "India",
+        "airports": [
+          {
+            "airport_code": "AMD",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Ahmedabad"
+          },
+          {
+            "airport_code": "BLR",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Bangalore"
+          },
+          {
+            "airport_code": "MAA",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Chennai Intl"
+          },
+          {
+            "airport_code": "CJB",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Coimbatore"
+          },
+          {
+            "airport_code": "GAY",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Gaya"
+          },
+          {
+            "airport_code": "GOI",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Goa"
+          },
+          {
+            "airport_code": "HYD",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Hyderabad"
+          },
+          {
+            "airport_code": "JAI",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Jaipur"
+          },
+          {
+            "airport_code": "COK",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Cochin"
+          },
+          {
+            "airport_code": "CCU",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Netaji Subhash Chandra Bose Intl"
+          },
+          {
+            "airport_code": "LKO",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Lucknow"
+          },
+          {
+            "airport_code": "BOM",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Chhatrapati Shivaji Intl"
+          },
+          {
+            "airport_code": "DEL",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Indira Gandhi Intl"
+          },
+          {
+            "airport_code": "PNQ",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Pune"
+          },
+          {
+            "airport_code": "ATQ",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Amritsar"
+          },
+          {
+            "airport_code": "TRZ",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Trichy"
+          },
+          {
+            "airport_code": "TRV",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Thiruvananthapuram Intl"
+          },
+          {
+            "airport_code": "VNS",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Varanasi"
+          },
+          {
+            "airport_code": "VTZ",
+            "airport_continent": "Asia",
+            "airport_country": "India",
+            "airport_name": "Vishakhapatnam"
+          }
+        ]
+      },
+      {
+        "name": "Kazakhstan",
+        "airports": [
+          {
+            "airport_code": "SCO",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Aktau"
+          },
+          {
+            "airport_code": "AKX",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Aktyubinsk"
+          },
+          {
+            "airport_code": "ALA",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Almaty"
+          },
+          {
+            "airport_code": "TSE",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Astana Intl"
+          },
+          {
+            "airport_code": "GUW",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Atyrau"
+          },
+          {
+            "airport_code": "KGF",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Sary-Arka"
+          },
+          {
+            "airport_code": "KZO",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Kzyl-Orda"
+          },
+          {
+            "airport_code": "PWQ",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Pavlodar"
+          },
+          {
+            "airport_code": "CIT",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Shymkent"
+          },
+          {
+            "airport_code": "DMB",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Taraz"
+          },
+          {
+            "airport_code": "URA",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Uralsk"
+          },
+          {
+            "airport_code": "UKK",
+            "airport_continent": "Asia",
+            "airport_country": "Kazakhstan",
+            "airport_name": "Ust Kamenogorsk Airport"
+          }
+        ]
+      },
+      {
+        "name": "Kanada",
+        "airports": [
+          {
+            "airport_code": "YYC",
+            "airport_continent": "North America",
+            "airport_country": "Canada",
+            "airport_name": "Calgary Intl"
+          },
+          {
+            "airport_code": "YEG",
+            "airport_continent": "North America",
+            "airport_country": "Canada",
+            "airport_name": "Edmonton Intl"
+          },
+          {
+            "airport_code": "YUL",
+            "airport_continent": "North America",
+            "airport_country": "Canada",
+            "airport_name": "Pierre Elliott Trudeau Intl"
+          },
+          {
+            "airport_code": "YOW",
+            "airport_continent": "North America",
+            "airport_country": "Canada",
+            "airport_name": "Ottawa Macdonald Cartier Intl"
+          },
+          {
+            "airport_code": "YQB",
+            "airport_continent": "North America",
+            "airport_country": "Canada",
+            "airport_name": "Quebec Jean Lesage Intl"
+          },
+          {
+            "airport_code": "YYZ",
+            "airport_continent": "North America",
+            "airport_country": "Canada",
+            "airport_name": "Lester B Pearson Intl"
+          },
+          {
+            "airport_code": "YVR",
+            "airport_continent": "North America",
+            "airport_country": "Canada",
+            "airport_name": "Vancouver Intl"
+          }
+        ]
+      },
+      {
+        "name": "Uni Emirat Arab",
+        "airports": [
+          {
+            "airport_code": "DUBA",
+            "airport_continent": "Asia",
+            "airport_country": "United Arab Emirates",
+            "airport_name": "Dubai - Semua Bandara"
+          },
+          {
+            "airport_code": "AUH",
+            "airport_continent": "Asia",
+            "airport_country": "United Arab Emirates",
+            "airport_name": "Abu Dhabi Intl"
+          },
+          {
+            "airport_code": "XNB",
+            "airport_continent": "Asia",
+            "airport_country": "Dubai",
+            "airport_name": "Etihad Travel Mall (Bus Stop) Airport"
+          },
+          {
+            "airport_code": "DWC",
+            "airport_continent": "Asia",
+            "airport_country": "United Arab Emirates",
+            "airport_name": "Dubai"
+          },
+          {
+            "airport_code": "DXB",
+            "airport_continent": "Asia",
+            "airport_country": "United Arab Emirates",
+            "airport_name": "Dubai Intl"
+          },
+          {
+            "airport_code": "SHJ",
+            "airport_continent": "Asia",
+            "airport_country": "United Arab Emirates",
+            "airport_name": "Sharjah Intl"
+          }
+        ]
+      },
+      {
+        "name": "Laos",
+        "airports": [
+          {
+            "airport_code": "LPQ",
+            "airport_continent": "Asia",
+            "airport_country": "Laos",
+            "airport_name": "Luang Phabang Intl"
+          },
+          {
+            "airport_code": "PKZ",
+            "airport_continent": "Asia",
+            "airport_country": "Laos",
+            "airport_name": "Pakse"
+          },
+          {
+            "airport_code": "ZVK",
+            "airport_continent": "Asia",
+            "airport_country": "Laos",
+            "airport_name": "Savannakhet"
+          },
+          {
+            "airport_code": "VTE",
+            "airport_continent": "Asia",
+            "airport_country": "Laos",
+            "airport_name": "Wattay Intl"
+          }
+        ]
+      },
+      {
+        "name": "Arab Saudi",
+        "airports": [
+          {
+            "airport_code": "DMM",
+            "airport_continent": "Asia",
+            "airport_country": "Saudi Arabia",
+            "airport_name": "King Fahd Intl"
+          },
+          {
+            "airport_code": "JED",
+            "airport_continent": "Asia",
+            "airport_country": "Saudi Arabia",
+            "airport_name": "Jeddah"
+          },
+          {
+            "airport_code": "MED",
+            "airport_continent": "Asia",
+            "airport_country": "Saudi Arabia",
+            "airport_name": "Medina"
+          },
+          {
+            "airport_code": "RUH",
+            "airport_continent": "Asia",
+            "airport_country": "Saudi Arabia",
+            "airport_name": "King Khaled Intl"
+          }
+        ]
+      },
+      {
+        "name": "Pakistan",
+        "airports": [
+          {
+            "airport_code": "ISB",
+            "airport_continent": "Asia",
+            "airport_country": "Pakistan",
+            "airport_name": "Chaklala"
+          },
+          {
+            "airport_code": "KHI",
+            "airport_continent": "Asia",
+            "airport_country": "Pakistan",
+            "airport_name": "Jinnah Intl"
+          },
+          {
+            "airport_code": "LHE",
+            "airport_continent": "Asia",
+            "airport_country": "Pakistan",
+            "airport_name": "Allama Iqbal Intl"
+          }
+        ]
+      },
+      {
+        "name": "Kamboja",
+        "airports": [
+          {
+            "airport_code": "PNH",
+            "airport_continent": "Asia",
+            "airport_country": "Cambodia",
+            "airport_name": "Phnom Penh Intl"
+          },
+          {
+            "airport_code": "REP",
+            "airport_continent": "Asia",
+            "airport_country": "Cambodia",
+            "airport_name": "Siem Reap"
+          },
+          {
+            "airport_code": "KOS",
+            "airport_continent": "Asia",
+            "airport_country": "Cambodia",
+            "airport_name": "Sihanoukville"
+          }
+        ]
+      },
+      {
+        "name": "Myanmar",
+        "airports": [
+          {
+            "airport_code": "MDL",
+            "airport_continent": "Asia",
+            "airport_country": "Burma",
+            "airport_name": "Mandalay Intl"
+          },
+          {
+            "airport_code": "NYT",
+            "airport_continent": "Asia",
+            "airport_country": "Burma",
+            "airport_name": "NAYPYITAW"
+          },
+          {
+            "airport_code": "RGN",
+            "airport_continent": "Asia",
+            "airport_country": "Burma",
+            "airport_name": "Yangon Intl"
+          }
+        ]
+      },
+      {
+        "name": "Bangladesh",
+        "airports": [
+          {
+            "airport_code": "CGP",
+            "airport_continent": "Asia",
+            "airport_country": "Bangladesh",
+            "airport_name": "Shah Amanat Intl"
+          },
+          {
+            "airport_code": "DAC",
+            "airport_continent": "Asia",
+            "airport_country": "Bangladesh",
+            "airport_name": "Zia Intl"
+          }
+        ]
+      },
+      {
+        "name": "Brazil",
+        "airports": [
+          {
+            "airport_code": "GIG",
+            "airport_continent": "South America",
+            "airport_country": "Brazil",
+            "airport_name": "Galeao Antonio Carlos Jobim"
+          },
+          {
+            "airport_code": "GRU",
+            "airport_continent": "South America",
+            "airport_country": "Brazil",
+            "airport_name": "Guarulhos Gov Andre Franco Montouro"
+          }
+        ]
+      },
+      {
+        "name": "Tanzania",
+        "airports": [
+          {
+            "airport_code": "DAR",
+            "airport_continent": "Africa",
+            "airport_country": "Tanzania",
+            "airport_name": "Mwalimu Julius K Nyerere Intl"
+          },
+          {
+            "airport_code": "JRO",
+            "airport_continent": "Africa",
+            "airport_country": "Tanzania",
+            "airport_name": "Kilimanjaro Intl"
+          }
+        ]
+      },
+      {
+        "name": "Meksiko",
+        "airports": [
+          {
+            "airport_code": "CUN",
+            "airport_continent": "North America",
+            "airport_country": "Mexico",
+            "airport_name": "Cancun Intl"
+          },
+          {
+            "airport_code": "MEX",
+            "airport_continent": "North America",
+            "airport_country": "Mexico",
+            "airport_name": "Licenciado Benito Juarez Intl"
+          }
+        ]
+      },
+      {
+        "name": "Afrika Selatan",
+        "airports": [
+          {
+            "airport_code": "CPT",
+            "airport_continent": "Africa",
+            "airport_country": "South Africa",
+            "airport_name": "Cape Town Intl"
+          },
+          {
+            "airport_code": "JNB",
+            "airport_continent": "Africa",
+            "airport_country": "South Africa",
+            "airport_name": "Johannesburg Intl"
+          }
+        ]
+      },
+      {
+        "name": "Dakar, Senegal",
+        "airports": [
+          {
+            "airport_code": "DSS",
+            "airport_continent": "Africa",
+            "airport_country": "Senegal",
+            "airport_name": "Blaise Diagne Intl",
+            "airport_city": "Dakar"
+          }
+        ]
+      },
+      {
+        "name": "Kongo",
+        "airports": [
+          {
+            "airport_code": "FIH",
+            "airport_continent": "Africa",
+            "airport_country": "Congo",
+            "airport_name": "Ndjili Intl"
+          },
+          {
+            "airport_code": "FBM",
+            "airport_continent": "Africa",
+            "airport_country": "Congo",
+            "airport_name": "Lubumbashi Intl"
+          }
+        ]
+      },
+      {
+        "name": "Siprus",
+        "airports": [
+          {
+            "airport_code": "LCA",
+            "airport_continent": "Europe",
+            "airport_country": "Cyprus",
+            "airport_name": "Larnaca"
+          },
+          {
+            "airport_code": "ECN",
+            "airport_continent": "Europe",
+            "airport_country": "Cyprus",
+            "airport_name": "Ercan International Airport"
+          }
+        ]
+      },
+      {
+        "name": "Libanon",
+        "airports": [
+          {
+            "airport_code": "BEY",
+            "airport_continent": "Asia",
+            "airport_country": "Lebanon",
+            "airport_name": "Rafic Hariri Intl"
+          }
+        ]
+      },
+      {
+        "name": "Macedonia",
+        "airports": [
+          {
+            "airport_code": "SKP",
+            "airport_continent": "Europe",
+            "airport_country": "Macedonia",
+            "airport_name": "Skopje"
+          }
+        ]
+      },
+      {
+        "name": "Maladewa",
+        "airports": [
+          {
+            "airport_code": "MLE",
+            "airport_continent": "Asia",
+            "airport_country": "Maldives",
+            "airport_name": "Male Intl"
+          }
+        ]
+      },
+      {
+        "name": "Mesir",
+        "airports": [
+          {
+            "airport_code": "CAI",
+            "airport_continent": "Africa",
+            "airport_country": "Egypt",
+            "airport_name": "Cairo Intl"
+          }
+        ]
+      },
+      {
+        "name": "Chili",
+        "airports": [
+          {
+            "airport_code": "SCL",
+            "airport_continent": "South America",
+            "airport_country": "Chile",
+            "airport_name": "Arturo Merino Benitez Intl"
+          }
+        ]
+      },
+      {
+        "name": "Nepal",
+        "airports": [
+          {
+            "airport_code": "KTM",
+            "airport_continent": "Asia",
+            "airport_country": "Nepal",
+            "airport_name": "Tribhuvan Intl"
+          }
+        ]
+      },
+      {
+        "name": "Oman",
+        "airports": [
+          {
+            "airport_code": "MCT",
+            "airport_continent": "Asia",
+            "airport_country": "Oman",
+            "airport_name": "Seeb Intl"
+          }
+        ]
+      },
+      {
+        "name": "Fiji",
+        "airports": [
+          {
+            "airport_code": "NAN",
+            "airport_continent": "Oceania",
+            "airport_country": "Fiji",
+            "airport_name": "Nadi Intl"
+          }
+        ]
+      },
+      {
+        "name": "Palau",
+        "airports": [
+          {
+            "airport_code": "ROR",
+            "airport_continent": "Oceania",
+            "airport_country": "Palau",
+            "airport_name": "Babelthuap"
+          }
+        ]
+      },
+      {
+        "name": "Georgia",
+        "airports": [
+          {
+            "airport_code": "TBS",
+            "airport_continent": "Europe",
+            "airport_country": "Georgia",
+            "airport_name": "Tbilisi"
+          }
+        ]
+      },
+      {
+        "name": "Qatar",
+        "airports": [
+          {
+            "airport_code": "DOH",
+            "airport_continent": "Asia",
+            "airport_country": "Qatar",
+            "airport_name": "Doha Intl"
+          }
+        ]
+      },
+      {
+        "name": "Samoa",
+        "airports": [
+          {
+            "airport_code": "APW",
+            "airport_continent": "Oceania",
+            "airport_country": "Samoa",
+            "airport_name": "Faleolo Intl"
+          }
+        ]
+      },
+      {
+        "name": "Bahrain",
+        "airports": [
+          {
+            "airport_code": "BAH",
+            "airport_continent": "Asia",
+            "airport_country": "Bahrain",
+            "airport_name": "Bahrain Intl"
+          }
+        ]
+      },
+      {
+        "name": "Sri Lanka",
+        "airports": [
+          {
+            "airport_code": "CMB",
+            "airport_continent": "Asia",
+            "airport_country": "Sri Lanka",
+            "airport_name": "Bandaranaike Intl Colombo"
+          }
+        ]
+      },
+      {
+        "name": "Azerbaijan",
+        "airports": [
+          {
+            "airport_code": "GYD",
+            "airport_continent": "Europe",
+            "airport_country": "Azerbaijan",
+            "airport_name": "Heydar Aliyev"
+          }
+        ]
+      },
+      {
+        "name": "Iran",
+        "airports": [
+          {
+            "airport_code": "IKA",
+            "airport_continent": "Asia",
+            "airport_country": "Iran",
+            "airport_name": "Imam Khomeini"
+          }
+        ]
+      },
+      {
+        "name": "Vanuatu",
+        "airports": [
+          {
+            "airport_code": "VLI",
+            "airport_continent": "Oceania",
+            "airport_country": "Vanuatu",
+            "airport_name": "Port Vila Bauerfield"
+          }
+        ]
+      },
+      {
+        "name": "Yordania",
+        "airports": [
+          {
+            "airport_code": "AMM",
+            "airport_continent": "Asia",
+            "airport_country": "Jordan",
+            "airport_name": "Queen Alia Intl"
+          }
+        ]
+      },
+      {
+        "name": "Israel",
+        "airports": [
+          {
+            "airport_code": "TLV",
+            "airport_continent": "Asia",
+            "airport_country": "Israel",
+            "airport_name": "Ben Gurion"
+          }
+        ]
+      },
+      {
+        "name": "Argentina",
+        "airports": [
+          {
+            "airport_code": "EZE",
+            "airport_continent": "South America",
+            "airport_country": "Argentina",
+            "airport_name": "Ministro Pistarini"
+          }
+        ]
+      },
+      {
+        "name": "Aruba",
+        "airports": [
+          {
+            "airport_code": "AUA",
+            "airport_continent": "North America",
+            "airport_country": "Aruba",
+            "airport_name": "Reina Beatrix Intl"
+          }
+        ]
+      },
+      {
+        "name": "Zambia",
+        "airports": [
+          {
+            "airport_code": "LUN",
+            "airport_continent": "Africa",
+            "airport_country": "Zambia",
+            "airport_name": "Lusaka Intl"
+          }
+        ]
+      },
+      {
+        "name": "Ekuador",
+        "airports": [
+          {
+            "airport_code": "UIO",
+            "airport_continent": "South America",
+            "airport_country": "Ecuador",
+            "airport_name": "Mariscal Sucre Intl"
+          }
+        ]
+      },
+      {
+        "name": "Guam",
+        "airports": [
+          {
+            "airport_code": "GUM",
+            "airport_continent": "Oceania",
+            "airport_country": "Guam",
+            "airport_name": "Guam Intl"
+          }
+        ]
+      },
+      {
+        "name": "Kaledonia Baru",
+        "airports": [
+          {
+            "airport_code": "NOU",
+            "airport_continent": "Oceania",
+            "airport_country": "New Caledonia",
+            "airport_name": "La Tontouta"
+          }
+        ]
+      },
+      {
+        "name": "Kolombia",
+        "airports": [
+          {
+            "airport_code": "BOG",
+            "airport_continent": "South America",
+            "airport_country": "Colombia",
+            "airport_name": "Eldorado Intl"
+          }
+        ]
+      },
+      {
+        "name": "Kuba",
+        "airports": [
+          {
+            "airport_code": "HAV",
+            "airport_continent": "North America",
+            "airport_country": "Cuba",
+            "airport_name": "Jose Marti Intl"
+          }
+        ]
+      },
+      {
+        "name": "Belarus",
+        "airports": [
+          {
+            "airport_code": "MSQ",
+            "airport_continent": "Europe",
+            "airport_country": "Belarus",
+            "airport_name": "Minsk 2"
+          }
+        ]
+      },
+      {
+        "name": "Panama",
+        "airports": [
+          {
+            "airport_code": "PTY",
+            "airport_continent": "North America",
+            "airport_country": "Panama",
+            "airport_name": "Tocumen Intl"
+          }
+        ]
+      },
+      {
+        "name": "Peru",
+        "airports": [
+          {
+            "airport_code": "LIM",
+            "airport_continent": "South America",
+            "airport_country": "Peru",
+            "airport_name": "Jorge Chavez Intl"
+          }
+        ]
+      },
+      {
+        "name": "Suriname",
+        "airports": [
+          {
+            "airport_code": "PBM",
+            "airport_continent": "South America",
+            "airport_country": "Suriname",
+            "airport_name": "Johan A Pengel Intl"
+          }
+        ]
+      },
+      {
+        "name": "Kepulauan Solomon",
+        "airports": [
+          {
+            "airport_code": "HIR",
+            "airport_continent": "Oceania",
+            "airport_country": "Solomon Islands",
+            "airport_name": "Honiara International"
+          }
+        ]
+      },
+      {
+        "name": "Angola",
+        "airports": [
+          {
+            "airport_code": "LAD",
+            "airport_continent": "Africa",
+            "airport_country": "Angola",
+            "airport_name": "Luanda 4 De Fevereiro"
+          }
+        ]
+      },
+      {
+        "name": "Etiopia",
+        "airports": [
+          {
+            "airport_code": "ADD",
+            "airport_continent": "Africa",
+            "airport_country": "Ethiopia",
+            "airport_name": "Bole Intl"
+          }
+        ]
+      },
+      {
+        "name": "Ghana",
+        "airports": [
+          {
+            "airport_code": "ACC",
+            "airport_continent": "Africa",
+            "airport_country": "Ghana",
+            "airport_name": "Kotoka Intl"
+          }
+        ]
+      },
+      {
+        "name": "Kamerun",
+        "airports": [
+          {
+            "airport_code": "DLA",
+            "airport_continent": "Africa",
+            "airport_country": "Cameroon",
+            "airport_name": "Douala"
+          }
+        ]
+      },
+      {
+        "name": "Kenya",
+        "airports": [
+          {
+            "airport_code": "NBO",
+            "airport_continent": "Africa",
+            "airport_country": "Kenya",
+            "airport_name": "Jomo Kenyatta International"
+          }
+        ]
+      },
+      {
+        "name": "Kuwait",
+        "airports": [
+          {
+            "airport_code": "KWI",
+            "airport_continent": "Asia",
+            "airport_country": "Kuwait",
+            "airport_name": "Kuwait Intl"
+          }
+        ]
+      },
+      {
+        "name": "Liberia",
+        "airports": [
+          {
+            "airport_code": "ROB",
+            "airport_continent": "Africa",
+            "airport_country": "Liberia",
+            "airport_name": "Monrovia Roberts Intl"
+          }
+        ]
+      },
+      {
+        "name": "Madagaskar",
+        "airports": [
+          {
+            "airport_code": "TNR",
+            "airport_continent": "Africa",
+            "airport_country": "Madagascar",
+            "airport_name": "Ivato"
+          }
+        ]
+      },
+      {
+        "name": "Maroko",
+        "airports": [
+          {
+            "airport_code": "CMN",
+            "airport_continent": "Africa",
+            "airport_country": "Morocco",
+            "airport_name": "Mohammed V Intl"
+          }
+        ]
+      },
+      {
+        "name": "Nigeria",
+        "airports": [
+          {
+            "airport_code": "LOS",
+            "airport_continent": "Africa",
+            "airport_country": "Nigeria",
+            "airport_name": "Murtala Muhammed"
+          }
+        ]
+      },
+      {
+        "name": "Rwanda",
+        "airports": [
+          {
+            "airport_code": "KGL",
+            "airport_continent": "Africa",
+            "airport_country": "Rwanda",
+            "airport_name": "Kigali Intl"
+          }
+        ]
+      },
+      {
+        "name": "Sudan",
+        "airports": [
+          {
+            "airport_code": "KRT",
+            "airport_continent": "Africa",
+            "airport_country": "Sudan",
+            "airport_name": "Khartoum"
+          }
+        ]
+      },
+      {
+        "name": "Brunei",
+        "airports": [
+          {
+            "airport_code": "BWN",
+            "airport_continent": "Asia",
+            "airport_country": "Brunei",
+            "airport_name": "Brunei Intl"
+          }
+        ]
+      },
+      {
+        "name": "Uganda",
+        "airports": [
+          {
+            "airport_code": "EBB",
+            "airport_continent": "Africa",
+            "airport_country": "Uganda",
+            "airport_name": "Entebbe Intl"
+          }
+        ]
+      },
+      {
+        "name": "Timor Leste",
+        "airports": [
+          {
+            "airport_code": "DIL",
+            "airport_continent": "Asia",
+            "airport_country": "East Timor",
+            "airport_name": "Presidente Nicolau Lobato Intl"
+          }
+        ]
+      }
+    ]
+  }
+]

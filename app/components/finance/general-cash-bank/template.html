@@ -1,0 +1,263 @@
+<div id="main" role="main" class="finance-general-cash-bank">
+	<div id="ribbon">
+		<ol class="breadcrumb">
+			<li>Finance</li><li>General Cash Bank</li>
+		</ol>
+		<div class="user-table-container" v-if="!formComponentState && generalcashbank_list">
+			<div class="user-table-count" v-if="pagination.caption" style="color:grey;">
+				<div>
+					<span style="border-bottom: 1px dashed;">
+						Total General Cash Bank Yang Tersimpan
+					</span>
+				</div>
+				<div style="font-weight:800; margin-bottom:10px;">
+					{{pagination.caption}}
+				</div>
+			</div>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th style="vertical-align:middle; width:10px;"></th>
+						<th style="vertical-align:middle; width:150px;">Tanggal</th>
+						<th style="vertical-align:middle; width:200px;">Nama Pengguna</th>
+						<th style="vertical-align:middle; width:120px;">Kode Voucher</th>
+						<th style="vertical-align:middle; width:120px; text-align:center;">
+							<button type="button" class="btn btn-primary btn-xs">Search</button>
+							<button type="button" class="btn btn-primary btn-xs">Add</button>
+						</th>
+					</tr>
+				</thead>
+				<tbody style="font-size: 12px;" v-if="generalcashbank_list">
+					<tr v-for="(data, index) in generalcashbank_list">
+						<td>
+							<span v-if="pagination.current_page != 0">{{((pagination.current_page - 1) * 25) + (index + 1)}}</span>
+							<span v-else>{{index + 1}}</span>
+						</td>
+						<td>{{changeFormatDate(intToISODate(data.financialtrans_date).split('T')[0])}} {{intToISODate(data.financialtrans_date).split('T')[1]}}</td>
+						<td>{{data.user_name}}</td>
+						<td>{{data.vou}}</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<button type="button" class="btn btn-xs btn-warning" @click="callFormComponent('Edit', data.generalcashbank_id)">Edit</button>
+							<button class="btn btn-xs btn-danger"><i class="fa fa-spin fa-spinner fa-fw" v-if="del_button_loading"></i>Delete</button>
+						</td>
+					</tr>
+				</tbody>
+				<tbody v-else>
+					<tr>
+						<td class="text-center" style="font-weight:bold;" colspan="13">Tidak ada data !</td>
+					</tr>
+				</tbody>
+			</table>
+			<div style="background-color:#f78c40; width:100%; font-size:8pt; padding:5px; margin-bottom:15px;" v-if="generalcashbank_list">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<label><b>{{pagination.caption}}</b></label>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="text-center">
+							<label v-if="pagination.page_list.length > 1">Page <b>{{pagination.current_page}}</b> of {{pagination.last_page}} pages</label>
+							<label v-else>Page 1</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="pull-right">
+							<button v-if="pagination.prev_page" class="btn btn-secondary btn-xs" style="margin-right:3px;" @click="getDataOnPage(pagination.prev_page)"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+							<button v-for="page in pagination.page_list" class="btn btn-secondary btn-xs" :class="{'active-pagination' : page == pagination.current_page}" style="margin-right:3px;" @click="getDataOnPage(page)">{{page}}</button>
+							<button v-if="pagination.next_page" class="btn btn-secondary btn-xs" style="margin-right:3px;" @click="getDataOnPage(pagination.next_page)"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="background-color: #fafafa; padding: 16px; border: 2px solid #f0f0f0; border-radius: 5px; white-space: nowrap;" v-show="formComponentState">
+			<div class="row" style="margin-bottom: 10px;">
+				<div class="col-xs-12 col-sm-6">
+					<h4 id="form_title">Header</h4>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<div align="right" style="margin-bottom: 10px;" v-if="form_param.begin">
+						<div class="btn btn-xs btn-secondary">{{form_param.begin}}</div>
+						<div class="btn btn-xs btn-success" v-if="form_param.status == 'A'">Open</div>
+						<div class="btn btn-xs btn-warning" v-else-if="form_param.status == 'P'">Posting</div>
+						<div class="btn btn-xs btn-danger" v-else-if="form_param.status == 'C'">Closing</div>
+					</div>
+				</div>
+			</div>
+			<div id="form_body" v-if="formLoadingState">
+				<br>
+				<i class="fa fa-spin fa-spinner fa-2x"></i><br><br>
+				<span class="light-gray" style="font-weight:bold;">Mengambil data ke server ...</span>
+			</div>
+			<div id="form_body">
+				<div class="row" style="margin-bottom: 5px;">
+					<div class="col-xs-12 col-sm-6">
+						<label><small>Tanggal</small></label>
+						<div class="input-group">
+							<span class="input-group-addon">
+								<i class="fa fa-calendar"></i>
+							</span>
+							<input style="padding-left: 10px; width: 150px;" type="text" id="start-date" class="form-control" placeholder="1 Mar 2018" :value="changeFormatDate(form_param.start_date)">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-3 col-sm-3">
+						<label><small>Tipe</small></label>
+						<div class="panel panel-default">
+							<!--div class="panel-heading">Tipe</div-->
+							<div class="panel-body p-l-md">
+								<input id="cashbank_debet" type="radio" value="D" v-model="form_param.position">
+								<label for="cashbank_debet">Kas Bank Masuk</label>
+								<br>
+								<input id="cashbank_credit" type="radio" value="C" v-model="form_param.position">
+								<label for="cashbank_credit">Kas Bank Keluar</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<div class="form-group dropdown">
+							<label><small>Kode Coa</small></label>
+							<div class="input-group dropdown-toggle" data-toggle="dropdown" style="width: 350px;">
+								<input class="form-control" @blur="restoreDropDown('to')" type="text" placeholder="Kode Coa" v-model="coa_to_name" onclick="this.select()">&nbsp;<div class="btn btn-xs btn-success" v-if="form_param.vou">{{form_param.vou}}</div>
+							</div>
+							<ul class="dropdown-menu" style="max-width: 100%; overflow-y: auto; background: white;" v-if="coa_list">
+								<li v-for="coa in filteredDropDown('to')" @click="selectDropDown('to', coa)" v-if="coa_to_name != origin_coa_to_name">
+									<a style="padding: 5px 10px;">
+										{{coa.coa_code}} <small style="color:grey; font-weight:bold;">{{coa.coa_name}}</small>
+									</a>
+								</li>
+								<li v-for="coa in coa_list"  v-if="(coa_to_name == origin_coa_to_name) && coa_list" @click="selectDropDown('to', coa)">
+									<a style="padding: 5px 10px;">
+										{{coa.coa_code}} <small style="color:grey; font-weight:bold;">{{coa.coa_name}}</small>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="margin-bottom: 20px;">
+					<div class="col-xs-12 col-sm-12">
+						<label><small>Deskripsi</small></label>
+						<input class="form-control" placeholder="Deskripsi" type="text" v-model="form_param.desc">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<button type="button" class="btn btn-danger" style="margin-left:10px; margin-right:10px;" @click="initFormComponent()">Close</button>
+						<button class="btn btn-primary" @click="doProcess()">Simpan</button>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div align="right" style="margin-bottom: 10px;" v-if="form_param.user_name">
+							<label><small>Dibuat oleh <small>{{form_param.user_name}}</small></small></label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		&nbsp;
+		<div class="user-table-container" v-show="formComponentState" v-if="journal_list">
+			<div id="form_body" v-if="formLoadingState">
+				<br>
+				<i class="fa fa-spin fa-spinner fa-2x"></i><br><br>
+				<span class="light-gray" style="font-weight:bold;">Mengambil data ke server ...</span>
+			</div>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr class="title-table-primary">
+						<th style="vertical-align:middle; width:2px;">&nbsp;</th>
+						<th style="vertical-align:middle; width:200px;">Coa</th>
+						<th style="vertical-align:middle; width:400px;">Deskripsi</th>
+						<th style="vertical-align:middle; width:50px; text-align:right;">Jumlah</th>
+						<th style="vertical-align:middle; width:5px;">D/C</th>
+						<th style="vertical-align:middle; width:10px; text-align:center;"><button type="button" class="btn btn-primary btn-xs"  data-toggle="modal" data-target="#myModal" @click="openModal('add', '')">Add</button></th>
+					</tr>
+				</thead>
+				<tbody style="font-size: 12px;" v-if="journal_list">
+					<tr v-for="(data, index) in journal_list">
+						<td><span>{{index + 1}}</span></td>
+						<td>{{data.coa_name}}</td>
+						<td>{{data.desc}}</td>
+						<td align="right">{{converterToFormatRits(data.value)}}</td>
+						<td>{{data.position}}</td>
+						<td>
+							<button type="button" class="btn btn-xs btn-warning" data-toggle="modal" data-target="#myModal" @click="openModal('edit', index)">Edit</button>
+							<button class="btn btn-xs btn-danger" @click="deleteJournal()"></i>Delete</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+ 	<div class="modal fade" id="myModal" role="dialog" data-backdrop="static">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title" id="modal_title">Modal Header</h4>
+				</div>
+				<div class="modal-body text-center" id="modal_body" v-if="modalLoadingState">
+					<br>
+					<i class="fa fa-spin fa-spinner fa-2x"></i><br><br>
+					<span class="light-gray" style="font-weight:bold;">Mengambil data ke server ...</span>
+				</div>
+				<div class="modal-body" id="modal_body">
+					<div class="row">
+						<div class="col-sm-3 col-md-3">
+							<label><small>Type</small></label>
+							<div class="panel panel-default">
+								<div class="panel-body p-l-md">
+									<input id="debet" type="radio" value="D" v-model="journal_data.position">
+									<label for="debet">Debit</label>
+									<br>
+									<input id="credit" type="radio" value="C" v-model="journal_data.position">
+									<label for="credit">Kredit</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row" style="margin-bottom:5px;">
+						<div class="col-sm-6 col-md-6">
+							<div class="form-group dropdown">
+								<label><small>Dari Akun</small></label>
+								<div class="input-group dropdown-toggle" data-toggle="dropdown" style="width: 300px;">
+									<input class="form-control" @blur="restoreDropDown('from')" type="text" placeholder="Dari Akun" v-model="coa_from_name" onclick="this.select()">
+								</div>
+								<ul class="dropdown-menu" style="max-height: 400px; max-width: 100%; overflow-y: auto; background: white;" v-if="coa_list">
+									<li v-for="coa in filteredDropDown('from')" @click="selectDropDown('from', coa)" v-if="coa_from_name != origin_coa_from_name">
+										<a style="padding: 8px 20px;">
+											{{coa.coa_code}} <small style="color:grey; font-weight:bold;">{{coa.coa_name}}</small>
+										</a>
+									</li>
+									<li v-for="coa in coa_list"  v-if="(coa_from_name == origin_coa_from_name) && coa_list" @click="selectDropDown('from', coa)">
+										<a style="padding: 8px 20px;">
+											{{coa.coa_code}} <small style="color:grey; font-weight:bold;">{{coa.coa_name}}</small>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row" style="margin-bottom:5px;">
+						<div class="col-sm-12 col-md-12">
+							<label><small>Deskripsi</small></label>
+							<input class="form-control" type="text" v-model="journal_data.desc">
+						</div>
+					</div>
+					<div class="row" style="margin-bottom:5px;">
+						<div class="col-sm-3 col-md-3">
+							<label><small>Jumlah</small></label>
+							<input class="form-control" type="text" v-model="journal_data.value">
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+					<button type="button" class="btn btn-primary" @click="editJournal(journal_data.index)" v-if="journal_data.index">Simpan</button>
+					<button type="button" class="btn btn-primary" @click="addJournal()" v-else>Simpan</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

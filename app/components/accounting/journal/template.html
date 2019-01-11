@@ -1,0 +1,87 @@
+<div id="main" role="main" class="accounting-journal">
+	<div id="ribbon">
+		<ol class="breadcrumb">
+			<li>Accounting</li><li>Journal</li>
+		</ol>
+		<div class="user-table-container" style="background-color: #fafafa; padding: 16px; border: 2px solid #f0f0f0; border-radius: 5px; white-space: nowrap; overflow-x: auto;">
+			<div class="row" style="margin-bottom: 15px;">
+				<div class="col-xs-12 col-sm-3">
+					<label>Pilih Tanggal Dari</label>
+					<div class="input-group">
+						<span class="input-group-addon">
+							<i class="fa fa-calendar"></i>
+						</span>
+						<input style="padding-left:10px;" type="text" id="start-date" class="form-control" placeholder="1 Mar 2018" :value="changeFormatDate(journal_search.start_date)">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<label>Sampai</label>
+					<div class="input-group">
+						<span class="input-group-addon">
+							<i class="fa fa-calendar"></i>
+						</span>
+						<input style="padding-left:10px;" type="text" id="end-date" class="form-control" placeholder="1 Mar 2018" :value="changeFormatDate(journal_search.end_date)">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-3">
+					<button class="btn btn-default" @click="doCancel()">Cancel</button>            
+					<button class="btn btn-primary" @click="doSearching()">Find</button>
+				</div>
+			</div>
+			<div class="row" style="margin-bottom: 10px;">
+				<div class="col-xs-11 col-sm-11 col-md-11">
+					<div class="load-message" v-if="journal_list.state == 'searching'">
+						<i class="fa fa-spin fa-spinner fa-2x"></i>&nbsp;
+						<span class="light-gray">Mengambil data jurnal umum ...</span>
+					</div>
+					<div class="load-message" v-if="journal_list.state == 'error'">
+						<i class="fa fa-exclamation-triangle fa-2x"></i>&nbsp;
+						<span class="light-gray">Gagal mendapatkan data jurnal umum !</span>
+						<br>
+						<span class="error-msg">{{journal_list.message}}</span>
+					</div>
+				</div>
+			</div>
+			<div class="row m-t-md">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="animated fadeIn" v-show="journal">
+						<!--div align="right" style="margin-bottom: 10px;" v-if="journal">
+							<div class="btn btn-xs btn-secondary">{{journal[0].period_begin}}</div>
+							<div class="btn btn-xs btn-success" v-if="journal[0].period_status == 'A'">Open</div>
+							<div class="btn btn-xs btn-warning" v-else-if="journal[0].period_status == 'P'">Posting</div>
+							<div class="btn btn-xs btn-danger" v-else-if="journal[0].period_status == 'C'">Closing</div>
+						</div-->
+						<table class="table table-bordered table-striped table-hover" style="max-width:100%; white-space: normal;">
+							<thead>
+								<tr class="title-table-primary">
+									<th style="vertical-align:middle; width:150px;">Tanggal</th>
+									<th style="vertical-align:middle; width:80px;">Kode Voucher</th>
+									<th style="vertical-align:middle; width:80px;">Kode Coa</th>
+									<th style="vertical-align:middle;">Nama Coa</th>
+									<th style="vertical-align:middle; text-align:right;">Debet</th>
+									<th style="vertical-align:middle; text-align:right;">Kredit</th>
+								</tr>
+							</thead>
+							<tbody v-if="journal">
+								<tr class="content-table-primary" v-for="(data, index) in journal" :value="index">
+									<td v-if="data.trans_show">{{changeFormatDate(intToISODate(data.financialtrans_date).split('T')[0])}} {{intToISODate(data.financialtrans_date).split('T')[1]}}</td>
+									<td v-else>&nbsp;</td>
+									<td v-if="data.trans_show"><b>{{data.vou}}</b></td>
+									<td v-else>&nbsp;</td>
+									<td>{{data.coa_from}}</td>
+									<td :style="data.glanalysis_credit != 0 ? 'padding-left: 40px;' : ''">{{data.coa_name}}</td>
+									<td v-if="data.glanalysis_debet != 0" align="right">{{converterToFormatRits(data.glanalysis_debet)}}</td>
+									<td v-else align="right">&nbsp;</td>
+									<td v-if="data.glanalysis_credit != 0" align="right">{{converterToFormatRits(data.glanalysis_credit)}}</td>
+									<td v-else align="right">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

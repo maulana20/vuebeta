@@ -1,0 +1,1234 @@
+{
+    "id_CU": {
+        "countryId": "id_CU",
+        "name": "Kuba",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Cuba"
+        ],
+        "hasProvince": false
+    },
+    "id_KH": {
+        "countryId": "id_KH",
+        "name": "Kamboja",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Cambodia"
+        ],
+        "hasProvince": false
+    },
+    "VN": {
+        "countryId": "VN",
+        "name": "Vietnam",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_CO": {
+        "countryId": "id_CO",
+        "name": "Kolombia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Colombia"
+        ],
+        "hasProvince": false
+    },
+    "id_CZ": {
+        "countryId": "id_CZ",
+        "name": "Republik Ceko",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Czech Republic"
+        ],
+        "hasProvince": false
+    },
+    "id_CY": {
+        "countryId": "id_CY",
+        "name": "Siprus",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Cyprus"
+        ],
+        "hasProvince": false
+    },
+    "id_KR": {
+        "countryId": "id_KR",
+        "name": "Korea Selatan",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "South Korea"
+        ],
+        "hasProvince": false
+    },
+    "id_CD": {
+        "countryId": "id_CD",
+        "name": "Kongo",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Congo"
+        ],
+        "hasProvince": false
+    },
+    "id_CA": {
+        "countryId": "id_CA",
+        "name": "Kanada",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Canada"
+        ],
+        "hasProvince": false
+    },
+    "id_KW": {
+        "countryId": "id_KW",
+        "name": "Kuwait",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_KZ": {
+        "countryId": "id_KZ",
+        "name": "Kazakhstan",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_CM": {
+        "countryId": "id_CM",
+        "name": "Kamerun",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Cameroon"
+        ],
+        "hasProvince": false
+    },
+    "id_CL": {
+        "countryId": "id_CL",
+        "name": "Chili",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Chile"
+        ],
+        "hasProvince": false
+    },
+    "id_CH": {
+        "countryId": "id_CH",
+        "name": "Swiss",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Switzerland"
+        ],
+        "hasProvince": false
+    },
+    "id_LB": {
+        "countryId": "id_LB",
+        "name": "Libanon",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Lebanon"
+        ],
+        "hasProvince": false
+    },
+    "MY": {
+        "countryId": "MY",
+        "name": "Malaysia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "MM": {
+        "countryId": "MM",
+        "name": "Myanmar",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_LU": {
+        "countryId": "id_LU",
+        "name": "Luksemburg",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Luxembourg"
+        ],
+        "hasProvince": false
+    },
+    "id_LR": {
+        "countryId": "id_LR",
+        "name": "Liberia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_ZA": {
+        "countryId": "id_ZA",
+        "name": "Afrika Selatan",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "South Africa"
+        ],
+        "hasProvince": false
+    },
+    "id_ZM": {
+        "countryId": "id_ZM",
+        "name": "Zambia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_DE": {
+        "countryId": "id_DE",
+        "name": "Jerman",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Germany"
+        ],
+        "hasProvince": false
+    },
+    "id_MG": {
+        "countryId": "id_MG",
+        "name": "Madagaskar",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Madagascar"
+        ],
+        "hasProvince": false
+    },
+    "TW": {
+        "countryId": "TW",
+        "name": "Taiwan",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_MA": {
+        "countryId": "id_MA",
+        "name": "Maroko",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Morocco"
+        ],
+        "hasProvince": false
+    },
+    "id_DK": {
+        "countryId": "id_DK",
+        "name": "Denmark",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_ET": {
+        "countryId": "id_ET",
+        "name": "Etiopia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Ethiopia"
+        ],
+        "hasProvince": false
+    },
+    "id_ES": {
+        "countryId": "id_ES",
+        "name": "Spanyol",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Spain"
+        ],
+        "hasProvince": false
+    },
+    "id_MK": {
+        "countryId": "id_MK",
+        "name": "Macedonia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_MO": {
+        "countryId": "id_MO",
+        "name": "Makau",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Macau"
+        ],
+        "hasProvince": false
+    },
+    "id_MT": {
+        "countryId": "id_MT",
+        "name": "Malta",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_UAE": {
+        "countryId": "id_UAE",
+        "name": "Uni Emirat Arab",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "United Arab Emirates"
+        ],
+        "hasProvince": false
+    },
+    "id_MV": {
+        "countryId": "id_MV",
+        "name": "Maladewa",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Maldives"
+        ],
+        "hasProvince": false
+    },
+    "NP": {
+        "countryId": "NP",
+        "name": "Nepal",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_MX": {
+        "countryId": "id_MX",
+        "name": "Meksiko",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Mexico"
+        ],
+        "hasProvince": false
+    },
+    "id_EC": {
+        "countryId": "id_EC",
+        "name": "Ekuador",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Ecuador"
+        ],
+        "hasProvince": false
+    },
+    "id_EG": {
+        "countryId": "id_EG",
+        "name": "Mesir",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Egypt"
+        ],
+        "hasProvince": false
+    },
+    "id_NC": {
+        "countryId": "id_NC",
+        "name": "Kaledonia Baru",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "New Caledonia"
+        ],
+        "hasProvince": false
+    },
+    "id_NG": {
+        "countryId": "id_NG",
+        "name": "Nigeria",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_NL": {
+        "countryId": "id_NL",
+        "name": "Belanda",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Netherlands"
+        ],
+        "hasProvince": false
+    },
+    "id_FR": {
+        "countryId": "id_FR",
+        "name": "Prancis",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "France"
+        ],
+        "hasProvince": false
+    },
+    "id_WS": {
+        "countryId": "id_WS",
+        "name": "Samoa",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_NO": {
+        "countryId": "id_NO",
+        "name": "Norwegia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Norway"
+        ],
+        "hasProvince": false
+    },
+    "id_NZ": {
+        "countryId": "id_NZ",
+        "name": "Selandia Baru",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "New Zealand"
+        ],
+        "hasProvince": false
+    },
+    "id_FI": {
+        "countryId": "id_FI",
+        "name": "Finlandia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Finland"
+        ],
+        "hasProvince": false
+    },
+    "id_FJ": {
+        "countryId": "id_FJ",
+        "name": "Fiji",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "HK": {
+        "countryId": "HK",
+        "name": "Hong Kong",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_GU": {
+        "countryId": "id_GU",
+        "name": "Guam",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_OM": {
+        "countryId": "id_OM",
+        "name": "Oman",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_VU": {
+        "countryId": "id_VU",
+        "name": "Vanuatu",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_GR": {
+        "countryId": "id_GR",
+        "name": "Yunani",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Greece"
+        ],
+        "hasProvince": false
+    },
+    "id_PH": {
+        "countryId": "id_PH",
+        "name": "Filipina",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Philippines"
+        ],
+        "hasProvince": false
+    },
+    "id_PK": {
+        "countryId": "id_PK",
+        "name": "Pakistan",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_PE": {
+        "countryId": "id_PE",
+        "name": "Peru",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_PG": {
+        "countryId": "id_PG",
+        "name": "Papua Nugini",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Papua New Guinea"
+        ],
+        "hasProvince": false
+    },
+    "id_PA": {
+        "countryId": "id_PA",
+        "name": "Panama",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_GH": {
+        "countryId": "id_GH",
+        "name": "Ghana",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_GE": {
+        "countryId": "id_GE",
+        "name": "Georgia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_ID": {
+        "countryId": "id_ID",
+        "name": "Indonesia",
+        "popularDestination": [],
+        "provinces": [
+            {
+                "name": "Jawa",
+                "airports": [
+                    "JKTA",
+                    "BDO",
+                    "BWX",
+                    "CGK",
+                    "HLP",
+                    "JBB",
+                    "MLG",
+                    "SRG",
+                    "SOC",
+                    "SUB",
+                    "JOG"
+                ]
+            },
+            {
+                "name": "Sumatera",
+                "airports": [
+                    "MWK",
+                    "BTJ",
+                    "TKG",
+                    "BTH",
+                    "BKS",
+                    "DUM",
+                    "GNS",
+                    "DJB",
+                    "LSW",
+                    "LLG",
+                    "KNO",
+                    "MEQ",
+                    "MRB",
+                    "NTX",
+                    "PDG",
+                    "DPM",
+                    "PLM",
+                    "PGK",
+                    "PKU",
+                    "SBG",
+                    "FLZ",
+                    "DTB",
+                    "SMG",
+                    "TXE",
+                    "TJQ",
+                    "TNJ",
+                    "AEG"
+                ]
+            },
+            {
+                "name": "Kalimantan",
+                "airports": [
+                    "BPN",
+                    "BDJ",
+                    "BTW",
+                    "BEJ",
+                    "BTK",
+                    "TBM",
+                    "KTG",
+                    "KBU",
+                    "KLK",
+                    "MLN",
+                    "MLK",
+                    "NNX",
+                    "PKY",
+                    "PKN",
+                    "PNK",
+                    "PXC",
+                    "PSU",
+                    "SRI",
+                    "SMQ",
+                    "SGQ",
+                    "KPX",
+                    "SQG",
+                    "TJS",
+                    "TJG",
+                    "TRK"
+                ]
+            },
+            {
+                "name": "Sulawesi",
+                "airports": [
+                    "VPM",
+                    "BUW",
+                    "BXE",
+                    "BUA",
+                    "UOL",
+                    "GTO",
+                    "KDI",
+                    "LUW",
+                    "UPG",
+                    "MSA",
+                    "MJU",
+                    "MDC",
+                    "MXB",
+                    "RAQ",
+                    "NAH",
+                    "LLO",
+                    "PLW",
+                    "PUM",
+                    "PSJ",
+                    "RPI",
+                    "SKO",
+                    "YKR",
+                    "MNA",
+                    "TTR",
+                    "TLI",
+                    "WNI"
+                ]
+            },
+            {
+                "name": "Bali & Nusa Teng.",
+                "airports": [
+                    "ARD",
+                    "ABU",
+                    "BJW",
+                    "DPS",
+                    "BMU",
+                    "ENE",
+                    "KOE",
+                    "LBJ",
+                    "LKA",
+                    "LOP",
+                    "MOF",
+                    "RTI",
+                    "RTG",
+                    "SWQ",
+                    "TMC",
+                    "WGP"
+                ]
+            },
+            {
+                "name": "Maluku & Papua",
+                "airports": [
+                    "AGI",
+                    "AMQ",
+                    "EWE",
+                    "BIK",
+                    "ZGP",
+                    "WUB",
+                    "FKQ",
+                    "GLX",
+                    "OKL",
+                    "ILA",
+                    "DJJ",
+                    "KNG",
+                    "KNY",
+                    "LUV",
+                    "MKW",
+                    "KEP",
+                    "MKQ",
+                    "KOX",
+                    "OTI",
+                    "NBX",
+                    "PTW",
+                    "SNK",
+                    "SXK",
+                    "SOQ",
+                    "TTE",
+                    "TIM",
+                    "KAZ",
+                    "WMX",
+                    "DEX"
+                ]
+            }
+        ],
+        "hasProvinces": true,
+        "altNames": null,
+        "hasProvince": true
+    },
+    "id_PW": {
+        "countryId": "id_PW",
+        "name": "Palau",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "IN": {
+        "countryId": "IN",
+        "name": "India",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_PT": {
+        "countryId": "id_PT",
+        "name": "Portugal",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "AU": {
+        "countryId": "AU",
+        "name": "Australia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_US": {
+        "countryId": "id_US",
+        "name": "Amerika Serikat",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "United States"
+        ],
+        "hasProvince": false
+    },
+    "id_HU": {
+        "countryId": "id_HU",
+        "name": "Hungaria",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Hungary"
+        ],
+        "hasProvince": false
+    },
+    "id_PL": {
+        "countryId": "id_PL",
+        "name": "Polandia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Poland"
+        ],
+        "hasProvince": false
+    },
+    "id_HR": {
+        "countryId": "id_HR",
+        "name": "Kroasia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Croatia"
+        ],
+        "hasProvince": false
+    },
+    "id_QA": {
+        "countryId": "id_QA",
+        "name": "Qatar",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_TZ": {
+        "countryId": "id_TZ",
+        "name": "Tanzania",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_BH": {
+        "countryId": "id_BH",
+        "name": "Bahrain",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_BG": {
+        "countryId": "id_BG",
+        "name": "Bulgaria",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "TH": {
+        "countryId": "TH",
+        "name": "Thailand",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_BE": {
+        "countryId": "id_BE",
+        "name": "Belgia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Belgium"
+        ],
+        "hasProvince": false
+    },
+    "id_TP": {
+        "countryId": "id_TP",
+        "name": "Timor Leste",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "East Timor"
+        ],
+        "hasProvince": false
+    },
+    "id_TR": {
+        "countryId": "id_TR",
+        "name": "Turki",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Turkey"
+        ],
+        "hasProvince": false
+    },
+    "id_UK": {
+        "countryId": "id_UK",
+        "name": "Inggris",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "United Kingdom"
+        ],
+        "hasProvince": false
+    },
+    "id_IT": {
+        "countryId": "id_IT",
+        "name": "Italia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Italy"
+        ],
+        "hasProvince": false
+    },
+    "id_BY": {
+        "countryId": "id_BY",
+        "name": "Belarus",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "BD": {
+        "countryId": "BD",
+        "name": "Bangladesh",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_IR": {
+        "countryId": "id_IR",
+        "name": "Iran",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "BN": {
+        "countryId": "BN",
+        "name": "Brunei",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_UA": {
+        "countryId": "id_UA",
+        "name": "Ukraina",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Ukraine"
+        ],
+        "hasProvince": false
+    },
+    "id_BR": {
+        "countryId": "id_BR",
+        "name": "Brazil",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_IE": {
+        "countryId": "id_IE",
+        "name": "Irlandia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Ireland"
+        ],
+        "hasProvince": false
+    },
+    "id_IL": {
+        "countryId": "id_IL",
+        "name": "Israel",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_UG": {
+        "countryId": "id_UG",
+        "name": "Uganda",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_RW": {
+        "countryId": "id_RW",
+        "name": "Rwanda",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "SG": {
+        "countryId": "SG",
+        "name": "Singapore",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_KE": {
+        "countryId": "id_KE",
+        "name": "Kenya",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_SR": {
+        "countryId": "id_SR",
+        "name": "Suriname",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_RO": {
+        "countryId": "id_RO",
+        "name": "Rumania",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Romania"
+        ],
+        "hasProvince": false
+    },
+    "id_RU": {
+        "countryId": "id_RU",
+        "name": "Rusia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Russia"
+        ],
+        "hasProvince": false
+    },
+    "id_RS": {
+        "countryId": "id_RS",
+        "name": "Serbia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "LA": {
+        "countryId": "LA",
+        "name": "Laos",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_JO": {
+        "countryId": "id_JO",
+        "name": "Yordania",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Jordan"
+        ],
+        "hasProvince": false
+    },
+    "id_AZ": {
+        "countryId": "id_AZ",
+        "name": "Azerbaijan",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_JP": {
+        "countryId": "id_JP",
+        "name": "Jepang",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Japan"
+        ],
+        "hasProvince": false
+    },
+    "id_AW": {
+        "countryId": "id_AW",
+        "name": "Aruba",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_SA": {
+        "countryId": "id_SA",
+        "name": "Arab Saudi",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Saudi Arabia"
+        ],
+        "hasProvince": false
+    },
+    "id_SB": {
+        "countryId": "id_SB",
+        "name": "Kepulauan Solomon",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Solomon Islands"
+        ],
+        "hasProvince": false
+    },
+    "id_AR": {
+        "countryId": "id_AR",
+        "name": "Argentina",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "LK": {
+        "countryId": "LK",
+        "name": "Sri Lanka",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_AT": {
+        "countryId": "id_AT",
+        "name": "Austria",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_SE": {
+        "countryId": "id_SE",
+        "name": "Swedia",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": [
+            "Sweden"
+        ],
+        "hasProvince": false
+    },
+    "CN": {
+        "countryId": "CN",
+        "name": "China",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_AO": {
+        "countryId": "id_AO",
+        "name": "Angola",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    },
+    "id_SD": {
+        "countryId": "id_SD",
+        "name": "Sudan",
+        "popularDestination": [],
+        "provinces": [],
+        "hasProvinces": false,
+        "altNames": null,
+        "hasProvince": false
+    }
+}

@@ -1,0 +1,213 @@
+<div id="main" role="main" class="finance-inter-cash-bank">
+	<div id="ribbon">
+		<ol class="breadcrumb">
+			<li>Finance</li><li>Inter Cash Bank</li>
+		</ol>
+		<div class="user-table-container" v-if="!formComponentState && intercashbank_list">
+			<div class="user-table-count" v-if="pagination.caption" style="color:grey;">
+				<div>
+					<span style="border-bottom: 1px dashed;">
+						Total Inter Cash Bank Yang Tersimpan
+					</span>
+				</div>
+				<div style="font-weight:800; margin-bottom:10px;">
+					{{pagination.caption}}
+				</div>
+			</div>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th style="vertical-align:middle; width:10px;"></th>
+						<th style="vertical-align:middle; width:150px;">Tanggal</th>
+						<th style="vertical-align:middle; width:200px;">Nama Pengguna</th>
+						<th style="vertical-align:middle; width:120px;">Voucher Keluar</th>
+						<th style="vertical-align:middle; width:120px;">Voucher Masuk</th>
+						<th style="vertical-align:middle; width:400px;">Deskripsi</th>
+						<th style="vertical-align:middle; width:120px; text-align:right;">Jumlah</th>
+						<th style="vertical-align:middle; width:120px; text-align:center;">
+							<button type="button" class="btn btn-primary btn-xs">Search</button>
+							<button type="button" class="btn btn-primary btn-xs">Add</button>
+						</th>
+					</tr>
+				</thead>
+				<tbody style="font-size: 12px;" v-if="intercashbank_list">
+					<tr v-for="(data, index) in intercashbank_list">
+						<td>
+							<span v-if="pagination.current_page != 0">{{((pagination.current_page - 1) * 25) + (index + 1)}}</span>
+							<span v-else>{{index + 1}}</span>
+						</td>
+						<td>{{changeFormatDate(intToISODate(data.financialtrans_date).split('T')[0])}} {{intToISODate(data.financialtrans_date).split('T')[1]}}</td>
+						<td>{{data.user_name}}</td>
+						<td>{{data.vou_out}}</td>
+						<td>{{data.vou_in}}</td>
+						<td>{{data.glanalysis_desc}}</td>
+						<td align="right">{{converterToFormatRits(data.glanalysis_value)}}</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<button type="button" class="btn btn-xs btn-warning" @click="callFormComponent('Edit', data.intercashbank_id)">Edit</button>
+							<button class="btn btn-xs btn-danger"><i class="fa fa-spin fa-spinner fa-fw" v-if="del_button_loading"></i>Delete</button>
+						</td>
+					</tr>
+				</tbody>
+				<tbody v-else>
+					<tr>
+						<td class="text-center" style="font-weight:bold;" colspan="13">Tidak ada data !</td>
+					</tr>
+				</tbody>
+			</table>
+			<div style="background-color:#f78c40; width:100%; font-size:8pt; padding:5px; margin-bottom:15px;" v-if="intercashbank_list">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<label><b>{{pagination.caption}}</b></label>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="text-center">
+							<label v-if="pagination.page_list.length > 1">Page <b>{{pagination.current_page}}</b> of {{pagination.last_page}} pages</label>
+							<label v-else>Page 1</label>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="pull-right">
+							<button v-if="pagination.prev_page" class="btn btn-secondary btn-xs" style="margin-right:3px;" @click="getDataOnPage(pagination.prev_page)"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+							<button v-for="page in pagination.page_list" class="btn btn-secondary btn-xs" :class="{'active-pagination' : page == pagination.current_page}" style="margin-right:3px;" @click="getDataOnPage(page)">{{page}}</button>
+							<button v-if="pagination.next_page" class="btn btn-secondary btn-xs" style="margin-right:3px;" @click="getDataOnPage(pagination.next_page)"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="background-color: #fafafa; padding: 16px; border: 2px solid #f0f0f0; border-radius: 5px; white-space: nowrap;" v-show="formComponentState">
+			<div class="row" style="margin-bottom: 10px;">
+				<div class="col-xs-12 col-sm-6">
+					<h4 id="form_title">Modal Header</h4>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<div align="right" style="margin-bottom: 10px;" v-if="form_param.begin">
+						<div class="btn btn-xs btn-secondary">{{form_param.begin}}</div>
+						<div class="btn btn-xs btn-success" v-if="form_param.status == 'A'">Open</div>
+						<div class="btn btn-xs btn-warning" v-else-if="form_param.status == 'P'">Posting</div>
+						<div class="btn btn-xs btn-danger" v-else-if="form_param.status == 'C'">Closing</div>
+					</div>
+				</div>
+			</div>
+			<div id="form_body" v-if="formLoadingState">
+				<br>
+				<i class="fa fa-spin fa-spinner fa-2x"></i><br><br>
+				<span class="light-gray" style="font-weight:bold;">Mengambil data ke server ...</span>
+			</div>
+			<div id="form_body">
+				<div class="row" style="margin-bottom: 10px;">
+					<div class="col-xs-12 col-sm-6">
+						<label><small>Tanggal</small></label>
+						<div class="input-group">
+							<span class="input-group-addon">
+								<i class="fa fa-calendar"></i>
+							</span>
+							<input style="padding-left: 10px; width: 150px;" type="text" id="start-date" class="form-control" placeholder="1 Mar 2018" :value="changeFormatDate(form_param.start_date)">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<div class="form-group dropdown">
+							<label><small>Kode Coa Dari</small></label>
+							<div class="input-group dropdown-toggle" data-toggle="dropdown" style="width: 350px;">
+								<input class="form-control" @blur="restoreDropDown('out')" type="text" placeholder="Kode Coa Dari" v-model="coa_out_name" onclick="this.select()">&nbsp;<div class="btn btn-xs btn-success" v-if="form_param.vou_out">{{form_param.vou_out}}</div>
+							</div>
+							<ul class="dropdown-menu" style="max-width: 100%; overflow-y: auto; background: white;" v-if="coa_list">
+								<li v-for="coa in filteredDropDown('out')" @click="selectDropDown('out', coa)" v-if="coa_out_name != origin_coa_out_name">
+									<a style="padding: 5px 10px;">
+										{{coa.coa_code}} <small style="color:grey; font-weight:bold;">{{coa.coa_name}}</small>
+									</a>
+								</li>
+								<li v-for="coa in coa_list"  v-if="(coa_out_name == origin_coa_out_name) && coa_list" @click="selectDropDown('out', coa)">
+									<a style="padding: 5px 10px;">
+										{{coa.coa_code}} <small style="color:grey; font-weight:bold;">{{coa.coa_name}}</small>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="form-group dropdown">
+							<label><small>Kode Coa Untuk</small></label>
+							<div class="input-group dropdown-toggle" data-toggle="dropdown" style="width: 350px;">
+								<input class="form-control" @blur="restoreDropDown('in')" type="text" placeholder="Kode Coa Untuk" v-model="coa_in_name" onclick="this.select()">&nbsp;<div class="btn btn-xs btn-success" v-if="form_param.vou_in">{{form_param.vou_in}}</div>
+							</div>
+							<ul class="dropdown-menu" style="max-width: 100%; overflow-y: auto; background: white;" v-if="coa_list">
+								<li v-for="coa in filteredDropDown('in')" @click="selectDropDown('in', coa)" v-if="coa_in_name != origin_coa_in_name">
+									<a style="padding: 5px 10px;">
+										{{coa.coa_code}} <small style="color:grey; font-weight:bold;">{{coa.coa_name}}</small>
+									</a>
+								</li>
+								<li v-for="coa in coa_list"  v-if="(coa_in_name == origin_coa_in_name) && coa_list" @click="selectDropDown('in', coa)">
+									<a style="padding: 5px 10px;">
+										{{coa.coa_code}} <small style="color:grey; font-weight:bold;">{{coa.coa_name}}</small>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="margin-bottom: 5px;">
+					<div class="col-xs-12 col-sm-6">
+						<label><small>Jumlah</small></label>
+						<input class="form-control" style="width: 150px;" placeholder="Jumlah" type="text" v-model="form_param.value">
+					</div>
+				</div>
+				<div class="row" style="margin-bottom: 20px;">
+					<div class="col-xs-12 col-sm-12">
+						<label><small>Deskripsi</small></label>
+						<input class="form-control" placeholder="Deskripsi" type="text" v-model="form_param.desc">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<button type="button" class="btn btn-danger" style="margin-left:10px; margin-right:10px;" @click="initFormComponent()">Close</button>
+						<button class="btn btn-primary" @click="doProcess()">Simpan</button>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div align="right" style="margin-bottom: 10px;" v-if="form_param.user_name">
+							<label><small>Dibuat oleh <small>{{form_param.user_name}}</small></small></label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		&nbsp;
+		<div class="user-table-container" v-show="formComponentState" v-if="journal_list">
+			<div id="form_body" v-if="formLoadingState">
+				<br>
+				<i class="fa fa-spin fa-spinner fa-2x"></i><br><br>
+				<span class="light-gray" style="font-weight:bold;">Mengambil data ke server ...</span>
+			</div>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr class="title-table-primary">
+						<th style="vertical-align:middle; width:150px;">Tanggal</th>
+						<th style="vertical-align:middle; width:80px;">Kode Voucher</th>
+						<th style="vertical-align:middle; width:80px;">Kode Coa</th>
+						<th style="vertical-align:middle;">Nama Coa</th>
+						<th style="vertical-align:middle;">Deskripsi</th>
+						<th style="vertical-align:middle; text-align:right;">Debet</th>
+						<th style="vertical-align:middle; text-align:right;">Kredit</th>
+					</tr>
+				</thead>
+				<tbody style="font-size: 12px;" v-if="journal_list">
+					<tr v-for="(data, index) in journal_list">
+						<td v-if="data.trans_show">{{changeFormatDate(intToISODate(data.financialtrans_date).split('T')[0])}} {{intToISODate(data.financialtrans_date).split('T')[1]}}</td>
+						<td v-else>&nbsp;</td>
+						<td v-if="data.trans_show"><b>{{data.vou}}</b></td>
+						<td v-else>&nbsp;</td>
+						<td>{{data.coa_code}}</td>
+						<td :style="data.glanalysis_credit != 0 ? 'padding-left: 40px;' : ''">{{data.coa_name}}</td>
+						<td>{{data.glanalysis_desc}}</td>
+						<td v-if="data.glanalysis_position == 'D'" align="right">{{converterToFormatRits(data.glanalysis_debet)}}</td>
+						<td v-else align="right">&nbsp;</td>
+						<td v-if="data.glanalysis_position == 'C'" align="right">{{converterToFormatRits(data.glanalysis_credit)}}</td>
+						<td v-else align="right">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

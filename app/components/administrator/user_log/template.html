@@ -1,0 +1,156 @@
+<div id="main" role="main" class="flight-booking-details">
+    <div id="ribbon">
+        <ol class="breadcrumb">
+            <li>Administrasi</li>
+            <li>Lihat User Log</li>
+        </ol>
+        <div class="page-title">User Log</div>
+    </div>
+    <div id="content">
+        <section id="widget-grid">
+            <article>
+                <div class="box-background">
+                    <div class="widget-body">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3 col-md-3">
+                                <div class="form-group">
+                                  <label>Find</label>
+                                  <textarea class="form-control" rows="5" id="search_txt" v-model="search_user_log.search_txt"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-2 col-md-2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">Column</div>
+                                    <div class="panel-body p-l-md">
+                                        <label class="radio">
+                                            <input type="radio" name="Column" value="user" v-model="search_user_log.column_choice">
+                                            <i></i>User Name
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="Column" value="userlog_action" v-model="search_user_log.column_choice">
+                                            <i></i>Action
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="Column" value="userlog_ip_address" v-model="search_user_log.column_choice">
+                                            <i></i>From IP Address
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-2 col-md-2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">Options</div>
+                                    <div class="panel-body p-l-md">
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="partial" v-bind:true-value="1" v-model="search_user_log.partial">
+                                            <i></i>Partial
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="option" value="show_all" v-model="search_user_log.option">
+                                            <i></i>Show All
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="option" value="per_pages" v-model="search_user_log.option">
+                                            <i></i>Perpages
+                                        </label>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="col-xs-12 col-sm-11 col-md-11">
+                                <div class="row form-group col-md-4">
+                                    <label class="col-md-3">Date</label>
+                                    <div class="input-group col-md-9">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-calendar"></i>
+                                        </span>
+                                        <input type='text' id="start-date" class="form-control" placeholder="1 Mar 2018" :value="changeFormatDate(search_user_log.start_date)"/>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label class="col-md-3">To</label>
+                                    <div class="input-group col-md-9">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-calendar"></i>
+                                        </span>
+                                        <input type='text' id="end-date" class="form-control" placeholder="1 Mar 2018" :value="changeFormatDate(search_user_log.end_date)"/>
+                                    </div>
+                                </div>                              
+                            </div>                        
+                            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                                <button class="btn btn-default" @click="doCancel">Cancel</button>            
+                                <button class="btn btn-primary" @click="doSearching">Find</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-11 col-sm-11 col-md-11">
+                                <div class="load-message" v-if="list_user_log.state == 'searching'">
+                                    <i class="fa fa-spin fa-spinner fa-2x"></i>&nbsp;
+                                    <span class="light-gray">Mengambil Data User ...</span>
+                                </div>
+                                <div class="load-message" v-if="list_user_log.state == 'error'">
+                                    <i class="fa fa-exclamation-triangle fa-2x"></i>&nbsp;
+                                    <span class="light-gray">Gagal mendapatkan List Topup!</span>
+                                    <br>
+                                    <span class="error-msg">{{list_user_log.message}}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-t-md">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <div class="animated fadeIn" v-show="user_log">
+                                    <!--h2 class="text-center">
+                                        User Log
+                                    </h2>
+                                    <hr-->
+                                    
+                                    <table class="table table-bordered table-striped table-hover" style="max-width:100%; white-space: normal;">
+                                        <thead>
+                                            <tr class="title-table-primary">
+                                                <th></th>
+                                                <th>Date</th>
+                                                <th>User</th>
+                                                <th>Action</th>
+                                                <th>IP Address</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody v-if="user_log">
+                                            <tr class="content-table-primary" v-for="(list, index) in user_log.list" :value="index">
+                                                <td>
+                                                    <input type="checkbox" name="">
+                                                </td>
+                                                <td>{{changeFormatDate(intToISODate(list.userlog_date).split('T')[0])}} {{intToISODate(list.userlog_date).split('T')[1]}}</td>
+                                                <td>{{list.user_name}}</td>
+                                                <td>{{list.userlog_action}}</td>
+                                                <td>{{list.userlog_ip_address}}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="pagination-body" v-if="user_log">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4 col-md-4">
+                                                <label><b></b></label>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-4">
+                                                <div class="text-center">
+                                                    <label v-if="userlog_pagelist > 1">Page <b>{{user_log.page}}</b> of {{userlog_pagelist}} pages</label>
+                                                    <label v-else>Page 1</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-4">
+                                                <div class="pull-right">
+                                                    <button v-if="pagination.prev_page" class="btn btn-secondary btn-xs active-pagination"@click="getDataOnPage(pagination.prev_page)"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                                                    <button v-if="userlog_pagelist > 1" v-for="page in user_log.page_list" class="btn btn-secondary btn-xs active-pagination actived-pagination" :class="{'active-pagination' : page == pagination.current_page}" @click="getDataOnPage(page)">{{page}}</button>
+                                                    <button v-if="pagination.next_page" class="btn btn-secondary btn-xs active-pagination" @click="getDataOnPage(pagination.next_page)"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+</div>

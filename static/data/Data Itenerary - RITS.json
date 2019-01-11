@@ -1,0 +1,3479 @@
+{
+	"status": "success",
+	"message": null,
+	"content": [
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C0_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C0_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C0_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C0_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C0_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C0_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C0_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C0_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C0_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C0_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C0_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C0_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C0_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C0_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C0_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C0_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C0_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C0_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C0_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C0_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C0_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C0_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C0_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C0_F0",
+			"data": "0004|JT34|FRI|27OCT|%1|%2|CGKDPS|%31|0430 0720|0|",
+			"flight": "JT 34",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "0430 0720",
+			"time_depart": 1509053400,
+			"time_arrive": 1509063600,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C1_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C1_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C1_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C1_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C1_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C1_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C1_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C1_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C1_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C1_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C1_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C1_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C1_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C1_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C1_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C1_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C1_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C1_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C1_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C1_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C1_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C1_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C1_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C1_F0",
+			"data": "0006|JT38|FRI|27OCT|%1|%2|CGKDPS|%31|0500 0750|0|",
+			"flight": "JT 38",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "0500 0750",
+			"time_depart": 1509055200,
+			"time_arrive": 1509065400,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C2_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C2_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C2_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C2_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C2_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C2_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C2_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C2_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C2_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C2_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C2_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C2_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "4",
+				"value": "M0_C2_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C2_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C2_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C2_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C2_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C2_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C2_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C2_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C2_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C2_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C2_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C2_F0",
+			"data": "0008|JT30|FRI|27OCT|%1|%2|CGKDPS|%31|0540 0830|0|",
+			"flight": "JT 30",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "0540 0830",
+			"time_depart": 1509057600,
+			"time_arrive": 1509067800,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": "7",
+				"value": "M0_C3_F0_S0",
+				"class": "C",
+				"disabled": false
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C3_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": "4",
+				"value": "M0_C3_F0_S2",
+				"class": "D",
+				"disabled": false
+			},
+			"3": {
+				"seat": "3",
+				"value": "M0_C3_F0_S3",
+				"class": "I",
+				"disabled": false
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C3_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C3_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C3_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C3_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C3_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C3_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C3_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "6",
+				"value": "M0_C3_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "1",
+				"value": "M0_C3_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C3_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C3_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C3_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C3_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": "0",
+				"value": "M0_C3_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": "0",
+				"value": "M0_C3_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": "0",
+				"value": "M0_C3_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C3_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C3_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C3_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C3_F0",
+			"data": "0010|ID6500|FRI|27OCT|%1|%2|CGKDPS|%31|0600 0850|0|M",
+			"flight": "ID 6500",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "0600 0850",
+			"time_depart": 1509058800,
+			"time_arrive": 1509069000,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C4_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C4_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C4_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C4_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C4_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C4_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C4_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C4_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C4_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C4_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C4_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C4_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "0",
+				"value": "M0_C4_F0_S12",
+				"class": "K",
+				"disabled": true
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C4_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C4_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C4_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C4_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C4_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C4_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C4_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C4_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C4_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C4_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C4_F0",
+			"data": "0014|JT32|FRI|27OCT|%1|%2|CGKDPS|%31|0720 1010|0|",
+			"flight": "JT 32",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "0720 1010",
+			"time_depart": 1509063600,
+			"time_arrive": 1509073800,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C5_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C5_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C5_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C5_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C5_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C5_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C5_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C5_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C5_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C5_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C5_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C5_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C5_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "3",
+				"value": "M0_C5_F0_S13",
+				"class": "L",
+				"disabled": false
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C5_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C5_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C5_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C5_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C5_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C5_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C5_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C5_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C5_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C5_F0",
+			"data": "0016|JT28|FRI|27OCT|%1|%2|CGKDPS|%31|0820 1110|0|",
+			"flight": "JT 28",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "0820 1110",
+			"time_depart": 1509067200,
+			"time_arrive": 1509077400,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": "7",
+				"value": "M0_C6_F0_S0",
+				"class": "C",
+				"disabled": false
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C6_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": "1",
+				"value": "M0_C6_F0_S2",
+				"class": "D",
+				"disabled": false
+			},
+			"3": {
+				"seat": "0",
+				"value": "M0_C6_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C6_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C6_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C6_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C6_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C6_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C6_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "2",
+				"value": "M0_C6_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "0",
+				"value": "M0_C6_F0_S11",
+				"class": "H",
+				"disabled": true
+			},
+			"12": {
+				"seat": "0",
+				"value": "M0_C6_F0_S12",
+				"class": "K",
+				"disabled": true
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C6_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C6_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C6_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C6_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": "0",
+				"value": "M0_C6_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": "0",
+				"value": "M0_C6_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": "0",
+				"value": "M0_C6_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C6_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C6_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C6_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C6_F0",
+			"data": "0018|ID6512|FRI|27OCT|%1|%2|CGKDPS|%31|1055 1355|0|M",
+			"flight": "ID 6512",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1055 1355",
+			"time_depart": 1509076500,
+			"time_arrive": 1509087300,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C7_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C7_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C7_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C7_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C7_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C7_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C7_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C7_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C7_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C7_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C7_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "0",
+				"value": "M0_C7_F0_S11",
+				"class": "H",
+				"disabled": true
+			},
+			"12": {
+				"seat": "0",
+				"value": "M0_C7_F0_S12",
+				"class": "K",
+				"disabled": true
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C7_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C7_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C7_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C7_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C7_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C7_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C7_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C7_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C7_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C7_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C7_F0",
+			"data": "0020|JT22|FRI|27OCT|%1|%2|CGKDPS|%31|1125 1420|0|",
+			"flight": "JT 22",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1125 1420",
+			"time_depart": 1509078300,
+			"time_arrive": 1509088800,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C8_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C8_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C8_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C8_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C8_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C8_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C8_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C8_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C8_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C8_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C8_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C8_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C8_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "7",
+				"value": "M0_C8_F0_S13",
+				"class": "L",
+				"disabled": false
+			},
+			"14": {
+				"seat": "3",
+				"value": "M0_C8_F0_S14",
+				"class": "M",
+				"disabled": false
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C8_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C8_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C8_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C8_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C8_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C8_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C8_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C8_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C8_F0",
+			"data": "0022|JT36|FRI|27OCT|%1|%2|CGKDPS|%31|1230 1520|0|",
+			"flight": "JT 36",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1230 1520",
+			"time_depart": 1509082200,
+			"time_arrive": 1509092400,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C9_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C9_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C9_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C9_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C9_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C9_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C9_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C9_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C9_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C9_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C9_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C9_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "6",
+				"value": "M0_C9_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C9_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C9_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C9_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C9_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C9_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C9_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C9_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C9_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C9_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C9_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C9_F0",
+			"data": "0024|JT12|FRI|27OCT|%1|%2|CGKDPS|%31|1330 1620|0|",
+			"flight": "JT 12",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1330 1620",
+			"time_depart": 1509085800,
+			"time_arrive": 1509096000,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C10_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C10_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C10_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C10_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C10_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C10_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C10_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C10_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C10_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C10_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C10_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C10_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C10_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "7",
+				"value": "M0_C10_F0_S13",
+				"class": "L",
+				"disabled": false
+			},
+			"14": {
+				"seat": "7",
+				"value": "M0_C10_F0_S14",
+				"class": "M",
+				"disabled": false
+			},
+			"15": {
+				"seat": "7",
+				"value": "M0_C10_F0_S15",
+				"class": "N",
+				"disabled": false
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C10_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C10_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C10_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C10_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C10_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C10_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C10_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C10_F0",
+			"data": "0026|JT18|FRI|27OCT|%1|%2|CGKDPS|%31|1445 1735|0|",
+			"flight": "JT 18",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1445 1735",
+			"time_depart": 1509090300,
+			"time_arrive": 1509100500,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C11_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C11_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C11_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C11_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C11_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C11_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C11_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C11_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C11_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C11_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C11_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C11_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C11_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "7",
+				"value": "M0_C11_F0_S13",
+				"class": "L",
+				"disabled": false
+			},
+			"14": {
+				"seat": "7",
+				"value": "M0_C11_F0_S14",
+				"class": "M",
+				"disabled": false
+			},
+			"15": {
+				"seat": "5",
+				"value": "M0_C11_F0_S15",
+				"class": "N",
+				"disabled": false
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C11_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C11_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C11_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C11_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C11_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C11_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C11_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C11_F0",
+			"data": "0028|JT40|FRI|27OCT|%1|%2|CGKDPS|%31|1540 1830|0|",
+			"flight": "JT 40",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1540 1830",
+			"time_depart": 1509093600,
+			"time_arrive": 1509103800,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": "7",
+				"value": "M0_C12_F0_S0",
+				"class": "C",
+				"disabled": false
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C12_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": "2",
+				"value": "M0_C12_F0_S2",
+				"class": "D",
+				"disabled": false
+			},
+			"3": {
+				"seat": "1",
+				"value": "M0_C12_F0_S3",
+				"class": "I",
+				"disabled": false
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C12_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C12_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C12_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C12_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C12_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C12_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C12_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C12_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C12_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C12_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C12_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C12_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C12_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": "0",
+				"value": "M0_C12_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": "0",
+				"value": "M0_C12_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": "0",
+				"value": "M0_C12_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C12_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C12_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C12_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C12_F0",
+			"data": "0030|ID6516|FRI|27OCT|%1|%2|CGKDPS|%31|1650 1940|0|M",
+			"flight": "ID 6516",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1650 1940",
+			"time_depart": 1509097800,
+			"time_arrive": 1509108000,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C13_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C13_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C13_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C13_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C13_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C13_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C13_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C13_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C13_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C13_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C13_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C13_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "0",
+				"value": "M0_C13_F0_S12",
+				"class": "K",
+				"disabled": true
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C13_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C13_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C13_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C13_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C13_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C13_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C13_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C13_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C13_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C13_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C13_F0",
+			"data": "0032|JT26|FRI|27OCT|%1|%2|CGKDPS|%31|1755 2045|0|",
+			"flight": "JT 26",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1755 2045",
+			"time_depart": 1509101700,
+			"time_arrive": 1509111900,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C14_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C14_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C14_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C14_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C14_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C14_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C14_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C14_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C14_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C14_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C14_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C14_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C14_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "7",
+				"value": "M0_C14_F0_S13",
+				"class": "L",
+				"disabled": false
+			},
+			"14": {
+				"seat": "7",
+				"value": "M0_C14_F0_S14",
+				"class": "M",
+				"disabled": false
+			},
+			"15": {
+				"seat": "7",
+				"value": "M0_C14_F0_S15",
+				"class": "N",
+				"disabled": false
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C14_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C14_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C14_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C14_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C14_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C14_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C14_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C14_F0",
+			"data": "0036|JT16|FRI|27OCT|%1|%2|CGKDPS|%31|1900 2145|0|",
+			"flight": "JT 16",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1900 2145",
+			"time_depart": 1509105600,
+			"time_arrive": 1509115500,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C15_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C15_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C15_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C15_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C15_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C15_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C15_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C15_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C15_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C15_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C15_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C15_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "0",
+				"value": "M0_C15_F0_S12",
+				"class": "K",
+				"disabled": true
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C15_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C15_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C15_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C15_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C15_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C15_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C15_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C15_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C15_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C15_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C15_F0",
+			"data": "0032|JT26|FRI|27OCT|%1|%2|CGKDPS|%31|1755 2045|0|",
+			"flight": "JT 26",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1755 2045",
+			"time_depart": 1509101700,
+			"time_arrive": 1509111900,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C16_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C16_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C16_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C16_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C16_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C16_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C16_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C16_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C16_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C16_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C16_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C16_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C16_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "7",
+				"value": "M0_C16_F0_S13",
+				"class": "L",
+				"disabled": false
+			},
+			"14": {
+				"seat": "7",
+				"value": "M0_C16_F0_S14",
+				"class": "M",
+				"disabled": false
+			},
+			"15": {
+				"seat": "7",
+				"value": "M0_C16_F0_S15",
+				"class": "N",
+				"disabled": false
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C16_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C16_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C16_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C16_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C16_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C16_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C16_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C16_F0",
+			"data": "0036|JT16|FRI|27OCT|%1|%2|CGKDPS|%31|1900 2145|0|",
+			"flight": "JT 16",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1900 2145",
+			"time_depart": 1509105600,
+			"time_arrive": 1509115500,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C17_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C17_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C17_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C17_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C17_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": null,
+				"value": "M0_C17_F0_S5",
+				"class": "Y",
+				"disabled": true
+			},
+			"6": {
+				"seat": null,
+				"value": "M0_C17_F0_S6",
+				"class": "A",
+				"disabled": true
+			},
+			"7": {
+				"seat": null,
+				"value": "M0_C17_F0_S7",
+				"class": "G",
+				"disabled": true
+			},
+			"8": {
+				"seat": null,
+				"value": "M0_C17_F0_S8",
+				"class": "W",
+				"disabled": true
+			},
+			"9": {
+				"seat": null,
+				"value": "M0_C17_F0_S9",
+				"class": "S",
+				"disabled": true
+			},
+			"10": {
+				"seat": null,
+				"value": "M0_C17_F0_S10",
+				"class": "B",
+				"disabled": true
+			},
+			"11": {
+				"seat": null,
+				"value": "M0_C17_F0_S11",
+				"class": "H",
+				"disabled": true
+			},
+			"12": {
+				"seat": null,
+				"value": "M0_C17_F0_S12",
+				"class": "K",
+				"disabled": true
+			},
+			"13": {
+				"seat": null,
+				"value": "M0_C17_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": null,
+				"value": "M0_C17_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": null,
+				"value": "M0_C17_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": null,
+				"value": "M0_C17_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C17_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C17_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C17_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C17_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C17_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C17_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C17_F0",
+			"data": "0036|JT42|FRI|27OCT|%1|%2|CGKDPS|%31|1900 2150|0|",
+			"flight": "JT 42",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1900 2150",
+			"time_depart": 1509105600,
+			"time_arrive": 1509115800,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C18_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C18_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C18_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C18_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C18_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C18_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C18_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C18_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C18_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C18_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C18_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C18_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C18_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "7",
+				"value": "M0_C18_F0_S13",
+				"class": "L",
+				"disabled": false
+			},
+			"14": {
+				"seat": "7",
+				"value": "M0_C18_F0_S14",
+				"class": "M",
+				"disabled": false
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C18_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C18_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C18_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C18_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C18_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C18_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C18_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C18_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C18_F0",
+			"data": "0038|JT10|FRI|27OCT|%1|%2|CGKDPS|%31|2045 2335|0|",
+			"flight": "JT 10",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "2045 2335",
+			"time_depart": 1509111900,
+			"time_arrive": 1509122100,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C19_F0_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C19_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C19_F0_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C19_F0_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C19_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C19_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C19_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C19_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C19_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C19_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C19_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C19_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "0",
+				"value": "M0_C19_F0_S12",
+				"class": "K",
+				"disabled": true
+			},
+			"13": {
+				"seat": "0",
+				"value": "M0_C19_F0_S13",
+				"class": "L",
+				"disabled": true
+			},
+			"14": {
+				"seat": "0",
+				"value": "M0_C19_F0_S14",
+				"class": "M",
+				"disabled": true
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C19_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C19_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": null,
+				"value": "M0_C19_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C19_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C19_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C19_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C19_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C19_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C19_F0",
+			"data": "0036|JT568|FRI|27OCT|%1|%2|CGKDPS|%31|1900 2300|1|",
+			"flight": "JT 568",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-DPS",
+			"str_time": "1900 2300",
+			"time_depart": 1509105600,
+			"time_arrive": 1509120000,
+			"stop": 1
+		},
+		{
+			"0": {
+				"seat": "7",
+				"value": "M0_C20_F0_S0",
+				"class": "C",
+				"disabled": false
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C20_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": "7",
+				"value": "M0_C20_F0_S2",
+				"class": "D",
+				"disabled": false
+			},
+			"3": {
+				"seat": "5",
+				"value": "M0_C20_F0_S3",
+				"class": "I",
+				"disabled": false
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C20_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C20_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C20_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C20_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C20_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C20_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C20_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C20_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C20_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "7",
+				"value": "M0_C20_F0_S13",
+				"class": "L",
+				"disabled": false
+			},
+			"14": {
+				"seat": "1",
+				"value": "M0_C20_F0_S14",
+				"class": "M",
+				"disabled": false
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C20_F0_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C20_F0_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": "0",
+				"value": "M0_C20_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": "0",
+				"value": "M0_C20_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": "0",
+				"value": "M0_C20_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C20_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C20_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C20_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C20_F0",
+			"data": "0034|ID7309|FRI|27OCT|%1|%2|HLPDPS|%31|1830 2125|0|M",
+			"flight": "ID 7309",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "HLP-DPS",
+			"str_time": "1830 2125",
+			"time_depart": 1509103800,
+			"time_arrive": 1509114300,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": "7",
+				"value": "M0_C21_F0_S0",
+				"class": "C",
+				"disabled": false
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C21_F0_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": "7",
+				"value": "M0_C21_F0_S2",
+				"class": "D",
+				"disabled": false
+			},
+			"3": {
+				"seat": "5",
+				"value": "M0_C21_F0_S3",
+				"class": "I",
+				"disabled": false
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C21_F0_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C21_F0_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C21_F0_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C21_F0_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C21_F0_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C21_F0_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C21_F0_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C21_F0_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C21_F0_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "7",
+				"value": "M0_C21_F0_S13",
+				"class": "L",
+				"disabled": false
+			},
+			"14": {
+				"seat": "7",
+				"value": "M0_C21_F0_S14",
+				"class": "M",
+				"disabled": false
+			},
+			"15": {
+				"seat": "7",
+				"value": "M0_C21_F0_S15",
+				"class": "N",
+				"disabled": false
+			},
+			"16": {
+				"seat": "7",
+				"value": "M0_C21_F0_S16",
+				"class": "Q",
+				"disabled": false
+			},
+			"17": {
+				"seat": "0",
+				"value": "M0_C21_F0_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": "0",
+				"value": "M0_C21_F0_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": "0",
+				"value": "M0_C21_F0_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C21_F0_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C21_F0_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C21_F0_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C21_F0",
+			"data": "0002|ID6196|FRI|27OCT|%1|%2|CGKUPG|%31|0005 0320|0|M",
+			"flight": "ID 6196",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "CGK-UPG",
+			"str_time": "0005 0320",
+			"time_depart": 1509037500,
+			"time_arrive": 1509049200,
+			"stop": 0
+		},
+		{
+			"0": {
+				"seat": null,
+				"value": "M0_C21_F1_S0",
+				"class": "C",
+				"disabled": true
+			},
+			"1": {
+				"seat": null,
+				"value": "M0_C21_F1_S1",
+				"class": "J",
+				"disabled": true
+			},
+			"2": {
+				"seat": null,
+				"value": "M0_C21_F1_S2",
+				"class": "D",
+				"disabled": true
+			},
+			"3": {
+				"seat": null,
+				"value": "M0_C21_F1_S3",
+				"class": "I",
+				"disabled": true
+			},
+			"4": {
+				"seat": null,
+				"value": "M0_C21_F1_S4",
+				"class": "Z",
+				"disabled": true
+			},
+			"5": {
+				"seat": "7",
+				"value": "M0_C21_F1_S5",
+				"class": "Y",
+				"disabled": false
+			},
+			"6": {
+				"seat": "7",
+				"value": "M0_C21_F1_S6",
+				"class": "A",
+				"disabled": false
+			},
+			"7": {
+				"seat": "7",
+				"value": "M0_C21_F1_S7",
+				"class": "G",
+				"disabled": false
+			},
+			"8": {
+				"seat": "7",
+				"value": "M0_C21_F1_S8",
+				"class": "W",
+				"disabled": false
+			},
+			"9": {
+				"seat": "7",
+				"value": "M0_C21_F1_S9",
+				"class": "S",
+				"disabled": false
+			},
+			"10": {
+				"seat": "7",
+				"value": "M0_C21_F1_S10",
+				"class": "B",
+				"disabled": false
+			},
+			"11": {
+				"seat": "7",
+				"value": "M0_C21_F1_S11",
+				"class": "H",
+				"disabled": false
+			},
+			"12": {
+				"seat": "7",
+				"value": "M0_C21_F1_S12",
+				"class": "K",
+				"disabled": false
+			},
+			"13": {
+				"seat": "7",
+				"value": "M0_C21_F1_S13",
+				"class": "L",
+				"disabled": false
+			},
+			"14": {
+				"seat": "7",
+				"value": "M0_C21_F1_S14",
+				"class": "M",
+				"disabled": false
+			},
+			"15": {
+				"seat": "0",
+				"value": "M0_C21_F1_S15",
+				"class": "N",
+				"disabled": true
+			},
+			"16": {
+				"seat": "0",
+				"value": "M0_C21_F1_S16",
+				"class": "Q",
+				"disabled": true
+			},
+			"17": {
+				"seat": "0",
+				"value": "M0_C21_F1_S17",
+				"class": "T",
+				"disabled": true
+			},
+			"18": {
+				"seat": null,
+				"value": "M0_C21_F1_S18",
+				"class": "V",
+				"disabled": true
+			},
+			"19": {
+				"seat": null,
+				"value": "M0_C21_F1_S19",
+				"class": "X",
+				"disabled": true
+			},
+			"20": {
+				"seat": null,
+				"value": "M0_C21_F1_S20",
+				"class": "R",
+				"disabled": true
+			},
+			"21": {
+				"seat": null,
+				"value": "M0_C21_F1_S21",
+				"class": "O",
+				"disabled": true
+			},
+			"22": {
+				"seat": null,
+				"value": "M0_C21_F1_S22",
+				"class": "U",
+				"disabled": true
+			},
+			"id": "M0_C21_F1",
+			"data": "0012|JT927|FRI|27OCT|%1|%2|UPGDPS|%31|0645 0805|0|",
+			"flight": "JT 927",
+			"weekday": "FRI",
+			"str_date": "27OCT",
+			"longdate": 1509037200,
+			"route": "UPG-DPS",
+			"str_time": "0645 0805",
+			"time_depart": 1509061500,
+			"time_arrive": 1509066300,
+			"stop": 0
+		}
+	]
+}

@@ -1,0 +1,114 @@
+<div id="main" role="main" class="accounting-balancesheet-list">
+	<div id="ribbon">
+		<ol class="breadcrumb">
+			<li>Accounting</li><li>Balance Sheet (Account)</li>
+		</ol>
+		<div class="user-table-container" style="background-color: #fafafa; padding: 16px; border: 2px solid #f0f0f0; border-radius: 5px; white-space: nowrap; overflow-x: auto;" v-if="balancesheet_activa && balancesheet_passiva">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6">
+					<div class="column" style="font-weight: bold; background-color:#e8e9ea;">Balance Sheet (Activa)</div>
+					<div v-for="(data,index) in balancesheet_activa">
+						<div class="column" :style="(data.groupaccount_parent != null) ? 'padding-left:50px;': ''" onClick="$(this).next().slideToggle()">{{data.groupaccount_name}}</div>
+						<div v-if="data.coa_list" class="animated fadeIn" style="position: relative; overflow-y: auto; width: 100%; display: none;">
+							<div class="column-sub" v-for="coa in data.coa_list.split(',')" :style="(data.groupaccount_parent != null) ? 'padding-left:100px;': 'padding-left:50px;'" data-toggle="modal" data-target="#myModal" @click="openModal('Edit', coa.split('|')[0])">
+								<b>{{coa.split('|')[1]}}</b> {{coa.split('|')[2]}}
+							</div>
+							<button type="button" style="font-size: 11px; color: #fff; background-color: #275b89; border-color: #2c699d; position: absolute; right:5px; top: 5px;" data-toggle="modal" data-target="#myModal" @click="openModal('Add', '')">tambah</button>
+						</div>
+						<div v-else class="animated fadeIn" style="position: relative; overflow-y: auto; width: 100%; display: none;"><div class="column-sub">&nbsp;</div><button type="button" style="font-size: 11px; color: #fff; background-color: #275b89; border-color: #2c699d; position: absolute; right:5px; top: 5px;"  data-toggle="modal" data-target="#myModal" @click="openModal('Add', '')">tambah</button></div>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6">
+					<div class="column" style="font-weight: bold; background-color:#e8e9ea;">Balance Sheet (Passiva)</div>
+					<div v-for="(data,index) in balancesheet_passiva">
+						<div class="column" :style="(data.groupaccount_parent != null) ? 'padding-left:50px;': ''" onClick="$(this).next().slideToggle()">{{data.groupaccount_name}}</div>
+						<div v-if="data.coa_list" class="animated fadeIn" style="position: relative; overflow-y: auto; width: 100%; display: none;">
+							<div class="column-sub" v-for="coa in data.coa_list.split(',')" :style="(data.groupaccount_parent != null) ? 'padding-left:100px;': 'padding-left:50px;'"  data-toggle="modal" data-target="#myModal" @click="openModal('Edit', coa.split('|')[0])">
+								<b>{{coa.split('|')[1]}}</b> {{coa.split('|')[2]}}
+							</div>
+							<button type="button" style="font-size: 11px; color: #fff; background-color: #275b89; border-color: #2c699d; position: absolute; right:5px; top: 5px;" data-toggle="modal" data-target="#myModal" @click="openModal('Add', '')">tambah</button>
+						</div>
+						<div v-else class="animated fadeIn" style="position: relative; overflow-y: auto; width: 100%; display: none;"><div class="column-sub">&nbsp;</div><button type="button" style="font-size: 11px; color: #fff; background-color: #275b89; border-color: #2c699d; position: absolute; right:5px; top: 5px;" data-toggle="modal" data-target="#myModal" @click="openModal('Add', '')">tambah</button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal" role="dialog" data-backdrop="static">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title" id="modal_title">Modal Header</h4>
+				</div>
+				<div class="modal-body text-center" id="modal_body" v-if="modalLoadingState">
+					<br>
+					<i class="fa fa-spin fa-spinner fa-2x"></i><br><br>
+					<span class="light-gray" style="font-weight:bold;">Mengambil data ke server ...</span>
+				</div>
+				<div class="modal-body" id="modal-body">
+					<div class="row" style="margin-left:5px;">
+						<div class="row" style="margin-bottom:10px; margin-right:4px;">
+							<div class="col-sm-12 col-md-4">
+								<label><small>Kode Coa*</small></label>
+								<input class="form-control" placeholder="Kode Coa" type="text" v-model="coa_code">
+							</div>
+						</div>
+						<div class="row" style="margin-bottom:10px; margin-right:4px;">
+							<div class="col-sm-12 col-md-12">
+								<label><small>Nama Coa</small></label>
+								<input class="form-control" placeholder="Nama Coa" type="text" v-model="coa_name">
+							</div>
+						</div>
+						<div class="row" style="margin-bottom:10px; margin-right:4px;">
+							<div class="col-sm-6 col-md-2">
+								<label><small>LOD</small></label>
+								<select class="form-control" v-model="lod">
+									<option v-for="index in lod_list" :value="index">{{index}}</option>
+								</select>
+							</div>
+						</div>
+						<div class="row" style="margin-bottom:10px; margin-right:4px;">
+							<div class="col-xs-12 col-sm-6">
+								<div class="form-group dropdown">
+									<label><small>Akun Grup</small></label>
+									<div class="input-group dropdown-toggle" data-toggle="dropdown" style="width: 300px;">
+										<input class="form-control" @blur="restoreDropDown()" type="text" placeholder="Akun Grup" v-model="account_name" onclick="this.select()">
+									</div>
+									<ul class="dropdown-menu" style="max-height: 400px; max-width: 100%; overflow-y: auto; background: white;" v-if="groupaccount_list">
+										<li v-for="groupaccount in filteredDropDown()" @click="selectDropDown(groupaccount)" v-if="account_name != origin_account_name">
+											<a style="padding: 8px 20px;">
+												{{groupaccount.groupaccount_name}} <small style="color:grey; font-weight:bold;">({{groupaccount.groupaccount_typename}})</small>
+											</a>
+										</li>
+										<li v-for="groupaccount in groupaccount_list"  v-if="(account_name == origin_account_name) && groupaccount_list" @click="selectDropDown(groupaccount)">
+											<a style="padding: 8px 20px;">
+												{{groupaccount.groupaccount_name}} <small style="color:grey; font-weight:bold;">({{groupaccount.groupaccount_typename}})</small>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row" style="margin-bottom:10px; margin-right:4px;">
+							<div class="col-sm-12 col-md-12">
+								<label><small>Deksripsi</small></label>
+								<input class="form-control" placeholder="Deskripsi" type="text" v-model="coa_desc">
+							</div>
+						</div>
+						<div class="row" style="margin-bottom:10px; margin-right:4px;" align="right" v-if="user_name">
+							<div class="col-sm-12 col-md-12">
+								<label><small>Di buat oleh {{user_name}} <small>{{changeFormatDate(intToISODate(coa_created).split('T')[0])}} {{intToISODate(coa_created).split('T')[1]}}</small></small></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+					<button type="button" class="btn btn-primary" @click="editCoa()" v-if="isEdit">Simpan</button>
+					<button type="button" class="btn btn-primary" @click="addCoa()" v-else>Simpan</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,863 @@
+[
+    {
+        "city_code": "ARD",
+        "city_name": "Alor Island",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "AMQ",
+        "city_name": "Ambon",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "MWK",
+        "city_name": "Anambas Islands",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "ABU",
+        "city_name": "Attambua",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BXB",
+        "city_name": "Babo",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BJW",
+        "city_name": "Bajawa",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BPN",
+        "city_name": "Balikpapan",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BTJ",
+        "city_name": "Banda Aceh",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "NDA",
+        "city_name": "Bandanaira-Naira Island",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TKG",
+        "city_name": "Bandar Lampung",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BDO",
+        "city_name": "Bandung",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BDJ",
+        "city_name": "Banjarmasin",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BWW",
+        "city_name": "Banyuwangi",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BWX",
+        "city_name": "Banyuwangi New",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "DQJ",
+        "city_name": "Banyuwangi-Lion",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BTH",
+        "city_name": "Batam",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BTW",
+        "city_name": "Batu Licin",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BTR",
+        "city_name": "Batu Raja",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "KAI"
+    },
+    {
+        "city_code": "BUW",
+        "city_name": "Baubau",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BKS",
+        "city_name": "Bengkulu",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BEJ",
+        "city_name": "Berau",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BIK",
+        "city_name": "Biak",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BMU",
+        "city_name": "Bima",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "BUI",
+        "city_name": "Bokondini Airport",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "WUB",
+        "city_name": "Buli",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "UOL",
+        "city_name": "Buol",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SIQ",
+        "city_name": "Dabo",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "DTD",
+        "city_name": "Datadawai Airport",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "DPS",
+        "city_name": "Denpasar",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "DUM",
+        "city_name": "Dumai",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "ENE",
+        "city_name": "Ende",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "FKQ",
+        "city_name": "Fak Fak",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "GTO",
+        "city_name": "Gorontalo",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "GNS",
+        "city_name": "Gunung Sitoli",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "HLP",
+        "city_name": "Halim (Jakarta)",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "CGK",
+        "city_name": "Jakarta",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "DJB",
+        "city_name": "Jambi",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "RGT",
+        "city_name": "Japura",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "DJJ",
+        "city_name": "Jayapura",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "JOG",
+        "city_name": "Jogjakarta",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "KNG",
+        "city_name": "Kaimana",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "KDI",
+        "city_name": "Kendari",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "KTG",
+        "city_name": "Ketapang",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "KBU",
+        "city_name": "Kotabaru",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "KOE",
+        "city_name": "Kupang",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LBJ",
+        "city_name": "Labuan Bajo",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LAH",
+        "city_name": "Labuha",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LKA",
+        "city_name": "Larantuka",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LWE",
+        "city_name": "Lewoleba",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LSW",
+        "city_name": "Lhokseumawe",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LLG",
+        "city_name": "Linggau",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LOP",
+        "city_name": "Lombok, Mataram",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LPU",
+        "city_name": "Long Apung Airport",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LBW",
+        "city_name": "Long Bawan Airport",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LUW",
+        "city_name": "Luwuk",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SBG",
+        "city_name": "Maimun Saleh",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "MLG",
+        "city_name": "Malang",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "MJU",
+        "city_name": "Mamuju",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "MDC",
+        "city_name": "Manado",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "MKW",
+        "city_name": "Manokwari",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "MOF",
+        "city_name": "Maumere",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "MES",
+        "city_name": "Medan",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "KNO",
+        "city_name": "Medan, Kuala Namu",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "MNA",
+        "city_name": "Melanguane",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "MKQ",
+        "city_name": "Merauke",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "MEQ",
+        "city_name": "Meulaboh",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "NBX",
+        "city_name": "Nabire",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "NTX",
+        "city_name": "Natuna Ranai",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "NNX",
+        "city_name": "Nunukan",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PDG",
+        "city_name": "Padang",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PKY",
+        "city_name": "Palangkaraya",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PLM",
+        "city_name": "Palembang",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PLW",
+        "city_name": "Palu",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PGK",
+        "city_name": "Pangkal Pinang",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PKN",
+        "city_name": "Pangkalan Bun",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PIK",
+        "city_name": "Pantai Indah Kapuk",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "WATERB"
+    },
+    {
+        "city_code": "PKU",
+        "city_name": "Pekan Baru",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PDO",
+        "city_name": "Pendopo Airport",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "CBN",
+        "city_name": "Penggung",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "FLZ",
+        "city_name": "Pinang Sori",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "OTI",
+        "city_name": "Pitu",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PUM",
+        "city_name": "Pomalaa",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PNK",
+        "city_name": "Pontianak",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PSJ",
+        "city_name": "Poso",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "PSU",
+        "city_name": "Putusibau",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "RTG",
+        "city_name": "Ruteng",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SRI",
+        "city_name": "Samarinda",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SMQ",
+        "city_name": "Sampit",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SGQ",
+        "city_name": "Sangata",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SXK",
+        "city_name": "Saumlaki",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "YKR",
+        "city_name": "Selayar",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SLY",
+        "city_name": "Selayari",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SRG",
+        "city_name": "Semarang",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SEH",
+        "city_name": "Senggeh Airport",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "AEG",
+        "city_name": "Sibolga",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "RRZ",
+        "city_name": "Sibolga 2",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "DTB",
+        "city_name": "Silangit",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SNX",
+        "city_name": "Sinabang",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SOC",
+        "city_name": "Solo",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SOQ",
+        "city_name": "Sorong",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SWQ",
+        "city_name": "Sumbawa",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SUB",
+        "city_name": "Surabaya",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "SQG",
+        "city_name": "Susilo Airport",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "NAH",
+        "city_name": "Tahuna",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TMC",
+        "city_name": "Tambolaka",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TJS",
+        "city_name": "Tanjung Harapan Airport",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TJQ",
+        "city_name": "Tanjung Pandan",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TNJ",
+        "city_name": "Tanjung Pinang",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TRK",
+        "city_name": "Tarakan",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TBH",
+        "city_name": "Tembilahan",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TTE",
+        "city_name": "Ternate",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TIM",
+        "city_name": "Timika",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "KAZ",
+        "city_name": "Tobelo",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TLI",
+        "city_name": "Tolitoli",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TTR",
+        "city_name": "Toraja",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "LUV",
+        "city_name": "Tual",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "CXP",
+        "city_name": "Tunggul Wulung",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "UPG",
+        "city_name": "Ujung Pandang",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "WGP",
+        "city_name": "Waingapu",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "WNI",
+        "city_name": "Wakatobi",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "WMX",
+        "city_name": "Wamena",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "WAR",
+        "city_name": "Waris-Papua Island",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    },
+    {
+        "city_code": "TJG",
+        "city_name": "Warukin Airport",
+        "city_domestic": "1",
+        "city_status": "A",
+        "iotype_code": "AIRLINES"
+    }
+]

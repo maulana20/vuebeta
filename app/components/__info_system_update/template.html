@@ -1,0 +1,14 @@
+<div class="widget">
+	<div class="widget-header">
+		<i class="fa fa-home fa-md" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+		<label>Info System Update</label>
+	</div>
+	<div id="widget-body">
+		<div class="well" v-if="news_for_agent && news_for_agent.something">
+			<div style="margin-bottom:15px;" v-html="news_for_agent.something"></div>
+		</div>
+		<div class="well" v-else>
+			Selamat Datang di VAS v0.0.1 - Versa Accounting System © 2018
+		</div>
+	</div>
+</div>

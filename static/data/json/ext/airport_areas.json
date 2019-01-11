@@ -1,0 +1,155 @@
+{
+    "NEWA": {
+        "airportAreaId": "NEWA",
+        "name": "New York",
+        "location": "New York",
+        "primaryAirportId": "JFK",
+        "airportIds": ["JFK", "LGA", "EWR"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "BKKA": {
+        "airportAreaId": "BKKA",
+        "name": "Bangkok",
+        "location": "Bangkok",
+        "primaryAirportId": "BKK",
+        "airportIds": ["BKK", "DMK"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "WASA": {
+        "airportAreaId": "WASA",
+        "name": "Washington",
+        "location": "Washington",
+        "primaryAirportId": "DCA",
+        "airportIds": ["DCA", "IAD"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "ISTA": {
+        "airportAreaId": "ISTA",
+        "name": "Istanbul",
+        "location": "Istanbul",
+        "primaryAirportId": "IST",
+        "airportIds": ["IST", "SAW"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "XKLA": {
+        "airportAreaId": "XKLA",
+        "name": "Kuala Lumpur",
+        "location": "Kuala Lumpur",
+        "primaryAirportId": "KUL",
+        "airportIds": ["KUL", "SZB"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "SHAA": {
+        "airportAreaId": "SHAA",
+        "name": "Shanghai",
+        "location": "Shanghai",
+        "primaryAirportId": "SHA",
+        "airportIds": ["SHA", "PVG"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "TAIA": {
+        "airportAreaId": "TAIA",
+        "name": "Taipei",
+        "location": "Taipei",
+        "primaryAirportId": "TPE",
+        "airportIds": ["TPE", "TSA"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "MILA": {
+        "airportAreaId": "MILA",
+        "name": "Milan",
+        "location": "Milan",
+        "primaryAirportId": "MXP",
+        "airportIds": ["MXP", "LIN"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "HOUA": {
+        "airportAreaId": "HOUA",
+        "name": "Houston",
+        "location": "Houston",
+        "primaryAirportId": "IAH",
+        "airportIds": ["IAH", "HOU"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "TYOA": {
+        "airportAreaId": "TYOA",
+        "name": "Tokyo",
+        "location": "Tokyo",
+        "primaryAirportId": "NRT",
+        "airportIds": ["HND", "NRT"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "LONA": {
+        "airportAreaId": "LONA",
+        "name": "London",
+        "location": "London",
+        "primaryAirportId": "LHR",
+        "airportIds": ["LHR", "LGW", "LCY"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "MOWA": {
+        "airportAreaId": "MOWA",
+        "name": "Moscow",
+        "location": "Moscow",
+        "primaryAirportId": "DME",
+        "airportIds": ["DME", "SVO"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "OSAA": {
+        "airportAreaId": "OSAA",
+        "name": "Osaka",
+        "location": "Osaka",
+        "primaryAirportId": "KIX",
+        "airportIds": ["KIX", "ITM"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "SEOA": {
+        "airportAreaId": "SEOA",
+        "name": "Seoul",
+        "location": "Seoul",
+        "primaryAirportId": "ICN",
+        "airportIds": ["GMP", "ICN"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "DUBA": {
+        "airportAreaId": "DUBA",
+        "name": "Dubai",
+        "location": "Dubai",
+        "primaryAirportId": "DXB",
+        "airportIds": ["XNB", "DXB", "DWC"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "JKTA": {
+        "airportAreaId": "JKTA",
+        "name": "Jakarta",
+        "location": "Jakarta",
+        "primaryAirportId": "CGK",
+        "airportIds": ["CGK", "HLP"],
+        "altNames": [],
+        "altLocationNames": []
+    },
+    "PARA": {
+        "airportAreaId": "PARA",
+        "name": "Paris",
+        "location": "Paris",
+        "primaryAirportId": "CDG",
+        "airportIds": ["CDG", "ORY"],
+        "altNames": [],
+        "altLocationNames": []
+    }
+}
